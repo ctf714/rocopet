@@ -1,0 +1,23 @@
+# 依赖
+deskpet/node_modules/
+
+# 构建产物：Electron 运行时约 270MB，由 build_runtime.py 生成
+dist-runtime/
+dist/
+
+# 解包素材：约 6.9GB，只存在于本地
+parsed/
+
+# 第三方工具二进制（rcedit / vgmstream / 导出器，约 146MB），自备
+.tools/
+
+# 第三方仓库，自带 .git，单独 clone
+rocom-parse/
+
+# 杂项
+*.exe
+*.log
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

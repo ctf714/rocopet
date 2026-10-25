@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><title>设置</title>
+<link rel="stylesheet" href="page.css">
+</head>
+<body>
+<div class="wrap">
+  <h1>桌宠设置</h1>
+  <div class="sub" id="pet-name">—</div>
+
+  <div class="card">
+    <div class="row"><label>昵称</label><input type="text" id="nickname" maxlength="16" placeholder="给ta起个名字"></div>
+    <div class="row">
+      <label>形态</label>
+      <select id="form"></select>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="row"><label>体型</label><input type="range" id="size" min="1" max="4" step="0.1"><span class="val" id="size-v"></span></div>
+    <div class="row"><label>音量</label><input type="range" id="vol" min="0" max="100" step="1"><span class="val" id="vol-v"></span></div>
+    <div class="row">
+      <label>鼠标穿透</label>
+      <div class="switch" id="pass"></div>
+      <span class="val" id="pass-txt">关</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="row"><label>等级</label><span id="lv">Lv.1</span>
+      <span style="flex:1"></span><label style="width:auto">经验</label><span id="exp">0/60</span></div>
+    <div class="row"><label>好感度</label><span id="aff">0</span>
+      <span style="flex:1"></span><label style="width:auto">待办</label><span id="todo-n">0</span></div>
+  </div>
+
+  <div class="actions">
+    <button class="btn ghost" id="reset">重置养成</button>
+    <button class="btn" id="apply">应用</button>
+  </div>
+</div>
+<script src="settings.js"></script>
+</body>
+</html>

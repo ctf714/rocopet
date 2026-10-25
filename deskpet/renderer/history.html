@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><title>待办事项历史</title>
+<link rel="stylesheet" href="page.css">
+</head>
+<body>
+<div class="wrap">
+  <h1>待办事项历史</h1>
+  <div class="sub">完成一条待办会累积经验，经验够了就升级、进化。</div>
+
+  <div class="card">
+    <div class="stats">
+      <div>已完成 <b id="s-count">0</b> 条</div>
+      <div>累计经验 <b id="s-exp">0</b></div>
+      <div>专注中完成 <b id="s-focus">0</b></div>
+    </div>
+  </div>
+
+  <div class="card" style="flex:1;overflow:auto">
+    <div id="list"></div>
+  </div>
+
+  <div class="actions">
+    <button class="btn ghost" id="clear">清空历史</button>
+  </div>
+</div>
+<script src="history.js"></script>
+</body>
+</html>

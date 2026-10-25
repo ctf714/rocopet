@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>桌宠</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{ "imports": { "three": "/vendor/three/build/three.module.js",
+               "three/addons/": "/vendor/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<canvas id="stage"></canvas>
+
+<!-- 点一下冒出来的粉色爱心（很快蒸发消散） -->
+<div id="hearts"></div>
+
+<!-- 计时 / 待办的浮动面板，只在托盘里点开时才出现 -->
+<div id="panel" class="hidden">
+  <div class="panel-head">
+    <span id="panel-title">待办事项</span>
+    <button id="panel-close" class="x">×</button>
+  </div>
+  <div id="panel-body"></div>
+</div>
+
+<div id="toast" class="hidden"></div>
+<div id="tip" class="hidden"></div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

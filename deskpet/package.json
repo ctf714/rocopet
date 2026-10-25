@@ -1,0 +1,16 @@
+{
+  "name": "deskpet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "洛克王国：世界 桌面宠物（自研运行时，不使用官方 rocom-pets）",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}

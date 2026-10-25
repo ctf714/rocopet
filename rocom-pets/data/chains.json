@@ -1,0 +1,12477 @@
+{
+ "chains": [
+  {
+   "book": 0,
+   "dir": "000-三叶草龙",
+   "name": "三叶草龙",
+   "forms": [
+    {
+     "name": "三叶草龙",
+     "asset": "Gra_SanYeLong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3425
+     ],
+     "types": [
+      3,
+      10
+     ],
+     "book": 0
+    },
+    {
+     "name": "花叶龙",
+     "asset": "Gra_SanYeLong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3426
+     ],
+     "types": [
+      3,
+      10
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-不香芋",
+   "name": "不香芋",
+   "forms": [
+    {
+     "name": "不香芋",
+     "asset": "Poi_BuXiangYu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3699
+     ],
+     "types": [
+      12,
+      3
+     ],
+     "book": 0
+    },
+    {
+     "name": "去污香芋",
+     "asset": "Poi_BuXiangYu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3700
+     ],
+     "types": [
+      12,
+      3
+     ],
+     "book": 0
+    },
+    {
+     "name": "嗜污香芋",
+     "asset": "Poi_BuXiangYu2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3701
+     ],
+     "types": [
+      12,
+      3
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-乌咩",
+   "name": "乌咩",
+   "forms": [
+    {
+     "name": "乌咩",
+     "asset": "Men_WuMie1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3560
+     ],
+     "types": [
+      16
+     ],
+     "book": 0
+    },
+    {
+     "name": "乌角驮驮",
+     "asset": "Men_WuMie2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3561
+     ],
+     "types": [
+      16
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-乌头蝇",
+   "name": "乌头蝇",
+   "forms": [
+    {
+     "name": "乌头蝇",
+     "asset": "Wor_WuTouYing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3769
+     ],
+     "types": [
+      16
+     ],
+     "book": 0
+    },
+    {
+     "name": "乌蝇飞贼",
+     "asset": "Wor_WuTouYing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3770
+     ],
+     "types": [
+      16
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-仙羽",
+   "name": "仙羽",
+   "forms": [
+    {
+     "name": "仙羽",
+     "asset": "Win_XianYu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3667
+     ],
+     "types": [
+      15
+     ],
+     "book": 0
+    },
+    {
+     "name": "一点红",
+     "asset": "Win_XianYu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3668
+     ],
+     "types": [
+      15
+     ],
+     "book": 0
+    },
+    {
+     "name": "念珠鹤",
+     "asset": "Win_XianYu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3669
+     ],
+     "types": [
+      15
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-具足秘剑",
+   "name": "具足秘剑",
+   "forms": [
+    {
+     "name": "具足秘剑",
+     "asset": "Wus_QiangWeiJian2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3689
+     ],
+     "types": [
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-冰虎宝",
+   "name": "冰虎宝",
+   "forms": [
+    {
+     "name": "冰虎宝",
+     "asset": "Ice_BingHu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3338
+     ],
+     "types": [
+      9
+     ],
+     "book": 0
+    },
+    {
+     "name": "冰晶虎",
+     "asset": "Ice_BingHu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3339
+     ],
+     "types": [
+      9
+     ],
+     "book": 0
+    },
+    {
+     "name": "冰晶古齿虎",
+     "asset": "Ice_BingHu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3340
+     ],
+     "types": [
+      9
+     ],
+     "book": 0
+    },
+    {
+     "name": "古齿帝牙",
+     "asset": "Ice_BingHuBo_001",
+     "stage": 3,
+     "lord": true,
+     "ids": [
+      4100
+     ],
+     "types": [
+      9,
+      16
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-利刺毒蝎",
+   "name": "利刺毒蝎",
+   "forms": [
+    {
+     "name": "利刺毒蝎",
+     "asset": "Poi_LiCiDuXie1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3580
+     ],
+     "types": [
+      12
+     ],
+     "book": 0
+    },
+    {
+     "name": "剧毒魔蝎",
+     "asset": "Poi_LiCiDuXie2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3581
+     ],
+     "types": [
+      12
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-剪影影",
+   "name": "剪影影",
+   "forms": [
+    {
+     "name": "剪影影",
+     "asset": "Gho_JianYY1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3681
+     ],
+     "types": [
+      17
+     ],
+     "book": 0
+    },
+    {
+     "name": "影子剪纸",
+     "asset": "Gho_JianYY2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3682
+     ],
+     "types": [
+      17
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-古拉海象",
+   "name": "古拉海象",
+   "forms": [
+    {
+     "name": "古拉海象",
+     "asset": "Ice_HaiXiang1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3260
+     ],
+     "types": [
+      9
+     ],
+     "book": 0
+    },
+    {
+     "name": "大古拉海象",
+     "asset": "Ice_HaiXiang2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3261
+     ],
+     "types": [
+      9
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-古钟蛇",
+   "name": "古钟蛇",
+   "forms": [
+    {
+     "name": "古钟蛇",
+     "asset": "Men_GuZhongShe1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3621
+     ],
+     "types": [
+      16,
+      12
+     ],
+     "book": 0
+    },
+    {
+     "name": "寒音蛇",
+     "asset": "Men_GuZhongShe2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3622
+     ],
+     "types": [
+      16,
+      12
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-呼拉猫",
+   "name": "呼拉猫",
+   "forms": [
+    {
+     "name": "呼拉猫",
+     "asset": "Wus_ZhanMao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3217
+     ],
+     "types": [
+      14
+     ],
+     "book": 0
+    },
+    {
+     "name": "增肌猫",
+     "asset": "Wus_ZhanMao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3218
+     ],
+     "types": [
+      14
+     ],
+     "book": 0
+    },
+    {
+     "name": "健猫教练",
+     "asset": "Wus_ZhanMao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3219
+     ],
+     "types": [
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-啄疫鸟",
+   "name": "啄疫鸟",
+   "forms": [
+    {
+     "name": "啄疫鸟",
+     "asset": "Poi_ZhuoYiNiao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3702
+     ],
+     "types": [
+      12,
+      15
+     ],
+     "book": 0
+    },
+    {
+     "name": "瘟疫医鸟",
+     "asset": "Poi_ZhuoYiNiao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3703
+     ],
+     "types": [
+      12,
+      15
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-噜噜",
+   "name": "噜噜",
+   "forms": [
+    {
+     "name": "噜噜",
+     "asset": "NPC_0031",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      4077
+     ],
+     "types": [
+      2
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-噬影蚕",
+   "name": "噬影蚕",
+   "forms": [
+    {
+     "name": "噬影蚕",
+     "asset": "Gho_ShiYingCan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3623
+     ],
+     "types": [
+      18,
+      13
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-地银链",
+   "name": "地银链",
+   "forms": [
+    {
+     "name": "地银链(单头的样子)",
+     "asset": "Roc_DiYinLian1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3630
+     ],
+     "types": [
+      8
+     ],
+     "book": 0
+    },
+    {
+     "name": "地银链(多头的样子)",
+     "asset": "Roc_DiYinLian1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3631
+     ],
+     "types": [
+      8
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-堇楹苞",
+   "name": "堇楹苞",
+   "forms": [
+    {
+     "name": "堇楹苞",
+     "asset": "Poi_DuJiuShou1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3562
+     ],
+     "types": [
+      12
+     ],
+     "book": 0
+    },
+    {
+     "name": "蔓羽兽",
+     "asset": "Poi_DuJiuShou2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3563
+     ],
+     "types": [
+      12
+     ],
+     "book": 0
+    },
+    {
+     "name": "厉毒鸩兽",
+     "asset": "Poi_DuJiuShou3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3564
+     ],
+     "types": [
+      12
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-多灵",
+   "name": "多灵",
+   "forms": [
+    {
+     "name": "多灵",
+     "asset": "Gho_DuoLing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3543
+     ],
+     "types": [
+      17
+     ],
+     "book": 0
+    },
+    {
+     "name": "多灵主",
+     "asset": "Gho_DuoLing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3544
+     ],
+     "types": [
+      17
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-夜回犀牛",
+   "name": "夜回犀牛",
+   "forms": [
+    {
+     "name": "夜回犀牛",
+     "asset": "Roc_YeHuiXiNiu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3505
+     ],
+     "types": [
+      8
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-守护者",
+   "name": "守护者",
+   "forms": [
+    {
+     "name": "守护者",
+     "asset": "Mac_LuoDaXie1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3567
+     ],
+     "types": [
+      20
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-小光",
+   "name": "小光",
+   "forms": [
+    {
+     "name": "小光",
+     "asset": "Dem_XiaoGuang1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3186
+     ],
+     "types": [
+      18
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-小冥龙",
+   "name": "小冥龙",
+   "forms": [
+    {
+     "name": "小冥龙",
+     "asset": "Gho_MingLong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3625
+     ],
+     "types": [
+      17,
+      10
+     ],
+     "book": 0
+    },
+    {
+     "name": "冥古龙",
+     "asset": "Gho_MingLong3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3626
+     ],
+     "types": [
+      17,
+      10
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-小勇狮",
+   "name": "小勇狮",
+   "forms": [
+    {
+     "name": "小勇狮",
+     "asset": "Fir_XiaoYongShi1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3726
+     ],
+     "types": [
+      4,
+      14
+     ],
+     "book": 0
+    },
+    {
+     "name": "炽焰狮",
+     "asset": "Fir_XiaoYongShi2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3727
+     ],
+     "types": [
+      4,
+      14
+     ],
+     "book": 0
+    },
+    {
+     "name": "炽心勇狮",
+     "asset": "Fir_XiaoYongShi3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3728
+     ],
+     "types": [
+      4,
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-小怂猫",
+   "name": "小怂猫",
+   "forms": [
+    {
+     "name": "小怂猫",
+     "asset": "Wus_SongMao1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3738
+     ],
+     "types": [
+      14
+     ],
+     "book": 0
+    },
+    {
+     "name": "怒目怂猫",
+     "asset": "Wus_SongMao2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3739
+     ],
+     "types": [
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-小螂",
+   "name": "小螂",
+   "forms": [
+    {
+     "name": "小螂",
+     "asset": "Wor_DaoLang1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3133
+     ],
+     "types": [
+      13
+     ],
+     "book": 0
+    },
+    {
+     "name": "兵螂",
+     "asset": "Wor_DaoLang2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3134
+     ],
+     "types": [
+      13,
+      14
+     ],
+     "book": 0
+    },
+    {
+     "name": "飞天刀螂",
+     "asset": "Wor_DaoLang3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3135
+     ],
+     "types": [
+      13,
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-小银翼龙",
+   "name": "小银翼龙",
+   "forms": [
+    {
+     "name": "小银翼龙",
+     "asset": "Mac_YinYiLong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3548
+     ],
+     "types": [
+      19
+     ],
+     "book": 0
+    },
+    {
+     "name": "银翼龙",
+     "asset": "Mac_YinYiLong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3549
+     ],
+     "types": [
+      19
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-幽冥狐",
+   "name": "幽冥狐",
+   "forms": [
+    {
+     "name": "幽冥狐",
+     "asset": "Gho_YouMingHu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3685
+     ],
+     "types": [
+      17
+     ],
+     "book": 0
+    },
+    {
+     "name": "魅惑狐仙",
+     "asset": "Gho_YouMingHu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3686
+     ],
+     "types": [
+      17
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-木桶",
+   "name": "木桶",
+   "forms": [
+    {
+     "name": "木桶",
+     "asset": "Mutong",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      9819
+     ],
+     "types": [],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-格斗小七",
+   "name": "格斗小七",
+   "forms": [
+    {
+     "name": "格斗小七",
+     "asset": "Wus_XiaoQi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3715
+     ],
+     "types": [
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-格斗小五",
+   "name": "格斗小五",
+   "forms": [
+    {
+     "name": "格斗小五",
+     "asset": "Wus_XiaoWu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3416
+     ],
+     "types": [
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-格斗小八",
+   "name": "格斗小八",
+   "forms": [
+    {
+     "name": "格斗小八",
+     "asset": "Wus_XiaoBa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3418
+     ],
+     "types": [
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-格斗小六",
+   "name": "格斗小六",
+   "forms": [
+    {
+     "name": "格斗小六",
+     "asset": "Wus_XiaoLiu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3417
+     ],
+     "types": [
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-格格布",
+   "name": "格格布",
+   "forms": [
+    {
+     "name": "格格布",
+     "asset": "Ice_GeGeBu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3336
+     ],
+     "types": [
+      9
+     ],
+     "book": 0
+    },
+    {
+     "name": "格布布",
+     "asset": "Ice_GeGeBu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3337
+     ],
+     "types": [
+      9
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-桃花苞",
+   "name": "桃花苞",
+   "forms": [
+    {
+     "name": "桃花苞",
+     "asset": "Gra_TaoHuaQiu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3637
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    },
+    {
+     "name": "桃胖子",
+     "asset": "Gra_TaoHuaQiu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3638
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-梦杯",
+   "name": "梦杯",
+   "forms": [
+    {
+     "name": "梦杯",
+     "asset": "Men_MengBei1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3692
+     ],
+     "types": [
+      16
+     ],
+     "book": 0
+    },
+    {
+     "name": "长生梦兽",
+     "asset": "Men_MengBei3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3693
+     ],
+     "types": [
+      16
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-梦残卷",
+   "name": "梦残卷",
+   "forms": [
+    {
+     "name": "梦残卷",
+     "asset": "Ill_MengCanJuan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3586
+     ],
+     "types": [
+      20
+     ],
+     "book": 0
+    },
+    {
+     "name": "曲率龙卷",
+     "asset": "Ill_MengCanJuan2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3587
+     ],
+     "types": [
+      20
+     ],
+     "book": 0
+    },
+    {
+     "name": "曲率飞鱼",
+     "asset": "Ill_MengCanJuan2_002",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3588
+     ],
+     "types": [
+      20
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-毛线虫",
+   "name": "毛线虫",
+   "forms": [
+    {
+     "name": "毛线虫",
+     "asset": "Men_MaoXianChong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3694
+     ],
+     "types": [
+      16
+     ],
+     "book": 0
+    },
+    {
+     "name": "梭织团团",
+     "asset": "Men_MaoXianChong3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3695
+     ],
+     "types": [
+      16,
+      8
+     ],
+     "book": 0
+    },
+    {
+     "name": "针织哼哼",
+     "asset": "Men_MaoXianChong3_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3696
+     ],
+     "types": [
+      16,
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-水星尾",
+   "name": "水星尾",
+   "forms": [
+    {
+     "name": "水星尾",
+     "asset": "Wat_ShuiXing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3522
+     ],
+     "types": [
+      5
+     ],
+     "book": 0
+    },
+    {
+     "name": "水星龙弦",
+     "asset": "Wat_ShuiXing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3523
+     ],
+     "types": [
+      5
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-水滴蛇",
+   "name": "水滴蛇",
+   "forms": [
+    {
+     "name": "水滴蛇",
+     "asset": "Wat_ShuiDiShe1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3723
+     ],
+     "types": [
+      5,
+      14
+     ],
+     "book": 0
+    },
+    {
+     "name": "水蛇锁",
+     "asset": "Wat_ShuiDiShe2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3724
+     ],
+     "types": [
+      5,
+      14
+     ],
+     "book": 0
+    },
+    {
+     "name": "游蛇魔使",
+     "asset": "Wat_ShuiDiShe3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3725
+     ],
+     "types": [
+      5,
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-河马巴斯",
+   "name": "河马巴斯",
+   "forms": [
+    {
+     "name": "河马巴斯",
+     "asset": "Com_BaSi3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3570
+     ],
+     "types": [
+      2
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-海豚宝",
+   "name": "海豚宝",
+   "forms": [
+    {
+     "name": "海豚宝",
+     "asset": "Wat_HaiTun1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3656
+     ],
+     "types": [
+      5
+     ],
+     "book": 0
+    },
+    {
+     "name": "泡泡豚",
+     "asset": "Wat_HaiTun2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3657
+     ],
+     "types": [
+      5
+     ],
+     "book": 0
+    },
+    {
+     "name": "海豚勇士",
+     "asset": "Wat_HaiTun3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3658
+     ],
+     "types": [
+      5
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-海闪星",
+   "name": "海闪星",
+   "forms": [
+    {
+     "name": "海闪星",
+     "asset": "Wat_HaiShanXing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3519
+     ],
+     "types": [
+      5
+     ],
+     "book": 0
+    },
+    {
+     "name": "海魔星",
+     "asset": "Wat_HaiShanXing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3520
+     ],
+     "types": [
+      5
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-煤球憨憨",
+   "name": "煤球憨憨",
+   "forms": [
+    {
+     "name": "煤球憨憨",
+     "asset": "Roc_MeiQiu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3052
+     ],
+     "types": [
+      8,
+      2
+     ],
+     "book": 0
+    },
+    {
+     "name": "害羞球球",
+     "asset": "Roc_MeiQiu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3053
+     ],
+     "types": [
+      8,
+      2
+     ],
+     "book": 0
+    },
+    {
+     "name": "蓝衣夜灵",
+     "asset": "Roc_MeiQiu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3054
+     ],
+     "types": [
+      8,
+      2
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-独角龙",
+   "name": "独角龙",
+   "forms": [
+    {
+     "name": "独角龙",
+     "asset": "Roc_DuJiaoLong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3327
+     ],
+     "types": [
+      8
+     ],
+     "book": 0
+    },
+    {
+     "name": "坚角龙",
+     "asset": "Roc_DuJiaoLong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3328
+     ],
+     "types": [
+      8
+     ],
+     "book": 0
+    },
+    {
+     "name": "爆角龙",
+     "asset": "Roc_DuJiaoLong3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3329
+     ],
+     "types": [
+      8
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-矮核球",
+   "name": "矮核球",
+   "forms": [
+    {
+     "name": "矮核球",
+     "asset": "Ill_HuanXing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3627
+     ],
+     "types": [
+      20
+     ],
+     "book": 0
+    },
+    {
+     "name": "星脉兽",
+     "asset": "Ill_HuanXing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3628
+     ],
+     "types": [
+      20
+     ],
+     "book": 0
+    },
+    {
+     "name": "巡天幻星",
+     "asset": "Ill_HuanXing3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3629
+     ],
+     "types": [
+      20
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-破梦者",
+   "name": "破梦者",
+   "forms": [
+    {
+     "name": "破梦者",
+     "asset": "Ill_PoMeng1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3421
+     ],
+     "types": [
+      20
+     ],
+     "book": 0
+    },
+    {
+     "name": "食梦者",
+     "asset": "Ill_PoMeng2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3422
+     ],
+     "types": [
+      20
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-科多多",
+   "name": "科多多",
+   "forms": [
+    {
+     "name": "科多多",
+     "asset": "Ice_KeDuoDuo1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3387
+     ],
+     "types": [
+      9,
+      8
+     ],
+     "book": 0
+    },
+    {
+     "name": "科多索",
+     "asset": "Ice_KeDuoDuo2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3388
+     ],
+     "types": [
+      9,
+      8
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-空灵兽",
+   "name": "空灵兽",
+   "forms": [
+    {
+     "name": "空灵兽",
+     "asset": "Gra_KongLingShou1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3423
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    },
+    {
+     "name": "空灵斗士",
+     "asset": "Gra_KongLingShou2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3424
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-糖串串",
+   "name": "糖串串",
+   "forms": [
+    {
+     "name": "糖串串",
+     "asset": "Men_TangCC1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3716
+     ],
+     "types": [
+      16
+     ],
+     "book": 0
+    },
+    {
+     "name": "可烤汪",
+     "asset": "Men_TangCC2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3717
+     ],
+     "types": [
+      16
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-紫蔓宝宝",
+   "name": "紫蔓宝宝",
+   "forms": [
+    {
+     "name": "紫蔓宝宝",
+     "asset": "Gra_CaoWang1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3159
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    },
+    {
+     "name": "紫蔓祭祀",
+     "asset": "Gra_CaoWang2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3160
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    },
+    {
+     "name": "灵蔓草王",
+     "asset": "Gra_CaoWang3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3097
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-线球鼠",
+   "name": "线球鼠",
+   "forms": [
+    {
+     "name": "线球鼠",
+     "asset": "Roc_XianQiuShu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3503
+     ],
+     "types": [
+      8
+     ],
+     "book": 0
+    },
+    {
+     "name": "慈母鼠",
+     "asset": "Roc_XianQiuShu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3504
+     ],
+     "types": [
+      8
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-绿洲象",
+   "name": "绿洲象",
+   "forms": [
+    {
+     "name": "绿洲象",
+     "asset": "Gra_MengMa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3248
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    },
+    {
+     "name": "流星猛犸",
+     "asset": "Gra_MengMa2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3249
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-肥草球",
+   "name": "肥草球",
+   "forms": [
+    {
+     "name": "肥草球",
+     "asset": "Gra_FeiCaoQiu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3493
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    },
+    {
+     "name": "赫拉",
+     "asset": "Gra_FeiCaoQiu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3494
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-脆鸣鸟",
+   "name": "脆鸣鸟",
+   "forms": [
+    {
+     "name": "脆鸣鸟",
+     "asset": "Win_CuiMingNiao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3661
+     ],
+     "types": [
+      15
+     ],
+     "book": 0
+    },
+    {
+     "name": "警卫鸟",
+     "asset": "Win_CuiMingNiao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3662
+     ],
+     "types": [
+      15
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-臭臭锥",
+   "name": "臭臭锥",
+   "forms": [
+    {
+     "name": "臭臭锥",
+     "asset": "Roc_ChouChouZhui1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3428
+     ],
+     "types": [
+      8,
+      4
+     ],
+     "book": 0
+    },
+    {
+     "name": "埃欧熔锥",
+     "asset": "Roc_ChouChouZhui2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3429
+     ],
+     "types": [
+      8,
+      4
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-若叶蜥",
+   "name": "若叶蜥",
+   "forms": [
+    {
+     "name": "若叶蜥",
+     "asset": "Gra_RuoYeXi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3312
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    },
+    {
+     "name": "立叶蜥",
+     "asset": "Gra_RuoYeXi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3313
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    },
+    {
+     "name": "蝶叶巨蜥",
+     "asset": "Gra_RuoYeXi3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3314
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-荆棘笼",
+   "name": "荆棘笼",
+   "forms": [
+    {
+     "name": "荆棘笼",
+     "asset": "Dem_JingJiLong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3673
+     ],
+     "types": [
+      18
+     ],
+     "book": 0
+    },
+    {
+     "name": "惩戒巨笼",
+     "asset": "Dem_JingJiLong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3674
+     ],
+     "types": [
+      18
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-荆棘魔伞",
+   "name": "荆棘魔伞",
+   "forms": [
+    {
+     "name": "荆棘魔伞",
+     "asset": "Gra_JinJiSan3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3634
+     ],
+     "types": [
+      3,
+      18
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-菌宝",
+   "name": "菌宝",
+   "forms": [
+    {
+     "name": "菌宝",
+     "asset": "Com_JunBao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3640
+     ],
+     "types": [
+      2
+     ],
+     "book": 0
+    },
+    {
+     "name": "竹笙仔",
+     "asset": "Gra_ZhuShengZai2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3641
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    },
+    {
+     "name": "芝芝酥",
+     "asset": "Roc_ZhiZhiSu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3643
+     ],
+     "types": [
+      8
+     ],
+     "book": 0
+    },
+    {
+     "name": "三坛枞",
+     "asset": "Wus_JunBao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3645
+     ],
+     "types": [
+      14
+     ],
+     "book": 0
+    },
+    {
+     "name": "小红侍",
+     "asset": "Poi_XiaoHongShi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3647
+     ],
+     "types": [
+      12
+     ],
+     "book": 0
+    },
+    {
+     "name": "鬼笔伯爵",
+     "asset": "Gra_ZhuShengZai3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3642
+     ],
+     "types": [
+      3
+     ],
+     "book": 0
+    },
+    {
+     "name": "药尾灵螈",
+     "asset": "Roc_ZhiZhiSu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3644
+     ],
+     "types": [
+      8
+     ],
+     "book": 0
+    },
+    {
+     "name": "六月星菌",
+     "asset": "Wus_JunBao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3646
+     ],
+     "types": [
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-蒸汽胖胖",
+   "name": "蒸汽胖胖",
+   "forms": [
+    {
+     "name": "蒸汽胖胖",
+     "asset": "Fir_PangPang1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3679
+     ],
+     "types": [
+      4,
+      5
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-赤毛鸡仔",
+   "name": "赤毛鸡仔",
+   "forms": [
+    {
+     "name": "赤毛鸡仔",
+     "asset": "Fir_JiZai1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3009
+     ],
+     "types": [
+      4
+     ],
+     "book": 0
+    },
+    {
+     "name": "火云斗鸡",
+     "asset": "Fir_JiZai2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3023
+     ],
+     "types": [
+      4
+     ],
+     "book": 0
+    },
+    {
+     "name": "伊丽莎白",
+     "asset": "Fir_JiZai3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3024
+     ],
+     "types": [
+      4
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-超级鳄椰",
+   "name": "超级鳄椰",
+   "forms": [
+    {
+     "name": "超级鳄椰",
+     "asset": "Wat_EYe2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3655
+     ],
+     "types": [
+      5,
+      3
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-路路",
+   "name": "路路",
+   "forms": [
+    {
+     "name": "路路",
+     "asset": "Poi_LuLu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3363
+     ],
+     "types": [
+      12
+     ],
+     "book": 0
+    },
+    {
+     "name": "路路尼",
+     "asset": "Poi_LuLu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3364
+     ],
+     "types": [
+      12
+     ],
+     "book": 0
+    },
+    {
+     "name": "古路尼",
+     "asset": "Poi_LuLu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3365
+     ],
+     "types": [
+      12,
+      8
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-迷迷眼",
+   "name": "迷迷眼",
+   "forms": [
+    {
+     "name": "迷迷眼",
+     "asset": "Gho_MiMi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3187
+     ],
+     "types": [
+      17,
+      20
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-速粒小子",
+   "name": "速粒小子",
+   "forms": [
+    {
+     "name": "速粒小子",
+     "asset": "Dem_KuaiJieXiaoZi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3253
+     ],
+     "types": [
+      18,
+      14
+     ],
+     "book": 0
+    },
+    {
+     "name": "速粒冲锋",
+     "asset": "Dem_KuaiJieXiaoZi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3254
+     ],
+     "types": [
+      18,
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-钻地小子",
+   "name": "钻地小子",
+   "forms": [
+    {
+     "name": "钻地小子",
+     "asset": "Ele_ZuanDiXiaoZi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3354
+     ],
+     "types": [
+      11,
+      19
+     ],
+     "book": 0
+    },
+    {
+     "name": "闪电小子",
+     "asset": "Ele_ZuanDiXiaoZi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3355
+     ],
+     "types": [
+      11,
+      19
+     ],
+     "book": 0
+    },
+    {
+     "name": "魔能陀螺",
+     "asset": "Ele_ZuanDiXiaoZi3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3356
+     ],
+     "types": [
+      11,
+      19
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-长翎将军",
+   "name": "长翎将军",
+   "forms": [
+    {
+     "name": "长翎将军",
+     "asset": "Wor_QuQu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3671
+     ],
+     "types": [
+      13,
+      14
+     ],
+     "book": 0
+    },
+    {
+     "name": "曲鸣大将",
+     "asset": "Wor_QuQu3_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3672
+     ],
+     "types": [
+      13,
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-问卜兽",
+   "name": "问卜兽",
+   "forms": [
+    {
+     "name": "问卜兽",
+     "asset": "Wus_BuWenShou1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3690
+     ],
+     "types": [
+      14
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-阿布",
+   "name": "阿布",
+   "forms": [
+    {
+     "name": "阿布",
+     "asset": "Com_Abu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3168
+     ],
+     "types": [
+      2
+     ],
+     "book": 0
+    },
+    {
+     "name": "超能阿布",
+     "asset": "Com_Abu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3169
+     ],
+     "types": [
+      10
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-阿瓦鲨",
+   "name": "阿瓦鲨",
+   "forms": [
+    {
+     "name": "阿瓦鲨(本来的样子)",
+     "asset": "Wat_AWaSha1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3524
+     ],
+     "types": [
+      5
+     ],
+     "book": 0
+    },
+    {
+     "name": "阿瓦鲨(虎纹的样子)",
+     "asset": "Wat_AWaSha1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3525
+     ],
+     "types": [
+      5
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-雪毛角羚牛",
+   "name": "雪毛角羚牛",
+   "forms": [
+    {
+     "name": "雪毛角羚牛(本来的样子)",
+     "asset": "Ice_LingNiu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3445
+     ],
+     "types": [
+      9,
+      8
+     ],
+     "book": 0
+    },
+    {
+     "name": "雪毛角羚牛(卷角的样子)",
+     "asset": "Ice_LingNiu2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3446
+     ],
+     "types": [
+      9,
+      8
+     ],
+     "book": 0
+    },
+    {
+     "name": "雪毛角羚牛(换角时的样子)",
+     "asset": "Ice_LingNiu2Ar_002",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3447
+     ],
+     "types": [
+      9,
+      8
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-骨朵鸟",
+   "name": "骨朵鸟",
+   "forms": [
+    {
+     "name": "骨朵鸟",
+     "asset": "Poi_GuDuoNiao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3731
+     ],
+     "types": [
+      15,
+      12
+     ],
+     "book": 0
+    },
+    {
+     "name": "紫花雀",
+     "asset": "Poi_GuDuoNiao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3732
+     ],
+     "types": [
+      15,
+      12
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-麦香驼",
+   "name": "麦香驼",
+   "forms": [
+    {
+     "name": "麦香驼",
+     "asset": "Com_QuanMaiTuo1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3427
+     ],
+     "types": [
+      2
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-黑炎宝宝",
+   "name": "黑炎宝宝",
+   "forms": [
+    {
+     "name": "黑炎宝宝",
+     "asset": "Dra_HeiYan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3213
+     ],
+     "types": [
+      10,
+      18
+     ],
+     "book": 0
+    },
+    {
+     "name": "黑炎",
+     "asset": "Dra_HeiYan2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3214
+     ],
+     "types": [
+      10,
+      18
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 0,
+   "dir": "000-齿轮小子",
+   "name": "齿轮小子",
+   "forms": [
+    {
+     "name": "齿轮小子",
+     "asset": "Mac_JiJiaXiaoZi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3408
+     ],
+     "types": [
+      19
+     ],
+     "book": 0
+    },
+    {
+     "name": "机甲小子",
+     "asset": "Mac_JiJiaXiaoZi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3409
+     ],
+     "types": [
+      19
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 1,
+   "dir": "001-迪莫",
+   "name": "迪莫",
+   "forms": [
+    {
+     "name": "迪莫",
+     "asset": "Lig_DiMo1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3004
+     ],
+     "types": [
+      6
+     ],
+     "book": 1
+    },
+    {
+     "name": "圣光迪莫",
+     "asset": "Lig_DiMo2_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5025
+     ],
+     "types": [
+      6
+     ],
+     "book": 1
+    },
+    {
+     "name": "圣草迪莫",
+     "asset": "Gra_DiMo2_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5026
+     ],
+     "types": [
+      6,
+      3
+     ],
+     "book": 1
+    },
+    {
+     "name": "圣火迪莫",
+     "asset": "Fir_DiMo2_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5027
+     ],
+     "types": [
+      6,
+      4
+     ],
+     "book": 1
+    },
+    {
+     "name": "圣水迪莫",
+     "asset": "Wat_DiMo2_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5028
+     ],
+     "types": [
+      6,
+      5
+     ],
+     "book": 1
+    }
+   ]
+  },
+  {
+   "book": 2,
+   "dir": "002-喵喵",
+   "name": "喵喵",
+   "forms": [
+    {
+     "name": "喵喵",
+     "asset": "Gra_MiaoMiao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3001
+     ],
+     "types": [
+      3
+     ],
+     "book": 2
+    },
+    {
+     "name": "喵呜",
+     "asset": "Gra_MiaoMiao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3025
+     ],
+     "types": [
+      3
+     ],
+     "book": 3
+    },
+    {
+     "name": "魔力猫",
+     "asset": "Gra_MiaoMiao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3007
+     ],
+     "types": [
+      3
+     ],
+     "book": 4
+    },
+    {
+     "name": "叶冕魔力猫",
+     "asset": "Gra_MiaoMiaoBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5003
+     ],
+     "types": [
+      3
+     ],
+     "book": 4
+    },
+    {
+     "name": "武斗酷猫",
+     "asset": "Gra_MiaoMiao3_002",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5061
+     ],
+     "types": [
+      3
+     ],
+     "book": 4
+    }
+   ]
+  },
+  {
+   "book": 5,
+   "dir": "005-火花",
+   "name": "火花",
+   "forms": [
+    {
+     "name": "火花",
+     "asset": "Fir_XiaoHuoMiao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3003
+     ],
+     "types": [
+      4
+     ],
+     "book": 5
+    },
+    {
+     "name": "焰火",
+     "asset": "Fir_XiaoHuoMiao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3032
+     ],
+     "types": [
+      4
+     ],
+     "book": 6
+    },
+    {
+     "name": "火神",
+     "asset": "Fir_XiaoHuoMiao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3006
+     ],
+     "types": [
+      4
+     ],
+     "book": 7
+    },
+    {
+     "name": "烈火战神",
+     "asset": "Fir_XiaoHuoMiaoBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5017
+     ],
+     "types": [
+      4
+     ],
+     "book": 7
+    }
+   ]
+  },
+  {
+   "book": 8,
+   "dir": "008-水蓝蓝",
+   "name": "水蓝蓝",
+   "forms": [
+    {
+     "name": "水蓝蓝",
+     "asset": "Wat_ShuiLanLan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3002
+     ],
+     "types": [
+      5
+     ],
+     "book": 8
+    },
+    {
+     "name": "波波拉",
+     "asset": "Wat_ShuiLanLan2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3033
+     ],
+     "types": [
+      5
+     ],
+     "book": 9
+    },
+    {
+     "name": "水灵",
+     "asset": "Wat_ShuiLanLan3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3005
+     ],
+     "types": [
+      5
+     ],
+     "book": 10
+    },
+    {
+     "name": "圣水守护",
+     "asset": "Wat_ShuiLanLanBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5010
+     ],
+     "types": [
+      5
+     ],
+     "book": 10
+    }
+   ]
+  },
+  {
+   "book": 11,
+   "dir": "011-鸭吉吉",
+   "name": "鸭吉吉",
+   "forms": [
+    {
+     "name": "鸭吉吉(蓬松的样子)",
+     "asset": "Com_YaJiJi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3012
+     ],
+     "types": [
+      2
+     ],
+     "book": 11
+    },
+    {
+     "name": "鸭吉吉(紧实的样子)",
+     "asset": "Com_YaJiJi1_002",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3036
+     ],
+     "types": [
+      2
+     ],
+     "book": 11
+    },
+    {
+     "name": "鸭吉吉(急急急鸭)",
+     "asset": "Com_YaJiJi1Ar_002",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3452
+     ],
+     "types": [
+      2
+     ],
+     "book": 11
+    },
+    {
+     "name": "鸭吉吉(等一等鸭)",
+     "asset": "Com_YaJiJi1Ar_004",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3453
+     ],
+     "types": [
+      2
+     ],
+     "book": 11
+    },
+    {
+     "name": "鸭吉吉(燃了鸭)",
+     "asset": "Com_YaJiJi1Ar_003",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3495
+     ],
+     "types": [
+      2
+     ],
+     "book": 11
+    },
+    {
+     "name": "鸭吉吉(起来鸭)",
+     "asset": "Com_YaJiJi1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3742
+     ],
+     "types": [
+      2
+     ],
+     "book": 11
+    },
+    {
+     "name": "鸭吉吉国王",
+     "asset": "Com_YaJiJiBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5006,
+      5036,
+      5037,
+      5038,
+      5039,
+      5052
+     ],
+     "types": [
+      2
+     ],
+     "book": 11
+    }
+   ]
+  },
+  {
+   "book": 12,
+   "dir": "012-板板壳",
+   "name": "板板壳",
+   "forms": [
+    {
+     "name": "板板壳(本来的样子)",
+     "asset": "Wat_KaKa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3055
+     ],
+     "types": [
+      5
+     ],
+     "book": 12
+    },
+    {
+     "name": "板板壳(蜕皮时的样子)",
+     "asset": "Wat_Kaka1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3516
+     ],
+     "types": [
+      5
+     ],
+     "book": 12
+    },
+    {
+     "name": "咔咔壳(本来的样子)",
+     "asset": "Wat_KaKa2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3056
+     ],
+     "types": [
+      5
+     ],
+     "book": 13
+    },
+    {
+     "name": "咔咔壳(蜕皮时的样子)",
+     "asset": "Wat_KaKa2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3517
+     ],
+     "types": [
+      5
+     ],
+     "book": 13
+    },
+    {
+     "name": "水泡壳(本来的样子)",
+     "asset": "Wat_KaKa3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3057
+     ],
+     "types": [
+      5
+     ],
+     "book": 14
+    },
+    {
+     "name": "水泡壳(蜕皮时的样子)",
+     "asset": "Wat_KaKa3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3518
+     ],
+     "types": [
+      5
+     ],
+     "book": 14
+    }
+   ]
+  },
+  {
+   "book": 15,
+   "dir": "015-锥尾羊",
+   "name": "锥尾羊",
+   "forms": [
+    {
+     "name": "锥尾羊",
+     "asset": "Gho_YouLingYang1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3045
+     ],
+     "types": [
+      17
+     ],
+     "book": 15
+    },
+    {
+     "name": "铃兰羊",
+     "asset": "Gho_YouLingYang2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3046
+     ],
+     "types": [
+      17
+     ],
+     "book": 16
+    },
+    {
+     "name": "花影羚羊",
+     "asset": "Gho_YouLingYang3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3047
+     ],
+     "types": [
+      17,
+      18
+     ],
+     "book": 17
+    }
+   ]
+  },
+  {
+   "book": 18,
+   "dir": "018-雪绒鸟",
+   "name": "雪绒鸟",
+   "forms": [
+    {
+     "name": "雪绒鸟(本来的样子)",
+     "asset": "Win_LanNiao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3533
+     ],
+     "types": [
+      15
+     ],
+     "book": 18
+    },
+    {
+     "name": "雪绒鸟(春天的样子)",
+     "asset": "Win_LanNiao1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3279
+     ],
+     "types": [
+      15
+     ],
+     "book": 18
+    },
+    {
+     "name": "雪绒鸟(夏天的样子)",
+     "asset": "Win_LanNiao1Ar_002",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3280
+     ],
+     "types": [
+      15
+     ],
+     "book": 18
+    },
+    {
+     "name": "雪绒鸟(秋天的样子)",
+     "asset": "Win_LanNiao1Ar_003",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3281
+     ],
+     "types": [
+      15
+     ],
+     "book": 18
+    },
+    {
+     "name": "冬羽雀(本来的样子)",
+     "asset": "Win_LanNiao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3028
+     ],
+     "types": [
+      15
+     ],
+     "book": 19
+    },
+    {
+     "name": "冬羽雀(春天的样子)",
+     "asset": "Win_LanNiao2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3282
+     ],
+     "types": [
+      15
+     ],
+     "book": 19
+    },
+    {
+     "name": "冬羽雀(夏天的样子)",
+     "asset": "Win_LanNiao2Ar_002",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3283
+     ],
+     "types": [
+      15
+     ],
+     "book": 19
+    },
+    {
+     "name": "冬羽雀(秋天的样子)",
+     "asset": "Win_LanNiao2Ar_003",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3284
+     ],
+     "types": [
+      15
+     ],
+     "book": 19
+    },
+    {
+     "name": "岚鸟(本来的样子)",
+     "asset": "Win_LanNiao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3037
+     ],
+     "types": [
+      15
+     ],
+     "book": 20
+    },
+    {
+     "name": "岚鸟(春天的样子)",
+     "asset": "Win_LanNiao3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3285
+     ],
+     "types": [
+      15
+     ],
+     "book": 20
+    },
+    {
+     "name": "岚鸟(夏天的样子)",
+     "asset": "Win_LanNiao3Ar_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3286
+     ],
+     "types": [
+      15
+     ],
+     "book": 20
+    },
+    {
+     "name": "岚鸟(秋天的样子)",
+     "asset": "Win_LanNiao3Ar_003",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3287
+     ],
+     "types": [
+      15
+     ],
+     "book": 20
+    },
+    {
+     "name": "霜翼领主",
+     "asset": "Win_LanNiaoBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5014,
+      5030,
+      5031,
+      5032
+     ],
+     "types": [
+      15
+     ],
+     "book": 20
+    }
+   ]
+  },
+  {
+   "book": 21,
+   "dir": "021-小灵菇",
+   "name": "小灵菇",
+   "forms": [
+    {
+     "name": "小灵菇",
+     "asset": "Gho_LingGu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3145
+     ],
+     "types": [
+      17
+     ],
+     "book": 21
+    },
+    {
+     "name": "幻灵菇",
+     "asset": "Gho_LingGu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3146
+     ],
+     "types": [
+      17,
+      3
+     ],
+     "book": 22
+    },
+    {
+     "name": "幻影灵菇",
+     "asset": "Gho_LingGu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3147
+     ],
+     "types": [
+      17,
+      3
+     ],
+     "book": 23
+    }
+   ]
+  },
+  {
+   "book": 24,
+   "dir": "024-石肤蜥",
+   "name": "石肤蜥",
+   "forms": [
+    {
+     "name": "石肤蜥(本来的样子)",
+     "asset": "Roc_ShiXiYi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3106
+     ],
+     "types": [
+      8
+     ],
+     "book": 24
+    },
+    {
+     "name": "石肤蜥(球球尾巴的样子)",
+     "asset": "Roc_ShiXiYi1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3500
+     ],
+     "types": [
+      8
+     ],
+     "book": 24
+    },
+    {
+     "name": "石刺蜥(本来的样子)",
+     "asset": "Roc_ShiXiYi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3107
+     ],
+     "types": [
+      8
+     ],
+     "book": 25
+    },
+    {
+     "name": "石刺蜥(球球尾巴的样子)",
+     "asset": "Roc_ShiXiYi2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3501
+     ],
+     "types": [
+      8
+     ],
+     "book": 25
+    },
+    {
+     "name": "石冠王蜥(本来的样子)",
+     "asset": "Roc_ShiXiYi3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3108
+     ],
+     "types": [
+      8
+     ],
+     "book": 26
+    },
+    {
+     "name": "石冠王蜥(球球尾巴的样子)",
+     "asset": "Roc_ShiXiYi3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3502
+     ],
+     "types": [
+      8
+     ],
+     "book": 26
+    }
+   ]
+  },
+  {
+   "book": 27,
+   "dir": "027-布是石",
+   "name": "布是石",
+   "forms": [
+    {
+     "name": "布是石",
+     "asset": "Roc_BuShi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3103
+     ],
+     "types": [
+      8
+     ],
+     "book": 27
+    },
+    {
+     "name": "布是岩",
+     "asset": "Roc_BuShi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3104
+     ],
+     "types": [
+      8
+     ],
+     "book": 28
+    },
+    {
+     "name": "布克棱岩",
+     "asset": "Roc_BuShi3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3105
+     ],
+     "types": [
+      8
+     ],
+     "book": 29
+    },
+    {
+     "name": "迷嶂布莱克",
+     "asset": "Roc_BuShi3Bo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5008
+     ],
+     "types": [
+      8
+     ],
+     "book": 29
+    }
+   ]
+  },
+  {
+   "book": 30,
+   "dir": "030-恶魔叮",
+   "name": "恶魔叮",
+   "forms": [
+    {
+     "name": "恶魔叮",
+     "asset": "Dem_EMoDing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3010
+     ],
+     "types": [
+      18,
+      15
+     ],
+     "book": 30
+    },
+    {
+     "name": "叮叮恶魔",
+     "asset": "Dem_EMoDing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3039
+     ],
+     "types": [
+      18,
+      15
+     ],
+     "book": 31
+    },
+    {
+     "name": "恶魔男爵",
+     "asset": "Dem_EMoDingBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5055
+     ],
+     "types": [
+      18,
+      15
+     ],
+     "book": 31
+    }
+   ]
+  },
+  {
+   "book": 32,
+   "dir": "032-毛毛",
+   "name": "毛毛",
+   "forms": [
+    {
+     "name": "毛毛",
+     "asset": "Wor_Maomao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3136
+     ],
+     "types": [
+      13,
+      16
+     ],
+     "book": 32
+    },
+    {
+     "name": "爬爬",
+     "asset": "Wor_Maomao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3137
+     ],
+     "types": [
+      13,
+      16
+     ],
+     "book": 33
+    },
+    {
+     "name": "化蝶(平常的样子)",
+     "asset": "Wor_Maomao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3138
+     ],
+     "types": [
+      13,
+      16
+     ],
+     "book": 34
+    },
+    {
+     "name": "化蝶(幽冥眼的样子)",
+     "asset": "Wor_Maomao3Ar_003",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3470
+     ],
+     "types": [
+      13,
+      16
+     ],
+     "book": 34
+    },
+    {
+     "name": "化蝶(喵喵的样子)",
+     "asset": "Wor_Maomao3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3471
+     ],
+     "types": [
+      13,
+      16
+     ],
+     "book": 34
+    },
+    {
+     "name": "化蝶(奇丽花的样子)",
+     "asset": "Wor_Maomao3Ar_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3472
+     ],
+     "types": [
+      13,
+      16
+     ],
+     "book": 34
+    }
+   ]
+  },
+  {
+   "book": 35,
+   "dir": "035-幽影树",
+   "name": "幽影树",
+   "forms": [
+    {
+     "name": "幽影树",
+     "asset": "Gho_YouLingShu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3064
+     ],
+     "types": [
+      17,
+      3
+     ],
+     "book": 35
+    },
+    {
+     "name": "幻影荆棘",
+     "asset": "Gho_YouLingShuBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5019
+     ],
+     "types": [
+      17,
+      3
+     ],
+     "book": 35
+    }
+   ]
+  },
+  {
+   "book": 36,
+   "dir": "036-小鼠獭",
+   "name": "小鼠獭",
+   "forms": [
+    {
+     "name": "小鼠獭",
+     "asset": "Wat_ShuTa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3315
+     ],
+     "types": [
+      2,
+      5
+     ],
+     "book": 36
+    },
+    {
+     "name": "燕尾獭",
+     "asset": "Wat_ShuTa2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3316
+     ],
+     "types": [
+      2,
+      5
+     ],
+     "book": 37
+    },
+    {
+     "name": "卷胡巨獭",
+     "asset": "Wat_ShuTa3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3317
+     ],
+     "types": [
+      2,
+      5
+     ],
+     "book": 38
+    },
+    {
+     "name": "卷发巨獭",
+     "asset": "Wat_ShuTaBo_001",
+     "stage": 3,
+     "lord": true,
+     "ids": [
+      4103
+     ],
+     "types": [
+      9,
+      16
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 39,
+   "dir": "039-矿晶虫",
+   "name": "矿晶虫",
+   "forms": [
+    {
+     "name": "矿晶虫",
+     "asset": "Lig_KuangChong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3307
+     ],
+     "types": [
+      6,
+      8
+     ],
+     "book": 39
+    },
+    {
+     "name": "晶石蜗(西瓜碧玺的样子)",
+     "asset": "Lig_KuangChong3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3308
+     ],
+     "types": [
+      6,
+      8
+     ],
+     "book": 40
+    },
+    {
+     "name": "晶石蜗(莲花刚玉的样子)",
+     "asset": "Lig_KuangChong3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3448
+     ],
+     "types": [
+      6,
+      8
+     ],
+     "book": 40
+    },
+    {
+     "name": "晶石蜗(星彩榴石的样子)",
+     "asset": "Lig_KuangChong3Ar_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3449
+     ],
+     "types": [
+      6,
+      8
+     ],
+     "book": 40
+    },
+    {
+     "name": "晶石蜗(火山琉璃的样子)",
+     "asset": "Lig_KuangChong3Ar_003",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3450
+     ],
+     "types": [
+      6,
+      8
+     ],
+     "book": 40
+    },
+    {
+     "name": "晶石蜗(蓝锥矿的样子)",
+     "asset": "Lig_KuangChong3Ar_004",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3451
+     ],
+     "types": [
+      6,
+      8
+     ],
+     "book": 40
+    },
+    {
+     "name": "晶石蜗(烧蓝黄金的样子)",
+     "asset": "Lig_KuangChong3Ar_005",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3486
+     ],
+     "types": [
+      6,
+      8
+     ],
+     "book": 40
+    },
+    {
+     "name": "钻石蜗",
+     "asset": "Lig_KuangChongBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5001,
+      5047,
+      5048,
+      5049,
+      5050,
+      5051
+     ],
+     "types": [
+      6,
+      8
+     ],
+     "book": 40
+    }
+   ]
+  },
+  {
+   "book": 41,
+   "dir": "041-奇丽草",
+   "name": "奇丽草",
+   "forms": [
+    {
+     "name": "奇丽草",
+     "asset": "Gra_QiLiCao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3029
+     ],
+     "types": [
+      3
+     ],
+     "book": 41
+    },
+    {
+     "name": "奇丽叶",
+     "asset": "Gra_QiLiCao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3030
+     ],
+     "types": [
+      3
+     ],
+     "book": 42
+    },
+    {
+     "name": "奇丽花",
+     "asset": "Gra_QiLiCao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3031
+     ],
+     "types": [
+      3
+     ],
+     "book": 43
+    },
+    {
+     "name": "奇丽果",
+     "asset": "Gra_QiLicaoBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5005
+     ],
+     "types": [
+      3
+     ],
+     "book": 43
+    }
+   ]
+  },
+  {
+   "book": 44,
+   "dir": "044-丢丢",
+   "name": "丢丢",
+   "forms": [
+    {
+     "name": "丢丢(草地附近的样子)",
+     "asset": "Gra_DiuDiu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3040
+     ],
+     "types": [
+      3
+     ],
+     "book": 44
+    },
+    {
+     "name": "丢丢(火山附近的样子)",
+     "asset": "Gra_DiuDiu1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3288
+     ],
+     "types": [
+      3,
+      4
+     ],
+     "book": 44
+    },
+    {
+     "name": "丢丢(沙地附近的样子)",
+     "asset": "Gra_DiuDiu1Ar_002",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3289
+     ],
+     "types": [
+      3,
+      8
+     ],
+     "book": 44
+    },
+    {
+     "name": "丢丢(雪山附近的样子)",
+     "asset": "Gra_DiuDiu1Ar_003",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3290
+     ],
+     "types": [
+      3,
+      9
+     ],
+     "book": 44
+    },
+    {
+     "name": "卡卡虫(草地附近的样子)",
+     "asset": "Gra_DiuDiu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3041
+     ],
+     "types": [
+      3
+     ],
+     "book": 45
+    },
+    {
+     "name": "卡卡虫(火山附近的样子)",
+     "asset": "Gra_DiuDiu2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3291
+     ],
+     "types": [
+      3,
+      4
+     ],
+     "book": 45
+    },
+    {
+     "name": "卡卡虫(沙地附近的样子)",
+     "asset": "Gra_DiuDiu2Ar_002",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3292
+     ],
+     "types": [
+      3,
+      8
+     ],
+     "book": 45
+    },
+    {
+     "name": "卡卡虫(雪山附近的样子)",
+     "asset": "Gra_DiuDiu2Ar_003",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3293
+     ],
+     "types": [
+      3,
+      9
+     ],
+     "book": 45
+    },
+    {
+     "name": "卡瓦重(草地附近的样子)",
+     "asset": "Gra_DiuDiu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3042
+     ],
+     "types": [
+      3
+     ],
+     "book": 46
+    },
+    {
+     "name": "卡瓦重(火山附近的样子)",
+     "asset": "Gra_DiuDiu3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3294
+     ],
+     "types": [
+      3,
+      4
+     ],
+     "book": 46
+    },
+    {
+     "name": "卡瓦重(沙地附近的样子)",
+     "asset": "Gra_DiuDiu3Ar_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3295
+     ],
+     "types": [
+      3,
+      8
+     ],
+     "book": 46
+    },
+    {
+     "name": "卡瓦重(雪山附近的样子)",
+     "asset": "Gra_DiuDiu3Ar_003",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3296
+     ],
+     "types": [
+      3,
+      9
+     ],
+     "book": 46
+    }
+   ]
+  },
+  {
+   "book": 47,
+   "dir": "047-护主犬",
+   "name": "护主犬",
+   "forms": [
+    {
+     "name": "护主犬(本来的样子)",
+     "asset": "Fir_YinSuQuan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3070
+     ],
+     "types": [
+      4
+     ],
+     "book": 47
+    },
+    {
+     "name": "护主犬(看守麦田的样子)",
+     "asset": "Fir_YinSuQuan1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3870
+     ],
+     "types": [
+      4
+     ],
+     "book": 47
+    },
+    {
+     "name": "音速犬(本来的样子)",
+     "asset": "Fir_YinSuQuan2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3071
+     ],
+     "types": [
+      4
+     ],
+     "book": 48
+    },
+    {
+     "name": "音速犬(看守麦田的样子)",
+     "asset": "Fir_YinSuQuan2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3871
+     ],
+     "types": [
+      4
+     ],
+     "book": 48
+    },
+    {
+     "name": "风暴战犬",
+     "asset": "Fir_YinSuQuanBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5018,
+      5075
+     ],
+     "types": [
+      4
+     ],
+     "book": 48
+    }
+   ]
+  },
+  {
+   "book": 49,
+   "dir": "049-绿耳松鼠",
+   "name": "绿耳松鼠",
+   "forms": [
+    {
+     "name": "绿耳松鼠",
+     "asset": "Com_SongShu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3098
+     ],
+     "types": [
+      2
+     ],
+     "book": 49
+    },
+    {
+     "name": "抱枕松鼠",
+     "asset": "Com_SongShu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3099
+     ],
+     "types": [
+      2
+     ],
+     "book": 50
+    },
+    {
+     "name": "蹦床松鼠",
+     "asset": "Com_SongShu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3100
+     ],
+     "types": [
+      2
+     ],
+     "book": 51
+    }
+   ]
+  },
+  {
+   "book": 52,
+   "dir": "052-嘟嘟煲",
+   "name": "嘟嘟煲",
+   "forms": [
+    {
+     "name": "嘟嘟煲",
+     "asset": "Poi_GuoJing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3367
+     ],
+     "types": [
+      12
+     ],
+     "book": 52
+    },
+    {
+     "name": "嘟嘟锅",
+     "asset": "Poi_GuoJing3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3368
+     ],
+     "types": [
+      12
+     ],
+     "book": 53
+    }
+   ]
+  },
+  {
+   "book": 54,
+   "dir": "054-小灵面",
+   "name": "小灵面",
+   "forms": [
+    {
+     "name": "小灵面",
+     "asset": "Gho_XiaoYou1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3060
+     ],
+     "types": [
+      17
+     ],
+     "book": 54
+    },
+    {
+     "name": "暗影灵面(睁眼的样子)",
+     "asset": "Gho_XiaoYou2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3061
+     ],
+     "types": [
+      17
+     ],
+     "book": 55
+    },
+    {
+     "name": "暗影灵面(闭眼的样子)",
+     "asset": "Gho_Xiaoyou2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3481
+     ],
+     "types": [
+      17
+     ],
+     "book": 55
+    },
+    {
+     "name": "幽冥眼(睁眼的样子)",
+     "asset": "Gho_XiaoYou3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3405
+     ],
+     "types": [
+      17
+     ],
+     "book": 56
+    },
+    {
+     "name": "幽冥眼(闭眼的样子)",
+     "asset": "Gho_XiaoYou3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3482
+     ],
+     "types": [
+      17
+     ],
+     "book": 56
+    }
+   ]
+  },
+  {
+   "book": 57,
+   "dir": "057-梦游",
+   "name": "梦游",
+   "forms": [
+    {
+     "name": "梦游(穿旧睡衣的样子)",
+     "asset": "Gho_MengYou1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3438
+     ],
+     "types": [
+      17
+     ],
+     "book": 57
+    },
+    {
+     "name": "梦游(穿星星睡衣的样子)",
+     "asset": "Gho_MengYou1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3440
+     ],
+     "types": [
+      17,
+      6
+     ],
+     "book": 57
+    },
+    {
+     "name": "梦悠悠(穿旧睡衣的样子)",
+     "asset": "Gho_MengYou2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3439
+     ],
+     "types": [
+      17
+     ],
+     "book": 58
+    },
+    {
+     "name": "梦悠悠(穿星星睡衣的样子)",
+     "asset": "Gho_MengYou2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3441
+     ],
+     "types": [
+      17,
+      6
+     ],
+     "book": 58
+    }
+   ]
+  },
+  {
+   "book": 59,
+   "dir": "059-兽花蕾",
+   "name": "兽花蕾",
+   "forms": [
+    {
+     "name": "兽花蕾",
+     "asset": "Lig_ShouHuaLei1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3492
+     ],
+     "types": [
+      6,
+      3
+     ],
+     "book": 59
+    }
+   ]
+  },
+  {
+   "book": 60,
+   "dir": "060-伏地兽",
+   "name": "伏地兽",
+   "forms": [
+    {
+     "name": "伏地兽",
+     "asset": "Com_ShiYiShou1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3165
+     ],
+     "types": [
+      2
+     ],
+     "book": 60
+    },
+    {
+     "name": "贪食鼹",
+     "asset": "Com_ShiYiShou2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3166
+     ],
+     "types": [
+      2
+     ],
+     "book": 61
+    },
+    {
+     "name": "巨噬针鼹",
+     "asset": "Com_ShiYiShou3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3167
+     ],
+     "types": [
+      2
+     ],
+     "book": 62
+    }
+   ]
+  },
+  {
+   "book": 63,
+   "dir": "063-蹦蹦种子",
+   "name": "蹦蹦种子",
+   "forms": [
+    {
+     "name": "蹦蹦种子(海神球形态)",
+     "asset": "Gra_BengBengCao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3017
+     ],
+     "types": [
+      3,
+      12
+     ],
+     "book": 63
+    },
+    {
+     "name": "蹦蹦种子(彩玉球形态)",
+     "asset": "Gra_BengBengCao1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3297
+     ],
+     "types": [
+      3,
+      12
+     ],
+     "book": 63
+    },
+    {
+     "name": "蹦蹦种子(短毛球形态)",
+     "asset": "Gra_BengBengCao1Ar_002",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3298
+     ],
+     "types": [
+      3,
+      12
+     ],
+     "book": 63
+    },
+    {
+     "name": "蹦蹦种子(象牙球形态)",
+     "asset": "Gra_BengBengCao1Ar_003",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3299
+     ],
+     "types": [
+      3,
+      12
+     ],
+     "book": 63
+    },
+    {
+     "name": "蹦蹦草(海神球形态)",
+     "asset": "Gra_BengBengCao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3018
+     ],
+     "types": [
+      3,
+      12
+     ],
+     "book": 64
+    },
+    {
+     "name": "蹦蹦草(彩玉球形态)",
+     "asset": "Gra_Bengbengcao2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3300
+     ],
+     "types": [
+      3,
+      12
+     ],
+     "book": 64
+    },
+    {
+     "name": "蹦蹦草(短毛球形态)",
+     "asset": "Gra_Bengbengcao2Ar_002",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3301
+     ],
+     "types": [
+      3,
+      12
+     ],
+     "book": 64
+    },
+    {
+     "name": "蹦蹦草(象牙球形态)",
+     "asset": "Gra_Bengbengcao2Ar_003",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3302
+     ],
+     "types": [
+      3,
+      12
+     ],
+     "book": 64
+    },
+    {
+     "name": "蹦蹦花(海神球形态)",
+     "asset": "Gra_BengBengCao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3019
+     ],
+     "types": [
+      3,
+      12
+     ],
+     "book": 65
+    },
+    {
+     "name": "蹦蹦花(彩玉球形态)",
+     "asset": "Gra_Bengbengcao3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3303
+     ],
+     "types": [
+      3,
+      12
+     ],
+     "book": 65
+    },
+    {
+     "name": "蹦蹦花(短毛球形态)",
+     "asset": "Gra_Bengbengcao3Ar_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3304
+     ],
+     "types": [
+      3,
+      12
+     ],
+     "book": 65
+    },
+    {
+     "name": "蹦蹦花(象牙球形态)",
+     "asset": "Gra_Bengbengcao3Ar_003",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3305
+     ],
+     "types": [
+      3,
+      12
+     ],
+     "book": 65
+    },
+    {
+     "name": "蹦蹦果",
+     "asset": "Gra_BengBengCaoBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5004,
+      5033,
+      5034,
+      5035
+     ],
+     "types": [
+      3,
+      12
+     ],
+     "book": 65
+    }
+   ]
+  },
+  {
+   "book": 66,
+   "dir": "066-电咩咩",
+   "name": "电咩咩",
+   "forms": [
+    {
+     "name": "电咩咩",
+     "asset": "Ele_MieMie1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3190
+     ],
+     "types": [
+      11
+     ],
+     "book": 66
+    },
+    {
+     "name": "粉咩咩",
+     "asset": "Ele_MieMie2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3191
+     ],
+     "types": [
+      11
+     ],
+     "book": 67
+    },
+    {
+     "name": "电球咩咩",
+     "asset": "Ele_MieMie3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3192
+     ],
+     "types": [
+      11
+     ],
+     "book": 68
+    }
+   ]
+  },
+  {
+   "book": 69,
+   "dir": "069-蒲公英",
+   "name": "蒲公英",
+   "forms": [
+    {
+     "name": "蒲公英",
+     "asset": "Gra_PuGongYing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3034
+     ],
+     "types": [
+      3,
+      16
+     ],
+     "book": 69
+    },
+    {
+     "name": "蒲公英娃娃",
+     "asset": "Gra_PuGongYing3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3027
+     ],
+     "types": [
+      3,
+      16
+     ],
+     "book": 70
+    }
+   ]
+  },
+  {
+   "book": 71,
+   "dir": "071-伊贝儿",
+   "name": "伊贝儿",
+   "forms": [
+    {
+     "name": "伊贝儿",
+     "asset": "Gra_YiBeiEr1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3043
+     ],
+     "types": [
+      3
+     ],
+     "book": 71
+    },
+    {
+     "name": "伊贝粉粉",
+     "asset": "Gra_YiBeiEr2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3044
+     ],
+     "types": [
+      3
+     ],
+     "book": 72
+    }
+   ]
+  },
+  {
+   "book": 73,
+   "dir": "073-白发懒人",
+   "name": "白发懒人",
+   "forms": [
+    {
+     "name": "白发懒人",
+     "asset": "Com_KeShuiWang1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3049
+     ],
+     "types": [
+      2
+     ],
+     "book": 73
+    },
+    {
+     "name": "动力猿",
+     "asset": "Com_KeShuiWang2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3101
+     ],
+     "types": [
+      2,
+      14
+     ],
+     "book": 74
+    },
+    {
+     "name": "瞌睡王",
+     "asset": "Com_KeShuiWang3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3102
+     ],
+     "types": [
+      2,
+      14
+     ],
+     "book": 75
+    }
+   ]
+  },
+  {
+   "book": 76,
+   "dir": "076-海盔虫",
+   "name": "海盔虫",
+   "forms": [
+    {
+     "name": "海盔虫(本来的样子)",
+     "asset": "Wat_HaiKuiChong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3330
+     ],
+     "types": [
+      5,
+      12
+     ],
+     "book": 76
+    },
+    {
+     "name": "海盔虫(磨损的样子)",
+     "asset": "Wat_HaiKuiChong1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3475
+     ],
+     "types": [
+      5,
+      12
+     ],
+     "book": 76
+    },
+    {
+     "name": "刺盔虫(本来的样子)",
+     "asset": "Wat_HaiKuiChong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3331
+     ],
+     "types": [
+      5,
+      12
+     ],
+     "book": 77
+    },
+    {
+     "name": "刺盔虫(磨损的样子)",
+     "asset": "Wat_HaiKuiChong2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3476
+     ],
+     "types": [
+      5,
+      12
+     ],
+     "book": 77
+    },
+    {
+     "name": "千棘盔(本来的样子)",
+     "asset": "Wat_HaiKuiChong3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3332
+     ],
+     "types": [
+      5,
+      12
+     ],
+     "book": 78
+    },
+    {
+     "name": "千棘盔(磨损的样子)",
+     "asset": "Wat_HaiKuiChong3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3477
+     ],
+     "types": [
+      5,
+      12
+     ],
+     "book": 78
+    },
+    {
+     "name": "千棘海针",
+     "asset": "Wat_HaiKuiChongBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5012,
+      5029
+     ],
+     "types": [
+      5,
+      12
+     ],
+     "book": 78
+    }
+   ]
+  },
+  {
+   "book": 79,
+   "dir": "079-菊花梨",
+   "name": "菊花梨",
+   "forms": [
+    {
+     "name": "菊花梨",
+     "asset": "Men_JuHuaLi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3227
+     ],
+     "types": [
+      16
+     ],
+     "book": 79
+    }
+   ]
+  },
+  {
+   "book": 80,
+   "dir": "080-小星光",
+   "name": "小星光",
+   "forms": [
+    {
+     "name": "小星光(星光能量的样子)",
+     "asset": "Ele_XingGuang1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3193
+     ],
+     "types": [
+      11
+     ],
+     "book": 80
+    },
+    {
+     "name": "小星光(月光能量的样子)",
+     "asset": "Ele_XingGuang1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3442
+     ],
+     "types": [
+      11,
+      6
+     ],
+     "book": 80
+    },
+    {
+     "name": "星光狮(星光能量的样子)",
+     "asset": "Ele_XingGuang2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3194
+     ],
+     "types": [
+      11
+     ],
+     "book": 81
+    },
+    {
+     "name": "星光狮(月光能量的样子)",
+     "asset": "Ele_XingGuang2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3443
+     ],
+     "types": [
+      11,
+      6
+     ],
+     "book": 81
+    }
+   ]
+  },
+  {
+   "book": 82,
+   "dir": "082-一窝蜂",
+   "name": "一窝蜂",
+   "forms": [
+    {
+     "name": "一窝蜂",
+     "asset": "Wor_MiFeng1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3058
+     ],
+     "types": [
+      13,
+      15
+     ],
+     "book": 82
+    },
+    {
+     "name": "黄蜂后",
+     "asset": "Wor_MiFeng2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3059
+     ],
+     "types": [
+      13,
+      15
+     ],
+     "book": 83
+    },
+    {
+     "name": "花魁蜂后",
+     "asset": "Wor_MiFeng3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3157
+     ],
+     "types": [
+      13,
+      15
+     ],
+     "book": 84
+    },
+    {
+     "name": "女王蜂",
+     "asset": "Wor_MiFengBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5015
+     ],
+     "types": [
+      13,
+      15
+     ],
+     "book": 84
+    }
+   ]
+  },
+  {
+   "book": 85,
+   "dir": "085-小夜",
+   "name": "小夜",
+   "forms": [
+    {
+     "name": "小夜",
+     "asset": "Dem_ZiYe1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3142
+     ],
+     "types": [
+      18
+     ],
+     "book": 85
+    },
+    {
+     "name": "紫夜",
+     "asset": "Dem_ZiYe2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3143
+     ],
+     "types": [
+      18
+     ],
+     "book": 86
+    },
+    {
+     "name": "朔夜伊芙",
+     "asset": "Dem_ZiYe3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3144
+     ],
+     "types": [
+      18
+     ],
+     "book": 87
+    }
+   ]
+  },
+  {
+   "book": 88,
+   "dir": "088-乖乖鹄",
+   "name": "乖乖鹄",
+   "forms": [
+    {
+     "name": "乖乖鹄",
+     "asset": "Win_HuaGuiE1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3344
+     ],
+     "types": [
+      15,
+      5
+     ],
+     "book": 88
+    },
+    {
+     "name": "蓝珠天鹅",
+     "asset": "Win_HuaGuiE2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3345
+     ],
+     "types": [
+      15,
+      5
+     ],
+     "book": 89
+    },
+    {
+     "name": "翠顶夫人",
+     "asset": "Win_HuaGuiE3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3346
+     ],
+     "types": [
+      15,
+      5
+     ],
+     "book": 90
+    },
+    {
+     "name": "黑羽夫人",
+     "asset": "Win_HuaGuiE3_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3571
+     ],
+     "types": [
+      15,
+      18
+     ],
+     "book": 91
+    }
+   ]
+  },
+  {
+   "book": 92,
+   "dir": "092-锤头鹳",
+   "name": "锤头鹳",
+   "forms": [
+    {
+     "name": "锤头鹳",
+     "asset": "Win_ChuiTouNiao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3069
+     ],
+     "types": [
+      15,
+      5
+     ],
+     "book": 92
+    }
+   ]
+  },
+  {
+   "book": 93,
+   "dir": "093-绿草精灵",
+   "name": "绿草精灵",
+   "forms": [
+    {
+     "name": "绿草精灵",
+     "asset": "Gra_LvCaoJL1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3026
+     ],
+     "types": [
+      3,
+      20
+     ],
+     "book": 93
+    },
+    {
+     "name": "魔草巫灵",
+     "asset": "Gra_LvcaoJL2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3035
+     ],
+     "types": [
+      3,
+      20
+     ],
+     "book": 94
+    }
+   ]
+  },
+  {
+   "book": 95,
+   "dir": "095-记忆石",
+   "name": "记忆石",
+   "forms": [
+    {
+     "name": "记忆石(Roc_JiYiShi1_001)",
+     "asset": "Roc_JiYiShi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3050
+     ],
+     "types": [
+      8
+     ],
+     "book": 95
+    },
+    {
+     "name": "记忆石(Roc_JiYiShi1_011)",
+     "asset": "Roc_JiYiShi1_011",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      8012
+     ],
+     "types": [
+      8
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 96,
+   "dir": "096-咔咔羽毛",
+   "name": "咔咔羽毛",
+   "forms": [
+    {
+     "name": "咔咔羽毛",
+     "asset": "Win_Kaka1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3175
+     ],
+     "types": [
+      15,
+      2
+     ],
+     "book": 96
+    },
+    {
+     "name": "咔咔雀",
+     "asset": "Win_Kaka2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3176
+     ],
+     "types": [
+      15,
+      2
+     ],
+     "book": 97
+    },
+    {
+     "name": "咔咔鸟",
+     "asset": "Win_Kaka3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3177
+     ],
+     "types": [
+      15,
+      2
+     ],
+     "book": 98
+    }
+   ]
+  },
+  {
+   "book": 99,
+   "dir": "099-小草虫",
+   "name": "小草虫",
+   "forms": [
+    {
+     "name": "小草虫",
+     "asset": "Wor_CaoChong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3139
+     ],
+     "types": [
+      13,
+      3
+     ],
+     "book": 99
+    },
+    {
+     "name": "草衣虫",
+     "asset": "Wor_CaoChong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3140
+     ],
+     "types": [
+      13,
+      3
+     ],
+     "book": 100
+    },
+    {
+     "name": "花衣蝶",
+     "asset": "Wor_CaoChong3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3141
+     ],
+     "types": [
+      13,
+      3
+     ],
+     "book": 101
+    }
+   ]
+  },
+  {
+   "book": 102,
+   "dir": "102-绿翼鸟",
+   "name": "绿翼鸟",
+   "forms": [
+    {
+     "name": "绿翼鸟",
+     "asset": "Men_LvYiNiao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3276
+     ],
+     "types": [
+      16,
+      15
+     ],
+     "book": 102
+    },
+    {
+     "name": "魔翼鸟",
+     "asset": "Men_LvYiNiao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3277
+     ],
+     "types": [
+      16,
+      15
+     ],
+     "book": 103
+    },
+    {
+     "name": "魔眷鸟",
+     "asset": "Men_LvYiNiao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3278
+     ],
+     "types": [
+      16,
+      15
+     ],
+     "book": 104
+    }
+   ]
+  },
+  {
+   "book": 105,
+   "dir": "105-阿米亚特",
+   "name": "阿米亚特",
+   "forms": [
+    {
+     "name": "阿米亚特",
+     "asset": "Roc_Amiyate1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3014
+     ],
+     "types": [
+      8
+     ],
+     "book": 105
+    },
+    {
+     "name": "阿米樱",
+     "asset": "Roc_Amiyate2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3015
+     ],
+     "types": [
+      8
+     ],
+     "book": 106
+    },
+    {
+     "name": "罗隐",
+     "asset": "Roc_Amiyate3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3016
+     ],
+     "types": [
+      8,
+      18
+     ],
+     "book": 107
+    },
+    {
+     "name": "深渊罗隐",
+     "asset": "Roc_AMiYaTeBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5053
+     ],
+     "types": [
+      8,
+      18
+     ],
+     "book": 107
+    }
+   ]
+  },
+  {
+   "book": 108,
+   "dir": "108-风铃鲨",
+   "name": "风铃鲨",
+   "forms": [
+    {
+     "name": "风铃鲨",
+     "asset": "Wat_DieSha1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3115
+     ],
+     "types": [
+      5,
+      15
+     ],
+     "book": 108
+    },
+    {
+     "name": "蓝蝶鲨",
+     "asset": "Wat_DieSha2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3116
+     ],
+     "types": [
+      5,
+      15
+     ],
+     "book": 109
+    },
+    {
+     "name": "彩蝶鲨",
+     "asset": "Wat_DieSha3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3117
+     ],
+     "types": [
+      5,
+      15
+     ],
+     "book": 110
+    },
+    {
+     "name": "神谕鲨",
+     "asset": "Wat_DieShaBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5011
+     ],
+     "types": [
+      5,
+      15
+     ],
+     "book": 110
+    }
+   ]
+  },
+  {
+   "book": 111,
+   "dir": "111-石石",
+   "name": "石石",
+   "forms": [
+    {
+     "name": "石石",
+     "asset": "Roc_XiaoShiTou1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3170
+     ],
+     "types": [
+      8
+     ],
+     "book": 111
+    },
+    {
+     "name": "巨灵石",
+     "asset": "Roc_XiaoShiTou2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3171
+     ],
+     "types": [
+      8,
+      17
+     ],
+     "book": 112
+    }
+   ]
+  },
+  {
+   "book": 113,
+   "dir": "113-仪使者",
+   "name": "仪使者",
+   "forms": [
+    {
+     "name": "仪使者",
+     "asset": "Roc_MaYa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3109
+     ],
+     "types": [
+      8,
+      20
+     ],
+     "book": 113
+    },
+    {
+     "name": "仪式之星",
+     "asset": "Roc_MaYa2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3110
+     ],
+     "types": [
+      8,
+      20
+     ],
+     "book": 114
+    },
+    {
+     "name": "仪式巨像",
+     "asset": "Roc_MaYa3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3111
+     ],
+     "types": [
+      8,
+      20
+     ],
+     "book": 115
+    },
+    {
+     "name": "祭礼巨像",
+     "asset": "Roc_MaYaBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5009
+     ],
+     "types": [
+      8,
+      20
+     ],
+     "book": 115
+    }
+   ]
+  },
+  {
+   "book": 116,
+   "dir": "116-小独角兽",
+   "name": "小独角兽",
+   "forms": [
+    {
+     "name": "小独角兽",
+     "asset": "Win_DuJiaoShou1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3062
+     ],
+     "types": [
+      6
+     ],
+     "book": 116
+    },
+    {
+     "name": "白金独角兽",
+     "asset": "Win_DuJiaoShou2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3063
+     ],
+     "types": [
+      6
+     ],
+     "book": 117
+    },
+    {
+     "name": "彩虹独角兽",
+     "asset": "Lig_YiLiSi3_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5002
+     ],
+     "types": [
+      6
+     ],
+     "book": 117
+    }
+   ]
+  },
+  {
+   "book": 118,
+   "dir": "118-旋叶虫",
+   "name": "旋叶虫",
+   "forms": [
+    {
+     "name": "旋叶虫(金黄的样子)",
+     "asset": "Com_YeChong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3376
+     ],
+     "types": [
+      2,
+      13
+     ],
+     "book": 118
+    },
+    {
+     "name": "旋叶虫(枯叶的样子)",
+     "asset": "Com_YeChong1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3496
+     ],
+     "types": [
+      2,
+      13
+     ],
+     "book": 118
+    },
+    {
+     "name": "蓬叶虫(金黄的样子)",
+     "asset": "Com_YeChong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3483
+     ],
+     "types": [
+      2,
+      13
+     ],
+     "book": 119
+    },
+    {
+     "name": "蓬叶虫(枯叶的样子)",
+     "asset": "Com_YeChong2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3497
+     ],
+     "types": [
+      2,
+      13
+     ],
+     "book": 119
+    },
+    {
+     "name": "风滚暮虫(金黄的样子)",
+     "asset": "Com_YeChong3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3377
+     ],
+     "types": [
+      2,
+      13
+     ],
+     "book": 120
+    },
+    {
+     "name": "风滚暮虫(枯叶的样子)",
+     "asset": "Com_YeChong3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3498
+     ],
+     "types": [
+      2,
+      13
+     ],
+     "book": 120
+    },
+    {
+     "name": "暮风隐者",
+     "asset": "Com_YeChongBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5056,
+      5062
+     ],
+     "types": [
+      2,
+      13
+     ],
+     "book": 120
+    }
+   ]
+  },
+  {
+   "book": 121,
+   "dir": "121-小黑猫",
+   "name": "小黑猫",
+   "forms": [
+    {
+     "name": "小黑猫",
+     "asset": "Com_HeiMao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3568
+     ],
+     "types": [
+      2
+     ],
+     "book": 121
+    },
+    {
+     "name": "黑猫巫师",
+     "asset": "Com_HeiMao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3569
+     ],
+     "types": [
+      2
+     ],
+     "book": 122
+    },
+    {
+     "name": "黑猫密探",
+     "asset": "Com_HeiMaoBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5007
+     ],
+     "types": [
+      2
+     ],
+     "book": 122
+    }
+   ]
+  },
+  {
+   "book": 123,
+   "dir": "123-忽幽狸",
+   "name": "忽幽狸",
+   "forms": [
+    {
+     "name": "忽幽狸",
+     "asset": "Gho_HuYouLi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3065
+     ],
+     "types": [
+      17,
+      12
+     ],
+     "book": 123
+    },
+    {
+     "name": "影狸",
+     "asset": "Gho_HuYouLi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3066
+     ],
+     "types": [
+      17,
+      12
+     ],
+     "book": 124
+    }
+   ]
+  },
+  {
+   "book": 125,
+   "dir": "125-多多",
+   "name": "多多",
+   "forms": [
+    {
+     "name": "多多",
+     "asset": "Poi_Duoduo1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3151
+     ],
+     "types": [
+      12,
+      8
+     ],
+     "book": 125
+    },
+    {
+     "name": "多啦多",
+     "asset": "Poi_Duoduo2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3152
+     ],
+     "types": [
+      12,
+      8
+     ],
+     "book": 126
+    },
+    {
+     "name": "古啦多",
+     "asset": "Poi_Duoduo3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3153
+     ],
+     "types": [
+      12,
+      8
+     ],
+     "book": 127
+    }
+   ]
+  },
+  {
+   "book": 128,
+   "dir": "128-哭哭菇",
+   "name": "哭哭菇",
+   "forms": [
+    {
+     "name": "哭哭菇",
+     "asset": "Ill_KuKuGu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3239
+     ],
+     "types": [
+      20
+     ],
+     "book": 128
+    },
+    {
+     "name": "怖须菇",
+     "asset": "Ill_KuKuGu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3240
+     ],
+     "types": [
+      20
+     ],
+     "book": 129
+    },
+    {
+     "name": "怖哭菇",
+     "asset": "Ill_KuKuGu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3241
+     ],
+     "types": [
+      20
+     ],
+     "book": 130
+    }
+   ]
+  },
+  {
+   "book": 131,
+   "dir": "131-恶魔狼",
+   "name": "恶魔狼",
+   "forms": [
+    {
+     "name": "恶魔狼",
+     "asset": "Dem_Daemo3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3011
+     ],
+     "types": [
+      18
+     ],
+     "book": 131
+    },
+    {
+     "name": "恶魔狼王",
+     "asset": "Dem_EMoLangBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5016
+     ],
+     "types": [
+      18
+     ],
+     "book": 131
+    }
+   ]
+  },
+  {
+   "book": 132,
+   "dir": "132-小电企鹅",
+   "name": "小电企鹅",
+   "forms": [
+    {
+     "name": "小电企鹅",
+     "asset": "Ice_DianQiE1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3434
+     ],
+     "types": [
+      9,
+      11
+     ],
+     "book": 132
+    },
+    {
+     "name": "电企鹅",
+     "asset": "Ice_DianQiE2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3435
+     ],
+     "types": [
+      9,
+      11
+     ],
+     "book": 133
+    }
+   ]
+  },
+  {
+   "book": 134,
+   "dir": "134-雪豆丁",
+   "name": "雪豆丁",
+   "forms": [
+    {
+     "name": "雪豆丁",
+     "asset": "Ice_XueDouDing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3172
+     ],
+     "types": [
+      9
+     ],
+     "book": 134
+    },
+    {
+     "name": "雪蛮人",
+     "asset": "Ice_XueDouDing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3173
+     ],
+     "types": [
+      9
+     ],
+     "book": 135
+    },
+    {
+     "name": "雪巨人",
+     "asset": "Ice_XueDouDing3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3174
+     ],
+     "types": [
+      9
+     ],
+     "book": 136
+    }
+   ]
+  },
+  {
+   "book": 137,
+   "dir": "137-呼呼猪",
+   "name": "呼呼猪",
+   "forms": [
+    {
+     "name": "呼呼猪",
+     "asset": "Ice_HuHuZhu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3262
+     ],
+     "types": [
+      9,
+      8
+     ],
+     "book": 137
+    },
+    {
+     "name": "獠牙猪",
+     "asset": "Ice_HuHuZhu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3263
+     ],
+     "types": [
+      9,
+      8
+     ],
+     "book": 138
+    }
+   ]
+  },
+  {
+   "book": 139,
+   "dir": "139-雪娃娃",
+   "name": "雪娃娃",
+   "forms": [
+    {
+     "name": "雪娃娃",
+     "asset": "Ice_XueLing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3333
+     ],
+     "types": [
+      9
+     ],
+     "book": 139
+    },
+    {
+     "name": "冰封怨灵",
+     "asset": "Ice_XueLing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3334
+     ],
+     "types": [
+      9
+     ],
+     "book": 140
+    },
+    {
+     "name": "雪灵",
+     "asset": "Ice_XueLing3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3335
+     ],
+     "types": [
+      9
+     ],
+     "book": 141
+    }
+   ]
+  },
+  {
+   "book": 142,
+   "dir": "142-大耳帽兜",
+   "name": "大耳帽兜",
+   "forms": [
+    {
+     "name": "大耳帽兜",
+     "asset": "Ice_DouMao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3121
+     ],
+     "types": [
+      9,
+      16
+     ],
+     "book": 142
+    },
+    {
+     "name": "帽兜娃娃",
+     "asset": "Ice_DouMao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3122
+     ],
+     "types": [
+      9,
+      16
+     ],
+     "book": 143
+    },
+    {
+     "name": "雪影娃娃",
+     "asset": "Ice_DouMao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3123
+     ],
+     "types": [
+      9,
+      16
+     ],
+     "book": 144
+    },
+    {
+     "name": "雪影冰灵",
+     "asset": "Ice_DouMaoBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5013
+     ],
+     "types": [
+      9,
+      16
+     ],
+     "book": 144
+    }
+   ]
+  },
+  {
+   "book": 145,
+   "dir": "145-权杖-Ⅱ",
+   "name": "权杖-Ⅱ",
+   "forms": [
+    {
+     "name": "权杖-Ⅱ",
+     "asset": "Mac_QuanZhangll1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3410
+     ],
+     "types": [
+      19
+     ],
+     "book": 145
+    },
+    {
+     "name": "权杖-V",
+     "asset": "Mac_QuanZhangll2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3411
+     ],
+     "types": [
+      19
+     ],
+     "book": 146
+    }
+   ]
+  },
+  {
+   "book": 147,
+   "dir": "147-灵狐",
+   "name": "灵狐",
+   "forms": [
+    {
+     "name": "灵狐",
+     "asset": "Fir_LingHu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3075
+     ],
+     "types": [
+      4,
+      9
+     ],
+     "book": 147
+    },
+    {
+     "name": "九尾狐",
+     "asset": "Fir_LingHu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3076
+     ],
+     "types": [
+      4,
+      9
+     ],
+     "book": 148
+    },
+    {
+     "name": "尖嘴狐仙",
+     "asset": "Fir_LingHu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3077
+     ],
+     "types": [
+      4,
+      9
+     ],
+     "book": 149
+    }
+   ]
+  },
+  {
+   "book": 150,
+   "dir": "150-里奥",
+   "name": "里奥",
+   "forms": [
+    {
+     "name": "里奥",
+     "asset": "Win_LiAo1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3395
+     ],
+     "types": [
+      15
+     ],
+     "book": 150
+    },
+    {
+     "name": "灵羽勇士",
+     "asset": "Win_LiAo2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3396
+     ],
+     "types": [
+      15
+     ],
+     "book": 151
+    },
+    {
+     "name": "圣羽翼王(本来的样子)",
+     "asset": "Win_LiAo3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3397
+     ],
+     "types": [
+      15
+     ],
+     "book": 152
+    },
+    {
+     "name": "圣羽翼王(被噩梦侵蚀的样子)",
+     "asset": "Win_LiAo3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3480
+     ],
+     "types": [
+      15
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 153,
+   "dir": "153-松仔",
+   "name": "松仔",
+   "forms": [
+    {
+     "name": "松仔",
+     "asset": "Gra_SongZai1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3594
+     ],
+     "types": [
+      3,
+      14
+     ],
+     "book": 153
+    },
+    {
+     "name": "松叶羊",
+     "asset": "Gra_SongZai2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3595
+     ],
+     "types": [
+      3,
+      14
+     ],
+     "book": 154
+    },
+    {
+     "name": "针叶巡林",
+     "asset": "Gra_SongZai3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3596
+     ],
+     "types": [
+      3,
+      14
+     ],
+     "book": 155
+    }
+   ]
+  },
+  {
+   "book": 156,
+   "dir": "156-小勇狮",
+   "name": "小勇狮",
+   "forms": [
+    {
+     "name": "小勇狮",
+     "asset": "Fir_XiaoYongShi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3600
+     ],
+     "types": [
+      4,
+      14
+     ],
+     "book": 156
+    },
+    {
+     "name": "炽焰狮",
+     "asset": "Fir_XiaoYongShi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3601
+     ],
+     "types": [
+      4,
+      14
+     ],
+     "book": 157
+    },
+    {
+     "name": "炽心勇狮",
+     "asset": "Fir_XiaoYongShi3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3602
+     ],
+     "types": [
+      4,
+      14
+     ],
+     "book": 158
+    }
+   ]
+  },
+  {
+   "book": 159,
+   "dir": "159-水滴蛇",
+   "name": "水滴蛇",
+   "forms": [
+    {
+     "name": "水滴蛇",
+     "asset": "Wat_ShuiDiShe1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3597
+     ],
+     "types": [
+      5,
+      14
+     ],
+     "book": 159
+    },
+    {
+     "name": "水蛇锁",
+     "asset": "Wat_ShuiDiShe2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3598
+     ],
+     "types": [
+      5,
+      14
+     ],
+     "book": 160
+    },
+    {
+     "name": "游蛇魔使",
+     "asset": "Wat_ShuiDiShe3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3599
+     ],
+     "types": [
+      5,
+      14
+     ],
+     "book": 161
+    }
+   ]
+  },
+  {
+   "book": 162,
+   "dir": "162-公平鸽",
+   "name": "公平鸽",
+   "forms": [
+    {
+     "name": "公平鸽(本来的样子)",
+     "asset": "Com_GongPingGe1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3499
+     ],
+     "types": [
+      2
+     ],
+     "book": 162
+    },
+    {
+     "name": "公平鸽(称量的样子)",
+     "asset": "Com_GongPingGe1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3872
+     ],
+     "types": [
+      2
+     ],
+     "book": 162
+    }
+   ]
+  },
+  {
+   "book": 163,
+   "dir": "163-小怂猫",
+   "name": "小怂猫",
+   "forms": [
+    {
+     "name": "小怂猫",
+     "asset": "Wus_SongMao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3237
+     ],
+     "types": [
+      14
+     ],
+     "book": 163
+    },
+    {
+     "name": "怒目怂猫",
+     "asset": "Wus_SongMao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3238
+     ],
+     "types": [
+      14
+     ],
+     "book": 164
+    }
+   ]
+  },
+  {
+   "book": 165,
+   "dir": "165-小狮鹫",
+   "name": "小狮鹫",
+   "forms": [
+    {
+     "name": "小狮鹫(崖间地的样子)",
+     "asset": "Win_ShiJiu1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3127
+     ],
+     "types": [
+      15
+     ],
+     "book": 165
+    },
+    {
+     "name": "小狮鹫(高山地的样子)",
+     "asset": "Win_ShiJiu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3467
+     ],
+     "types": [
+      15
+     ],
+     "book": 165
+    },
+    {
+     "name": "神圣狮鹫(崖间地的样子)",
+     "asset": "Win_ShiJiu2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3128
+     ],
+     "types": [
+      15
+     ],
+     "book": 166
+    },
+    {
+     "name": "神圣狮鹫(高山地的样子)",
+     "asset": "Win_ShiJiu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3468
+     ],
+     "types": [
+      15
+     ],
+     "book": 166
+    },
+    {
+     "name": "皇家狮鹫(崖间地的样子)",
+     "asset": "Win_ShiJiu3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3129
+     ],
+     "types": [
+      15
+     ],
+     "book": 167
+    },
+    {
+     "name": "皇家狮鹫(高山地的样子)",
+     "asset": "Win_ShiJiu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3469
+     ],
+     "types": [
+      15
+     ],
+     "book": 167
+    }
+   ]
+  },
+  {
+   "book": 168,
+   "dir": "168-圆眼蜘蛛",
+   "name": "圆眼蜘蛛",
+   "forms": [
+    {
+     "name": "圆眼蜘蛛",
+     "asset": "Wor_ZhiZhu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3130
+     ],
+     "types": [
+      13
+     ],
+     "book": 168
+    },
+    {
+     "name": "尖角蜘蛛",
+     "asset": "Wor_ZhiZhu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3131
+     ],
+     "types": [
+      13,
+      12
+     ],
+     "book": 169
+    },
+    {
+     "name": "芋香巨角蛛",
+     "asset": "Wor_ZhiZhu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3132
+     ],
+     "types": [
+      13,
+      12
+     ],
+     "book": 170
+    }
+   ]
+  },
+  {
+   "book": 171,
+   "dir": "171-波波螺",
+   "name": "波波螺",
+   "forms": [
+    {
+     "name": "波波螺(本来的样子)",
+     "asset": "Roc_BoBoLuo1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3508
+     ],
+     "types": [
+      8,
+      5
+     ],
+     "book": 171
+    },
+    {
+     "name": "波波螺(被污染的样子)",
+     "asset": "Roc_BoBoLuo1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3511
+     ],
+     "types": [
+      8,
+      5
+     ],
+     "book": 171
+    },
+    {
+     "name": "消波螺(本来的样子)",
+     "asset": "Roc_BoBoLuo2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3509
+     ],
+     "types": [
+      8,
+      5
+     ],
+     "book": 172
+    },
+    {
+     "name": "消波螺(被污染的样子)",
+     "asset": "Roc_BoBoLuo2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3512
+     ],
+     "types": [
+      8,
+      5
+     ],
+     "book": 172
+    },
+    {
+     "name": "嗜波螺(本来的样子)",
+     "asset": "Roc_BoBoLuo3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3510
+     ],
+     "types": [
+      8,
+      5
+     ],
+     "book": 173
+    },
+    {
+     "name": "嗜波螺(被污染的样子)",
+     "asset": "Roc_BoBoLuo3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3513
+     ],
+     "types": [
+      8,
+      5
+     ],
+     "book": 173
+    }
+   ]
+  },
+  {
+   "book": 174,
+   "dir": "174-菇菇丁",
+   "name": "菇菇丁",
+   "forms": [
+    {
+     "name": "菇菇丁",
+     "asset": "Roc_GuGuDing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3378
+     ],
+     "types": [
+      8,
+      3
+     ],
+     "book": 174
+    },
+    {
+     "name": "多菇丁",
+     "asset": "Roc_GuGuDing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3379
+     ],
+     "types": [
+      8,
+      3
+     ],
+     "book": 175
+    },
+    {
+     "name": "九幽菇",
+     "asset": "Roc_GuGuDing3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3380
+     ],
+     "types": [
+      8,
+      3
+     ],
+     "book": 176
+    }
+   ]
+  },
+  {
+   "book": 177,
+   "dir": "177-斑斑",
+   "name": "斑斑",
+   "forms": [
+    {
+     "name": "斑斑",
+     "asset": "Win_BanXiao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3534
+     ],
+     "types": [
+      15
+     ],
+     "book": 177
+    },
+    {
+     "name": "斑枭",
+     "asset": "Win_BanXiao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3535
+     ],
+     "types": [
+      15
+     ],
+     "book": 178
+    }
+   ]
+  },
+  {
+   "book": 179,
+   "dir": "179-草头鸭",
+   "name": "草头鸭",
+   "forms": [
+    {
+     "name": "草头鸭",
+     "asset": "Gra_CaoTouYa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3008
+     ],
+     "types": [
+      3
+     ],
+     "book": 179
+    },
+    {
+     "name": "卷毛鸭",
+     "asset": "Gra_CaoTouYa2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3067
+     ],
+     "types": [
+      3,
+      14
+     ],
+     "book": 180
+    }
+   ]
+  },
+  {
+   "book": 181,
+   "dir": "181-海豹战士",
+   "name": "海豹战士",
+   "forms": [
+    {
+     "name": "海豹战士",
+     "asset": "Wus_HaiBao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3215
+     ],
+     "types": [
+      14,
+      5
+     ],
+     "book": 181
+    },
+    {
+     "name": "海豹船长",
+     "asset": "Wus_HaiBao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3216
+     ],
+     "types": [
+      14,
+      5
+     ],
+     "book": 182
+    }
+   ]
+  },
+  {
+   "book": 183,
+   "dir": "183-号儿鱼",
+   "name": "号儿鱼",
+   "forms": [
+    {
+     "name": "号儿鱼",
+     "asset": "Wat_HaoErYu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3529
+     ],
+     "types": [
+      5
+     ],
+     "book": 183
+    },
+    {
+     "name": "圆号鱼",
+     "asset": "Wat_HaoErYu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3530
+     ],
+     "types": [
+      5
+     ],
+     "book": 184
+    }
+   ]
+  },
+  {
+   "book": 185,
+   "dir": "185-甜田螺",
+   "name": "甜田螺",
+   "forms": [
+    {
+     "name": "甜田螺",
+     "asset": "Wat_HaiLuo1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3112
+     ],
+     "types": [
+      5,
+      16
+     ],
+     "book": 185
+    },
+    {
+     "name": "壳乙螺",
+     "asset": "Wat_HaiLuo2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3113
+     ],
+     "types": [
+      5,
+      16
+     ],
+     "book": 186
+    },
+    {
+     "name": "卡洛儿",
+     "asset": "Wat_HaiLuo3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3114
+     ],
+     "types": [
+      5,
+      16
+     ],
+     "book": 187
+    }
+   ]
+  },
+  {
+   "book": 188,
+   "dir": "188-棋棋",
+   "name": "棋棋",
+   "forms": [
+    {
+     "name": "棋棋(白子)",
+     "asset": "Wus_QiQi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3550
+     ],
+     "types": [
+      14,
+      8
+     ],
+     "book": 188
+    },
+    {
+     "name": "棋棋(黑子)",
+     "asset": "Wus_QiQi1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3555
+     ],
+     "types": [
+      14,
+      8
+     ],
+     "book": 188
+    },
+    {
+     "name": "棋骑士(白子)",
+     "asset": "Wus_QiQi2_004",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3551
+     ],
+     "types": [
+      14,
+      8
+     ],
+     "book": 189
+    },
+    {
+     "name": "棋绮后(白子)",
+     "asset": "Wus_QiQi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3552
+     ],
+     "types": [
+      14,
+      8
+     ],
+     "book": 192
+    },
+    {
+     "name": "棋齐垒(白子)",
+     "asset": "Wus_QiQi2_002",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3553
+     ],
+     "types": [
+      14,
+      8
+     ],
+     "book": 190
+    },
+    {
+     "name": "棋祈督(白子)",
+     "asset": "Wus_QiQi2_003",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3554
+     ],
+     "types": [
+      14,
+      8
+     ],
+     "book": 191
+    },
+    {
+     "name": "棋骑士(黑子)",
+     "asset": "Wus_QiQi2Ar_004",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3556
+     ],
+     "types": [
+      14,
+      8
+     ],
+     "book": 189
+    },
+    {
+     "name": "棋绮后(黑子)",
+     "asset": "Wus_QiQi2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3557
+     ],
+     "types": [
+      14,
+      8
+     ],
+     "book": 192
+    },
+    {
+     "name": "棋齐垒(黑子)",
+     "asset": "Wus_QiQi2Ar_002",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3558
+     ],
+     "types": [
+      14,
+      8
+     ],
+     "book": 190
+    },
+    {
+     "name": "棋祈督(黑子)",
+     "asset": "Wus_QiQi2Ar_003",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3559
+     ],
+     "types": [
+      14,
+      8
+     ],
+     "book": 191
+    },
+    {
+     "name": "棋契陛下",
+     "asset": "Wus_QiQiBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5023,
+      5040,
+      5041,
+      5042,
+      5043,
+      5044,
+      5045,
+      5046
+     ],
+     "types": [
+      14,
+      8
+     ],
+     "book": 189
+    }
+   ]
+  },
+  {
+   "book": 193,
+   "dir": "193-奔波鼠",
+   "name": "奔波鼠",
+   "forms": [
+    {
+     "name": "奔波鼠(本来的样子)",
+     "asset": "Roc_BenBoShu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3255
+     ],
+     "types": [
+      8
+     ],
+     "book": 193
+    },
+    {
+     "name": "奔波鼠(搬运果实的样子)",
+     "asset": "Roc_BenBoShu1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3873
+     ],
+     "types": [
+      8
+     ],
+     "book": 193
+    },
+    {
+     "name": "流浪鼠(本来的样子)",
+     "asset": "Roc_BenBoShu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3256
+     ],
+     "types": [
+      8
+     ],
+     "book": 194
+    },
+    {
+     "name": "流浪鼠(搬运果实的样子)",
+     "asset": "Roc_BenBoShu2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3874
+     ],
+     "types": [
+      8
+     ],
+     "book": 194
+    }
+   ]
+  },
+  {
+   "book": 195,
+   "dir": "195-呆小路",
+   "name": "呆小路",
+   "forms": [
+    {
+     "name": "呆小路",
+     "asset": "Gra_DaiXiaoLu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3093
+     ],
+     "types": [
+      3,
+      16
+     ],
+     "book": 195
+    },
+    {
+     "name": "舞动路路",
+     "asset": "Gra_DaiXiaoLu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3094
+     ],
+     "types": [
+      3,
+      16
+     ],
+     "book": 196
+    },
+    {
+     "name": "白发路路",
+     "asset": "Gra_DaiXiaoLu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3095
+     ],
+     "types": [
+      3,
+      16
+     ],
+     "book": 197
+    }
+   ]
+  },
+  {
+   "book": 198,
+   "dir": "198-逗逗",
+   "name": "逗逗",
+   "forms": [
+    {
+     "name": "逗逗",
+     "asset": "Com_DouDouMao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3373
+     ],
+     "types": [
+      16
+     ],
+     "book": 198
+    },
+    {
+     "name": "气球猫",
+     "asset": "Com_DouDouMao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3374
+     ],
+     "types": [
+      16
+     ],
+     "book": 199
+    },
+    {
+     "name": "梦想三三",
+     "asset": "Com_DouDouMao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3375
+     ],
+     "types": [
+      16
+     ],
+     "book": 200
+    },
+    {
+     "name": "奇梦咪",
+     "asset": "Com_DouDouMaoBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5024
+     ],
+     "types": [
+      16
+     ],
+     "book": 200
+    }
+   ]
+  },
+  {
+   "book": 201,
+   "dir": "201-花怨鳗",
+   "name": "花怨鳗",
+   "forms": [
+    {
+     "name": "花怨鳗(本来的样子)",
+     "asset": "Roc_HuaYuanMan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3506
+     ],
+     "types": [
+      8,
+      3
+     ],
+     "book": 201
+    },
+    {
+     "name": "花怨鳗(果壳铃的样子)",
+     "asset": "Roc_HuaYuanMan1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3875
+     ],
+     "types": [
+      8,
+      3
+     ],
+     "book": 201
+    },
+    {
+     "name": "鳗尾兽(本来的样子)",
+     "asset": "Roc_HuaYuanMan2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3507
+     ],
+     "types": [
+      8,
+      3
+     ],
+     "book": 202
+    },
+    {
+     "name": "鳗尾兽(果壳铃的样子)",
+     "asset": "Roc_HuaYuanMan3Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3876
+     ],
+     "types": [
+      8,
+      3
+     ],
+     "book": 202
+    }
+   ]
+  },
+  {
+   "book": 203,
+   "dir": "203-伊雷龙",
+   "name": "伊雷龙",
+   "forms": [
+    {
+     "name": "伊雷龙",
+     "asset": "Dra_YiLan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3211
+     ],
+     "types": [
+      10
+     ],
+     "book": 203
+    },
+    {
+     "name": "伊兰亚龙",
+     "asset": "Dra_YiLan2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3412
+     ],
+     "types": [
+      10
+     ],
+     "book": 204
+    },
+    {
+     "name": "伊兰龙",
+     "asset": "Dra_YiLanBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5022
+     ],
+     "types": [
+      10
+     ],
+     "book": 204
+    }
+   ]
+  },
+  {
+   "book": 205,
+   "dir": "205-拉特",
+   "name": "拉特",
+   "forms": [
+    {
+     "name": "拉特",
+     "asset": "Ele_KuLa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3188
+     ],
+     "types": [
+      11
+     ],
+     "book": 205
+    },
+    {
+     "name": "酷拉",
+     "asset": "Ele_KuLa2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3189
+     ],
+     "types": [
+      11
+     ],
+     "book": 206
+    },
+    {
+     "name": "风暴酷拉",
+     "asset": "Ele_KuLaBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5060
+     ],
+     "types": [
+      11
+     ],
+     "book": 206
+    }
+   ]
+  },
+  {
+   "book": 207,
+   "dir": "207-闪电环",
+   "name": "闪电环",
+   "forms": [
+    {
+     "name": "闪电环",
+     "asset": "Ele_DianHuan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3195
+     ],
+     "types": [
+      11
+     ],
+     "book": 207
+    },
+    {
+     "name": "刺电环",
+     "asset": "Ele_DianHuan2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3196
+     ],
+     "types": [
+      11
+     ],
+     "book": 208
+    },
+    {
+     "name": "荆棘电环",
+     "asset": "Ele_DianHuan3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3197
+     ],
+     "types": [
+      11
+     ],
+     "book": 209
+    }
+   ]
+  },
+  {
+   "book": 210,
+   "dir": "210-小箱怪",
+   "name": "小箱怪",
+   "forms": [
+    {
+     "name": "小箱怪",
+     "asset": "Mac_XiaoXiangGuai1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3618
+     ],
+     "types": [
+      19,
+      20
+     ],
+     "book": 210
+    },
+    {
+     "name": "迷迷箱怪",
+     "asset": "Mac_XiaoXiangGuai2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3619
+     ],
+     "types": [
+      19,
+      20
+     ],
+     "book": 211
+    }
+   ]
+  },
+  {
+   "book": 212,
+   "dir": "212-古钟蛇",
+   "name": "古钟蛇",
+   "forms": [
+    {
+     "name": "古钟蛇",
+     "asset": "Men_GuZhongShe1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3225
+     ],
+     "types": [
+      16,
+      12
+     ],
+     "book": 212
+    },
+    {
+     "name": "寒音蛇",
+     "asset": "Men_GuZhongShe2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3226
+     ],
+     "types": [
+      16,
+      12
+     ],
+     "book": 213
+    }
+   ]
+  },
+  {
+   "book": 214,
+   "dir": "214-矮脚爬爬",
+   "name": "矮脚爬爬",
+   "forms": [
+    {
+     "name": "矮脚爬爬",
+     "asset": "Wor_LangZhu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3178
+     ],
+     "types": [
+      13
+     ],
+     "book": 214
+    },
+    {
+     "name": "恶魔红钻",
+     "asset": "Wor_LangZhu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3179
+     ],
+     "types": [
+      13,
+      18
+     ],
+     "book": 215
+    }
+   ]
+  },
+  {
+   "book": 216,
+   "dir": "216-火尾瓦特",
+   "name": "火尾瓦特",
+   "forms": [
+    {
+     "name": "火尾瓦特",
+     "asset": "Fir_WaTe1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3090
+     ],
+     "types": [
+      4
+     ],
+     "book": 216
+    },
+    {
+     "name": "火尾战士",
+     "asset": "Fir_WaTe2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3091
+     ],
+     "types": [
+      4
+     ],
+     "book": 217
+    },
+    {
+     "name": "烈火守护",
+     "asset": "Fir_WaTe3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3092
+     ],
+     "types": [
+      4
+     ],
+     "book": 218
+    },
+    {
+     "name": "烈焰狂战士",
+     "asset": "Fir_WaTeBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5063
+     ],
+     "types": [
+      4
+     ],
+     "book": 218
+    }
+   ]
+  },
+  {
+   "book": 219,
+   "dir": "219-里拉鳐",
+   "name": "里拉鳐",
+   "forms": [
+    {
+     "name": "里拉鳐",
+     "asset": "Wat_LiLa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3521
+     ],
+     "types": [
+      5
+     ],
+     "book": 219
+    }
+   ]
+  },
+  {
+   "book": 220,
+   "dir": "220-海枝枝",
+   "name": "海枝枝",
+   "forms": [
+    {
+     "name": "海枝枝(碧蓝珊瑚)",
+     "asset": "Wat_HaiZhiZhi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3430
+     ],
+     "types": [
+      5,
+      17
+     ],
+     "book": 220
+    },
+    {
+     "name": "海枝枝(杏黄百合)",
+     "asset": "Wat_HaiZhiZhi1Ar_002",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3431
+     ],
+     "types": [
+      5,
+      17
+     ],
+     "book": 220
+    },
+    {
+     "name": "海枝枝(洋红沙丁)",
+     "asset": "Wat_HaiZhiZhi1Ar_003",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3432
+     ],
+     "types": [
+      5,
+      17
+     ],
+     "book": 220
+    },
+    {
+     "name": "海枝枝(翠绿纶布)",
+     "asset": "Wat_HaiZhiZhi1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3433
+     ],
+     "types": [
+      5,
+      17
+     ],
+     "book": 220
+    }
+   ]
+  },
+  {
+   "book": 221,
+   "dir": "221-多西",
+   "name": "多西",
+   "forms": [
+    {
+     "name": "多西",
+     "asset": "Mac_DuoXi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3206
+     ],
+     "types": [
+      19,
+      8
+     ],
+     "book": 221
+    },
+    {
+     "name": "库多西",
+     "asset": "Mac_DuoXi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3207
+     ],
+     "types": [
+      19,
+      8
+     ],
+     "book": 222
+    },
+    {
+     "name": "波多西",
+     "asset": "Mac_DuoXi3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3208
+     ],
+     "types": [
+      19,
+      8
+     ],
+     "book": 223
+    }
+   ]
+  },
+  {
+   "book": 224,
+   "dir": "224-小翼龙",
+   "name": "小翼龙",
+   "forms": [
+    {
+     "name": "小翼龙",
+     "asset": "Dra_YiLong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3209
+     ],
+     "types": [
+      10,
+      15
+     ],
+     "book": 224
+    },
+    {
+     "name": "翼龙",
+     "asset": "Dra_YiLong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3210
+     ],
+     "types": [
+      10,
+      15
+     ],
+     "book": 225
+    }
+   ]
+  },
+  {
+   "book": 226,
+   "dir": "226-电动长颈鹿",
+   "name": "电动长颈鹿",
+   "forms": [
+    {
+     "name": "电动长颈鹿",
+     "asset": "Ele_JueShiLu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3357
+     ],
+     "types": [
+      11
+     ],
+     "book": 226
+    },
+    {
+     "name": "奔乐鹿",
+     "asset": "Ele_JueShiLu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3358
+     ],
+     "types": [
+      11
+     ],
+     "book": 227
+    },
+    {
+     "name": "爵士鹿",
+     "asset": "Ele_JueShiLu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3359
+     ],
+     "types": [
+      11
+     ],
+     "book": 228
+    },
+    {
+     "name": "波普鹿",
+     "asset": "Ele_JueShiLuBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5020
+     ],
+     "types": [
+      11
+     ],
+     "book": 228
+    }
+   ]
+  },
+  {
+   "book": 229,
+   "dir": "229-缇塔",
+   "name": "缇塔",
+   "forms": [
+    {
+     "name": "缇塔",
+     "asset": "Mac_TiTa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3406
+     ],
+     "types": [
+      19
+     ],
+     "book": 229
+    },
+    {
+     "name": "声波缇塔",
+     "asset": "Mac_TiTa2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3407
+     ],
+     "types": [
+      19
+     ],
+     "book": 230
+    }
+   ]
+  },
+  {
+   "book": 231,
+   "dir": "231-小鹬",
+   "name": "小鹬",
+   "forms": [
+    {
+     "name": "小鹬",
+     "asset": "Com_XiaoYu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3250
+     ],
+     "types": [
+      15
+     ],
+     "book": 231
+    },
+    {
+     "name": "鄙目鹬",
+     "asset": "Com_XiaoYu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3251
+     ],
+     "types": [
+      15
+     ],
+     "book": 232
+    },
+    {
+     "name": "高脚鹬",
+     "asset": "Com_XiaoYu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3252
+     ],
+     "types": [
+      15
+     ],
+     "book": 233
+    },
+    {
+     "name": "高帽鹬者",
+     "asset": "Com_XiaoYuBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5054
+     ],
+     "types": [
+      15
+     ],
+     "book": 233
+    }
+   ]
+  },
+  {
+   "book": 234,
+   "dir": "234-脆筒甜甜",
+   "name": "脆筒甜甜",
+   "forms": [
+    {
+     "name": "脆筒甜甜",
+     "asset": "Ice_Dingding1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3124
+     ],
+     "types": [
+      9
+     ],
+     "book": 234
+    },
+    {
+     "name": "香草甜甜(樱桃巧克力口味)",
+     "asset": "Ice_Dingding2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3125
+     ],
+     "types": [
+      9
+     ],
+     "book": 235
+    },
+    {
+     "name": "香草甜甜(蓝莓饰品)",
+     "asset": "Ice_Dingding2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3479
+     ],
+     "types": [
+      9
+     ],
+     "book": 235
+    },
+    {
+     "name": "香草甜甜(杨桃饰品)",
+     "asset": "Ice_Dingding2Ar_002",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3478
+     ],
+     "types": [
+      9
+     ],
+     "book": 235
+    },
+    {
+     "name": "圣代甜甜(樱桃巧克力口味)",
+     "asset": "Ice_Dingding3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3126
+     ],
+     "types": [
+      9
+     ],
+     "book": 236
+    },
+    {
+     "name": "圣代甜甜(樱桃草莓口味)",
+     "asset": "Ice_Dingding3Ar_006",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3458
+     ],
+     "types": [
+      9
+     ],
+     "book": 236
+    },
+    {
+     "name": "圣代甜甜(樱桃抹茶口味)",
+     "asset": "Ice_Dingding3Ar_003",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3459
+     ],
+     "types": [
+      9
+     ],
+     "book": 236
+    },
+    {
+     "name": "圣代甜甜(蓝莓巧克力口味)",
+     "asset": "Ice_Dingding3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3460
+     ],
+     "types": [
+      9
+     ],
+     "book": 236
+    },
+    {
+     "name": "圣代甜甜(蓝莓草莓口味)",
+     "asset": "Ice_Dingding3Ar_007",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3461
+     ],
+     "types": [
+      9
+     ],
+     "book": 236
+    },
+    {
+     "name": "圣代甜甜(蓝莓抹茶口味)",
+     "asset": "Ice_Dingding3Ar_004",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3462
+     ],
+     "types": [
+      9
+     ],
+     "book": 236
+    },
+    {
+     "name": "圣代甜甜(杨桃巧克力口味)",
+     "asset": "Ice_Dingding3Ar_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3463
+     ],
+     "types": [
+      9
+     ],
+     "book": 236
+    },
+    {
+     "name": "圣代甜甜(杨桃草莓口味)",
+     "asset": "Ice_Dingding3Ar_008",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3464
+     ],
+     "types": [
+      9
+     ],
+     "book": 236
+    },
+    {
+     "name": "圣代甜甜(杨桃抹茶口味)",
+     "asset": "Ice_Dingding3Ar_005",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3465
+     ],
+     "types": [
+      9
+     ],
+     "book": 236
+    }
+   ]
+  },
+  {
+   "book": 237,
+   "dir": "237-刺轮砣",
+   "name": "刺轮砣",
+   "forms": [
+    {
+     "name": "刺轮砣(上弦的样子)",
+     "asset": "Poi_CiLunTuo1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3582
+     ],
+     "types": [
+      12,
+      16
+     ],
+     "book": 237
+    },
+    {
+     "name": "刺轮砣(下弦的样子)",
+     "asset": "Poi_CiLunTuo1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3584
+     ],
+     "types": [
+      12,
+      16
+     ],
+     "book": 237
+    },
+    {
+     "name": "月亮砣(上弦的样子)",
+     "asset": "Poi_CiLunTuo2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3583
+     ],
+     "types": [
+      12,
+      16
+     ],
+     "book": 238
+    },
+    {
+     "name": "月亮砣(下弦的样子)",
+     "asset": "Poi_CiLunTuo2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3585
+     ],
+     "types": [
+      12,
+      16
+     ],
+     "book": 238
+    },
+    {
+     "name": "满月砣",
+     "asset": "Poi_CiLunTuoBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5064,
+      5065
+     ],
+     "types": [
+      12,
+      16
+     ],
+     "book": 238
+    }
+   ]
+  },
+  {
+   "book": 239,
+   "dir": "239-豆丁鱼",
+   "name": "豆丁鱼",
+   "forms": [
+    {
+     "name": "豆丁鱼",
+     "asset": "Wat_YuLong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3384
+     ],
+     "types": [
+      5,
+      10
+     ],
+     "book": 239
+    },
+    {
+     "name": "快鳍鱼",
+     "asset": "Wat_YuLong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3385
+     ],
+     "types": [
+      5,
+      10
+     ],
+     "book": 240
+    },
+    {
+     "name": "龙鱼",
+     "asset": "Wat_YuLong3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3386
+     ],
+     "types": [
+      5,
+      10
+     ],
+     "book": 241
+    }
+   ]
+  },
+  {
+   "book": 242,
+   "dir": "242-胆小鳗鱼",
+   "name": "胆小鳗鱼",
+   "forms": [
+    {
+     "name": "胆小鳗鱼",
+     "asset": "Ele_ManYu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3266
+     ],
+     "types": [
+      11,
+      5
+     ],
+     "book": 242
+    },
+    {
+     "name": "闪电鳗鱼",
+     "asset": "Ele_ManYu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3267
+     ],
+     "types": [
+      11,
+      5
+     ],
+     "book": 243
+    }
+   ]
+  },
+  {
+   "book": 244,
+   "dir": "244-翡翠水母",
+   "name": "翡翠水母",
+   "forms": [
+    {
+     "name": "翡翠水母",
+     "asset": "Wat_ShuiMu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3119
+     ],
+     "types": [
+      5,
+      12
+     ],
+     "book": 244
+    },
+    {
+     "name": "琉璃水母",
+     "asset": "Wat_ShuiMu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3120
+     ],
+     "types": [
+      5,
+      12
+     ],
+     "book": 245
+    },
+    {
+     "name": "琉璃君主",
+     "asset": "Wat_ShuiMuBo_001",
+     "stage": 2,
+     "lord": true,
+     "ids": [
+      4094
+     ],
+     "types": [
+      5,
+      12
+     ],
+     "book": 0
+    }
+   ]
+  },
+  {
+   "book": 246,
+   "dir": "246-裘洛",
+   "name": "裘洛",
+   "forms": [
+    {
+     "name": "裘洛",
+     "asset": "Poi_QiiuKa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3154
+     ],
+     "types": [
+      12
+     ],
+     "book": 246
+    },
+    {
+     "name": "裘力",
+     "asset": "Poi_QiiuKa2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3155
+     ],
+     "types": [
+      12
+     ],
+     "book": 247
+    },
+    {
+     "name": "裘卡",
+     "asset": "Poi_QiiuKa3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3156
+     ],
+     "types": [
+      12
+     ],
+     "book": 248
+    }
+   ]
+  },
+  {
+   "book": 249,
+   "dir": "249-可爱猿",
+   "name": "可爱猿",
+   "forms": [
+    {
+     "name": "可爱猿",
+     "asset": "Fir_HuoYuan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3083
+     ],
+     "types": [
+      4
+     ],
+     "book": 249
+    },
+    {
+     "name": "炽热猿",
+     "asset": "Fir_HuoYuan2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3084
+     ],
+     "types": [
+      4
+     ],
+     "book": 250
+    },
+    {
+     "name": "火焰猿",
+     "asset": "Fir_HuoYuan3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3085
+     ],
+     "types": [
+      4
+     ],
+     "book": 251
+    }
+   ]
+  },
+  {
+   "book": 252,
+   "dir": "252-布鲁斯",
+   "name": "布鲁斯",
+   "forms": [
+    {
+     "name": "布鲁斯",
+     "asset": "Ice_BuLuSi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3257
+     ],
+     "types": [
+      9
+     ],
+     "book": 252
+    },
+    {
+     "name": "雪顶布鲁斯",
+     "asset": "Ice_BuLuSi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3258
+     ],
+     "types": [
+      9
+     ],
+     "book": 253
+    },
+    {
+     "name": "冰钻布鲁斯",
+     "asset": "Ice_BuLuSi3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3259
+     ],
+     "types": [
+      9
+     ],
+     "book": 254
+    }
+   ]
+  },
+  {
+   "book": 255,
+   "dir": "255-治愈兔",
+   "name": "治愈兔",
+   "forms": [
+    {
+     "name": "治愈兔",
+     "asset": "Fir_Huowa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3081
+     ],
+     "types": [
+      4,
+      16
+     ],
+     "book": 255
+    },
+    {
+     "name": "红丝绒",
+     "asset": "Fir_Huowa2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3082
+     ],
+     "types": [
+      4,
+      16
+     ],
+     "book": 256
+    },
+    {
+     "name": "红绒十字",
+     "asset": "Fir_Huowa3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3350
+     ],
+     "types": [
+      4,
+      16
+     ],
+     "book": 257
+    }
+   ]
+  },
+  {
+   "book": 258,
+   "dir": "258-乌达",
+   "name": "乌达",
+   "forms": [
+    {
+     "name": "乌达(极昼的样子)",
+     "asset": "Dem_WuDa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3536
+     ],
+     "types": [
+      18,
+      4
+     ],
+     "book": 258
+    },
+    {
+     "name": "乌达(极夜的样子)",
+     "asset": "Dem_WuDa1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3539
+     ],
+     "types": [
+      18,
+      9
+     ],
+     "book": 258
+    },
+    {
+     "name": "迷你乌(极昼的样子)",
+     "asset": "Dem_WuDa2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3537
+     ],
+     "types": [
+      18,
+      4
+     ],
+     "book": 259
+    },
+    {
+     "name": "迷你乌(极夜的样子)",
+     "asset": "Dem_WuDa2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3540
+     ],
+     "types": [
+      18,
+      9
+     ],
+     "book": 259
+    },
+    {
+     "name": "乌拉塔(极昼的样子)",
+     "asset": "Dem_WuDa3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3538
+     ],
+     "types": [
+      18,
+      4
+     ],
+     "book": 260
+    },
+    {
+     "name": "乌拉塔(极夜的样子)",
+     "asset": "Dem_WuDa3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3541
+     ],
+     "types": [
+      18,
+      9
+     ],
+     "book": 260
+    }
+   ]
+  },
+  {
+   "book": 261,
+   "dir": "261-螺旋帕帕",
+   "name": "螺旋帕帕",
+   "forms": [
+    {
+     "name": "螺旋帕帕",
+     "asset": "Mac_PaPa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3484
+     ],
+     "types": [
+      19,
+      15
+     ],
+     "book": 261
+    },
+    {
+     "name": "帕帕斯卡",
+     "asset": "Mac_PaPa2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3547
+     ],
+     "types": [
+      19,
+      15
+     ],
+     "book": 262
+    }
+   ]
+  },
+  {
+   "book": 263,
+   "dir": "263-机械方方",
+   "name": "机械方方",
+   "forms": [
+    {
+     "name": "机械方方",
+     "asset": "Mac_FangFang1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3200
+     ],
+     "types": [
+      19
+     ],
+     "book": 263
+    },
+    {
+     "name": "多彩方方",
+     "asset": "Mac_FangFang2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3201
+     ],
+     "types": [
+      19
+     ],
+     "book": 264
+    },
+    {
+     "name": "立方人",
+     "asset": "Mac_FangFang3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3202
+     ],
+     "types": [
+      19
+     ],
+     "book": 265
+    }
+   ]
+  },
+  {
+   "book": 266,
+   "dir": "266-可立鸡",
+   "name": "可立鸡",
+   "forms": [
+    {
+     "name": "可立鸡",
+     "asset": "Fir_KeLeJi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3086
+     ],
+     "types": [
+      4
+     ],
+     "book": 266
+    },
+    {
+     "name": "晕晕鸡",
+     "asset": "Fir_KeLeJi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3087
+     ],
+     "types": [
+      4
+     ],
+     "book": 267
+    },
+    {
+     "name": "绅士鸡",
+     "asset": "Fir_KeLeJi3_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3088
+     ],
+     "types": [
+      4,
+      14
+     ],
+     "book": 268
+    },
+    {
+     "name": "武者鸡",
+     "asset": "Fir_KeLeJi3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3089
+     ],
+     "types": [
+      4,
+      14
+     ],
+     "book": 269
+    }
+   ]
+  },
+  {
+   "book": 270,
+   "dir": "270-优优",
+   "name": "优优",
+   "forms": [
+    {
+     "name": "优优",
+     "asset": "Roc_YoYo1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3704
+     ],
+     "types": [
+      8,
+      6
+     ],
+     "book": 270
+    },
+    {
+     "name": "绒光优优",
+     "asset": "Roc_YoYo2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3705
+     ],
+     "types": [
+      8,
+      6
+     ],
+     "book": 271
+    }
+   ]
+  },
+  {
+   "book": 272,
+   "dir": "272-噼啪鸟",
+   "name": "噼啪鸟",
+   "forms": [
+    {
+     "name": "噼啪鸟",
+     "asset": "Ele_PiPaNiao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3444
+     ],
+     "types": [
+      11,
+      15
+     ],
+     "book": 272
+    }
+   ]
+  },
+  {
+   "book": 273,
+   "dir": "273-深蓝鲸",
+   "name": "深蓝鲸",
+   "forms": [
+    {
+     "name": "深蓝鲸",
+     "asset": "Wat_ShenLanJing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3381
+     ],
+     "types": [
+      5
+     ],
+     "book": 273
+    }
+   ]
+  },
+  {
+   "book": 274,
+   "dir": "274-格兰种子",
+   "name": "格兰种子",
+   "forms": [
+    {
+     "name": "格兰种子",
+     "asset": "Gra_Gelanhua1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3072
+     ],
+     "types": [
+      3
+     ],
+     "book": 274
+    },
+    {
+     "name": "格兰花",
+     "asset": "Gra_Gelanhua2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3073
+     ],
+     "types": [
+      3
+     ],
+     "book": 275
+    },
+    {
+     "name": "格兰球",
+     "asset": "Gra_Gelanhua3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3074
+     ],
+     "types": [
+      3
+     ],
+     "book": 276
+    }
+   ]
+  },
+  {
+   "book": 277,
+   "dir": "277-地鼠",
+   "name": "地鼠",
+   "forms": [
+    {
+     "name": "地鼠(枯水期的样子)",
+     "asset": "Com_DiShu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3020
+     ],
+     "types": [
+      8
+     ],
+     "book": 277
+    },
+    {
+     "name": "地鼠(储水时的样子)",
+     "asset": "Com_DiShu1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3454
+     ],
+     "types": [
+      8
+     ],
+     "book": 277
+    },
+    {
+     "name": "遁鼠(枯水期的样子)",
+     "asset": "Com_DiShu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3021
+     ],
+     "types": [
+      8
+     ],
+     "book": 278
+    },
+    {
+     "name": "遁鼠(储水时的样子)",
+     "asset": "Com_DiShu2Ar_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3455
+     ],
+     "types": [
+      8
+     ],
+     "book": 278
+    },
+    {
+     "name": "遁地鼠(枯水期的样子)",
+     "asset": "Com_DiShu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3022
+     ],
+     "types": [
+      8
+     ],
+     "book": 279
+    },
+    {
+     "name": "遁地鼠(储水时的样子)",
+     "asset": "Com_DiShu3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3456
+     ],
+     "types": [
+      8
+     ],
+     "book": 279
+    }
+   ]
+  },
+  {
+   "book": 280,
+   "dir": "280-墨鱿士",
+   "name": "墨鱿士",
+   "forms": [
+    {
+     "name": "墨鱿士",
+     "asset": "Gho_MoYouShi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3577
+     ],
+     "types": [
+      17
+     ],
+     "book": 280
+    },
+    {
+     "name": "混乱鱿彩",
+     "asset": "Gho_MoYouShi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3578
+     ],
+     "types": [
+      17,
+      18
+     ],
+     "book": 281
+    },
+    {
+     "name": "秩序鱿墨",
+     "asset": "Gho_MoYouShi3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3579
+     ],
+     "types": [
+      17,
+      16
+     ],
+     "book": 282
+    }
+   ]
+  },
+  {
+   "book": 283,
+   "dir": "283-小甲虫",
+   "name": "小甲虫",
+   "forms": [
+    {
+     "name": "小甲虫",
+     "asset": "Wor_DaJiaChong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3038
+     ],
+     "types": [
+      13
+     ],
+     "book": 283
+    },
+    {
+     "name": "铠甲虫",
+     "asset": "Wor_DaJiaChong3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3013
+     ],
+     "types": [
+      13
+     ],
+     "book": 284
+    }
+   ]
+  },
+  {
+   "book": 285,
+   "dir": "285-圣剑侍从",
+   "name": "圣剑侍从",
+   "forms": [
+    {
+     "name": "圣剑侍从",
+     "asset": "Mac_ShengJian1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3545
+     ],
+     "types": [
+      19
+     ],
+     "book": 285
+    },
+    {
+     "name": "圣剑-X",
+     "asset": "Mac_ShengJian2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3546
+     ],
+     "types": [
+      19
+     ],
+     "book": 286
+    },
+    {
+     "name": "圣剑骑士",
+     "asset": "Mac_ShengJianBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5021
+     ],
+     "types": [
+      19
+     ],
+     "book": 286
+    }
+   ]
+  },
+  {
+   "book": 287,
+   "dir": "287-吸泥鸥",
+   "name": "吸泥鸥",
+   "forms": [
+    {
+     "name": "吸泥鸥",
+     "asset": "Roc_XiNiOu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3490
+     ],
+     "types": [
+      8,
+      15
+     ],
+     "book": 287
+    },
+    {
+     "name": "泥吼牙",
+     "asset": "Roc_XiNiOu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3491
+     ],
+     "types": [
+      8,
+      15
+     ],
+     "book": 288
+    },
+    {
+     "name": "淤泥乌泽",
+     "asset": "Roc_XiNiOuBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5057
+     ],
+     "types": [
+      8,
+      15
+     ],
+     "book": 288
+    }
+   ]
+  },
+  {
+   "book": 289,
+   "dir": "289-大头骨龙",
+   "name": "大头骨龙",
+   "forms": [
+    {
+     "name": "大头骨龙",
+     "asset": "Dra_GuLong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3268
+     ],
+     "types": [
+      10,
+      17
+     ],
+     "book": 289
+    },
+    {
+     "name": "寂灭骨龙",
+     "asset": "Dra_GuLong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3269
+     ],
+     "types": [
+      10,
+      17
+     ],
+     "book": 290
+    }
+   ]
+  },
+  {
+   "book": 291,
+   "dir": "291-厉毒小萝",
+   "name": "厉毒小萝",
+   "forms": [
+    {
+     "name": "厉毒小萝",
+     "asset": "Poi_XiaoLuo1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3419
+     ],
+     "types": [
+      12,
+      18
+     ],
+     "book": 291
+    },
+    {
+     "name": "厉毒修萝",
+     "asset": "Poi_XiaoLuo2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3420
+     ],
+     "types": [
+      12,
+      18
+     ],
+     "book": 292
+    }
+   ]
+  },
+  {
+   "book": 293,
+   "dir": "293-小帕尔",
+   "name": "小帕尔",
+   "forms": [
+    {
+     "name": "小帕尔",
+     "asset": "Dem_PaErSaSi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3180
+     ],
+     "types": [
+      18
+     ],
+     "book": 293
+    },
+    {
+     "name": "帕尔萨斯",
+     "asset": "Dem_PaErSaSi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3181
+     ],
+     "types": [
+      18
+     ],
+     "book": 294
+    },
+    {
+     "name": "龙息帕尔",
+     "asset": "Dem_PaErSaSi3_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3182
+     ],
+     "types": [
+      18
+     ],
+     "book": 295
+    }
+   ]
+  },
+  {
+   "book": 296,
+   "dir": "296-毛头小蛛",
+   "name": "毛头小蛛",
+   "forms": [
+    {
+     "name": "毛头小蛛",
+     "asset": "Wor_MaoTouXiaoZhu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3603
+     ],
+     "types": [
+      13,
+      8
+     ],
+     "book": 296
+    },
+    {
+     "name": "捕尘长绒",
+     "asset": "Wor_MaoTouXiaoZhu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3604
+     ],
+     "types": [
+      13,
+      8
+     ],
+     "book": 297
+    },
+    {
+     "name": "食尘短绒",
+     "asset": "Wor_MaoTouXiaoZhu2_002",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3605
+     ],
+     "types": [
+      13,
+      8
+     ],
+     "book": 298
+    }
+   ]
+  },
+  {
+   "book": 299,
+   "dir": "299-画精灵",
+   "name": "画精灵",
+   "forms": [
+    {
+     "name": "画精灵",
+     "asset": "Com_Hua1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3606
+     ],
+     "types": [
+      2
+     ],
+     "book": 299
+    },
+    {
+     "name": "画像守护",
+     "asset": "Com_Hua2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3607
+     ],
+     "types": [
+      2
+     ],
+     "book": 300
+    },
+    {
+     "name": "画间法师手",
+     "asset": "Com_Hua3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3608
+     ],
+     "types": [
+      2,
+      20
+     ],
+     "book": 301
+    },
+    {
+     "name": "画间沉铁兽",
+     "asset": "Com_Hua3_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3609
+     ],
+     "types": [
+      2,
+      14
+     ],
+     "book": 302
+    }
+   ]
+  },
+  {
+   "book": 303,
+   "dir": "303-书魔虫",
+   "name": "书魔虫",
+   "forms": [
+    {
+     "name": "书魔虫",
+     "asset": "Com_ShuMo1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3610
+     ],
+     "types": [
+      2
+     ],
+     "book": 303
+    },
+    {
+     "name": "书卷守护",
+     "asset": "Com_ShuMo2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3611
+     ],
+     "types": [
+      2
+     ],
+     "book": 304
+    },
+    {
+     "name": "古卷执政官",
+     "asset": "Com_ShuMo3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3612
+     ],
+     "types": [
+      2,
+      20
+     ],
+     "book": 305
+    },
+    {
+     "name": "古卷匣魔像",
+     "asset": "Com_ShuMo3_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3613
+     ],
+     "types": [
+      2,
+      14
+     ],
+     "book": 306
+    }
+   ]
+  },
+  {
+   "book": 307,
+   "dir": "307-绒绒",
+   "name": "绒绒",
+   "forms": [
+    {
+     "name": "绒绒",
+     "asset": "Lig_RongRong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3244
+     ],
+     "types": [
+      6,
+      13
+     ],
+     "book": 307
+    },
+    {
+     "name": "小绒茧",
+     "asset": "Lig_RongRong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3245
+     ],
+     "types": [
+      6,
+      13
+     ],
+     "book": 308
+    },
+    {
+     "name": "绒仙子",
+     "asset": "Lig_RongRong3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3246
+     ],
+     "types": [
+      6,
+      13
+     ],
+     "book": 309
+    }
+   ]
+  },
+  {
+   "book": 310,
+   "dir": "310-犀角鸟",
+   "name": "犀角鸟",
+   "forms": [
+    {
+     "name": "犀角鸟",
+     "asset": "Lig_XiJiaoNiao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3309
+     ],
+     "types": [
+      6
+     ],
+     "book": 310
+    },
+    {
+     "name": "光纤兽",
+     "asset": "Lig_XiJiaoNiao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3310
+     ],
+     "types": [
+      6
+     ],
+     "book": 311
+    },
+    {
+     "name": "疾光千兽",
+     "asset": "Lig_XiJiaoNiao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3311
+     ],
+     "types": [
+      6
+     ],
+     "book": 312
+    }
+   ]
+  },
+  {
+   "book": 313,
+   "dir": "313-果冻",
+   "name": "果冻",
+   "forms": [
+    {
+     "name": "果冻",
+     "asset": "Wat_BuDing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3118
+     ],
+     "types": [
+      5
+     ],
+     "book": 313
+    },
+    {
+     "name": "抹茶布丁",
+     "asset": "Wat_BuDing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3526
+     ],
+     "types": [
+      5,
+      3
+     ],
+     "book": 314
+    },
+    {
+     "name": "椰浆布丁",
+     "asset": "Wat_BuDing2_002",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3527
+     ],
+     "types": [
+      5,
+      9
+     ],
+     "book": 315
+    },
+    {
+     "name": "熔岩布丁",
+     "asset": "Wat_BuDing2_003",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3528
+     ],
+     "types": [
+      5,
+      4
+     ],
+     "book": 316
+    }
+   ]
+  },
+  {
+   "book": 317,
+   "dir": "317-星尘虫",
+   "name": "星尘虫",
+   "forms": [
+    {
+     "name": "星尘虫",
+     "asset": "Wor_XingChenChong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3398
+     ],
+     "types": [
+      13
+     ],
+     "book": 317
+    },
+    {
+     "name": "落星虫",
+     "asset": "Wor_XingChenChong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3399
+     ],
+     "types": [
+      13
+     ],
+     "book": 318
+    },
+    {
+     "name": "陨星虫",
+     "asset": "Wor_XingChenChong3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3400
+     ],
+     "types": [
+      13
+     ],
+     "book": 319
+    }
+   ]
+  },
+  {
+   "book": 320,
+   "dir": "320-双灯鱼",
+   "name": "双灯鱼",
+   "forms": [
+    {
+     "name": "双灯鱼",
+     "asset": "Wat_DengYu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3382
+     ],
+     "types": [
+      5,
+      11
+     ],
+     "book": 320
+    },
+    {
+     "name": "利灯鱼",
+     "asset": "Wat_DengYu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3383
+     ],
+     "types": [
+      5,
+      11
+     ],
+     "book": 321
+    }
+   ]
+  },
+  {
+   "book": 322,
+   "dir": "322-月牙雪熊",
+   "name": "月牙雪熊",
+   "forms": [
+    {
+     "name": "月牙雪熊",
+     "asset": "Ice_XueXiong3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3457
+     ],
+     "types": [
+      9,
+      20
+     ],
+     "book": 322
+    }
+   ]
+  },
+  {
+   "book": 323,
+   "dir": "323-嗜光嗡嗡",
+   "name": "嗜光嗡嗡",
+   "forms": [
+    {
+     "name": "嗜光嗡嗡",
+     "asset": "Dem_ShiGuangWW1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3614
+     ],
+     "types": [
+      18,
+      6
+     ],
+     "book": 323
+    },
+    {
+     "name": "窃光蚊",
+     "asset": "Dem_ShiGuangWW2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3615
+     ],
+     "types": [
+      18,
+      6
+     ],
+     "book": 324
+    }
+   ]
+  },
+  {
+   "book": 325,
+   "dir": "325-柴渣虫",
+   "name": "柴渣虫",
+   "forms": [
+    {
+     "name": "柴渣虫",
+     "asset": "Fir_ChaiZhaChong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3436
+     ],
+     "types": [
+      4,
+      3
+     ],
+     "book": 325
+    },
+    {
+     "name": "燃薪虫",
+     "asset": "Fir_ChaiZhaChong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3437
+     ],
+     "types": [
+      4,
+      3
+     ],
+     "book": 326
+    }
+   ]
+  },
+  {
+   "book": 327,
+   "dir": "327-空空颅",
+   "name": "空空颅",
+   "forms": [
+    {
+     "name": "空空颅",
+     "asset": "Gho_YeMo1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3148
+     ],
+     "types": [
+      17
+     ],
+     "book": 327
+    },
+    {
+     "name": "夜宿颅",
+     "asset": "Gho_YeMo2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3149
+     ],
+     "types": [
+      17
+     ],
+     "book": 328
+    },
+    {
+     "name": "夜枭",
+     "asset": "Gho_YeMo3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3150
+     ],
+     "types": [
+      17
+     ],
+     "book": 329
+    },
+    {
+     "name": "暗夜颅主",
+     "asset": "Gho_YeMoBo_001",
+     "stage": 4,
+     "lord": true,
+     "ids": [
+      5059
+     ],
+     "types": [
+      17
+     ],
+     "book": 329
+    }
+   ]
+  },
+  {
+   "book": 330,
+   "dir": "330-粉粉星",
+   "name": "粉粉星",
+   "forms": [
+    {
+     "name": "粉粉星",
+     "asset": "Men_FenFen1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3198
+     ],
+     "types": [
+      11,
+      20
+     ],
+     "book": 330
+    },
+    {
+     "name": "小皮球",
+     "asset": "Men_FenFen2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3199
+     ],
+     "types": [
+      11,
+      20
+     ],
+     "book": 331
+    }
+   ]
+  },
+  {
+   "book": 332,
+   "dir": "332-贝瑟",
+   "name": "贝瑟",
+   "forms": [
+    {
+     "name": "贝瑟",
+     "asset": "Mac_BeiSe1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3203
+     ],
+     "types": [
+      19,
+      4
+     ],
+     "book": 332
+    },
+    {
+     "name": "贝加尔",
+     "asset": "Mac_BeiSe2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3204
+     ],
+     "types": [
+      19,
+      4
+     ],
+     "book": 333
+    },
+    {
+     "name": "贝古斯",
+     "asset": "Mac_BeiSe3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3205
+     ],
+     "types": [
+      19,
+      4
+     ],
+     "book": 334
+    }
+   ]
+  },
+  {
+   "book": 335,
+   "dir": "335-粉星仔",
+   "name": "粉星仔",
+   "forms": [
+    {
+     "name": "粉星仔",
+     "asset": "Com_XingZai2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3319
+     ],
+     "types": [
+      20
+     ],
+     "book": 335
+    },
+    {
+     "name": "粉耳星兔",
+     "asset": "Com_XingZai3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3320
+     ],
+     "types": [
+      20
+     ],
+     "book": 336
+    },
+    {
+     "name": "落陨星兔",
+     "asset": "Com_XingZai3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3485
+     ],
+     "types": [
+      20,
+      17
+     ],
+     "book": 337
+    }
+   ]
+  },
+  {
+   "book": 338,
+   "dir": "338-布瓜蝌",
+   "name": "布瓜蝌",
+   "forms": [
+    {
+     "name": "布瓜蝌",
+     "asset": "Ill_BuGuaKe1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3473
+     ],
+     "types": [
+      20
+     ],
+     "book": 338
+    },
+    {
+     "name": "上岸蛙",
+     "asset": "Ill_BuGuaKe2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3474
+     ],
+     "types": [
+      20
+     ],
+     "book": 339
+    }
+   ]
+  },
+  {
+   "book": 340,
+   "dir": "340-火红尾",
+   "name": "火红尾",
+   "forms": [
+    {
+     "name": "火红尾",
+     "asset": "Fir_HuoHongWei1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3744
+     ],
+     "types": [
+      4
+     ],
+     "book": 340
+    },
+    {
+     "name": "雅丹鬃",
+     "asset": "Fir_HuoHongWei3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3745
+     ],
+     "types": [
+      4
+     ],
+     "book": 341
+    }
+   ]
+  },
+  {
+   "book": 342,
+   "dir": "342-春团",
+   "name": "春团",
+   "forms": [
+    {
+     "name": "春团",
+     "asset": "Gra_YuTu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3161
+     ],
+     "types": [
+      3
+     ],
+     "book": 342
+    },
+    {
+     "name": "春兔",
+     "asset": "Gra_YuTu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3162
+     ],
+     "types": [
+      3
+     ],
+     "book": 343
+    },
+    {
+     "name": "春花兔",
+     "asset": "Gra_YuTu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3372
+     ],
+     "types": [
+      3
+     ],
+     "book": 344
+    }
+   ]
+  },
+  {
+   "book": 345,
+   "dir": "345-幽星光",
+   "name": "幽星光",
+   "forms": [
+    {
+     "name": "幽星光",
+     "asset": "Ill_XingGuang1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3369
+     ],
+     "types": [
+      20
+     ],
+     "book": 345
+    },
+    {
+     "name": "曜星光",
+     "asset": "Ill_XingGuang2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3370
+     ],
+     "types": [
+      20,
+      15
+     ],
+     "book": 346
+    },
+    {
+     "name": "暮星辰",
+     "asset": "Ill_XingGuang3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3371
+     ],
+     "types": [
+      20,
+      15
+     ],
+     "book": 347
+    }
+   ]
+  },
+  {
+   "book": 348,
+   "dir": "348-钨丝贝贝",
+   "name": "钨丝贝贝",
+   "forms": [
+    {
+     "name": "钨丝贝贝",
+     "asset": "Mac_WuSiBB1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3733
+     ],
+     "types": [
+      19
+     ],
+     "book": 348
+    },
+    {
+     "name": "辉光幕机",
+     "asset": "Mac_WuSiBB2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3734
+     ],
+     "types": [
+      19
+     ],
+     "book": 349
+    },
+    {
+     "name": "机幕方舟",
+     "asset": "Mac_WuSiBB3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3735
+     ],
+     "types": [
+      19
+     ],
+     "book": 350
+    }
+   ]
+  },
+  {
+   "book": 351,
+   "dir": "351-凡雀",
+   "name": "凡雀",
+   "forms": [
+    {
+     "name": "凡雀",
+     "asset": "Win_FanQue1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3392
+     ],
+     "types": [
+      15
+     ],
+     "book": 351
+    },
+    {
+     "name": "紫翎鹰",
+     "asset": "Win_FanQue2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3393
+     ],
+     "types": [
+      15
+     ],
+     "book": 352
+    },
+    {
+     "name": "凡鹰",
+     "asset": "Win_FanQue3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3394
+     ],
+     "types": [
+      15
+     ],
+     "book": 353
+    }
+   ]
+  },
+  {
+   "book": 354,
+   "dir": "354-小雪人",
+   "name": "小雪人",
+   "forms": [
+    {
+     "name": "小雪人",
+     "asset": "Ice_XueRen1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3531
+     ],
+     "types": [
+      9
+     ],
+     "book": 354
+    },
+    {
+     "name": "雪怪",
+     "asset": "Ice_XueRen2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3532
+     ],
+     "types": [
+      9
+     ],
+     "book": 355
+    }
+   ]
+  },
+  {
+   "book": 356,
+   "dir": "356-爆焰仔",
+   "name": "爆焰仔",
+   "forms": [
+    {
+     "name": "爆焰仔",
+     "asset": "Fir_LieYanLong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3572
+     ],
+     "types": [
+      4,
+      10
+     ],
+     "book": 356
+    },
+    {
+     "name": "爆焰喷喷",
+     "asset": "Fir_LieYanLong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3573
+     ],
+     "types": [
+      4,
+      10
+     ],
+     "book": 357
+    }
+   ]
+  },
+  {
+   "book": 358,
+   "dir": "358-猴麦仔",
+   "name": "猴麦仔",
+   "forms": [
+    {
+     "name": "猴麦仔",
+     "asset": "Com_HouMaiZai1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3729
+     ],
+     "types": [
+      2,
+      19
+     ],
+     "book": 358
+    },
+    {
+     "name": "音碟吼",
+     "asset": "Com_HouMaiZai3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3730
+     ],
+     "types": [
+      2,
+      19
+     ],
+     "book": 359
+    }
+   ]
+  },
+  {
+   "book": 360,
+   "dir": "360-加油海葵",
+   "name": "加油海葵",
+   "forms": [
+    {
+     "name": "加油海葵",
+     "asset": "Wat_JiaYouHaiKui1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3659
+     ],
+     "types": [
+      5,
+      16
+     ],
+     "book": 360
+    },
+    {
+     "name": "加油蟹(本来的样子)",
+     "asset": "Wat_JiaYouHaiKui3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3660
+     ],
+     "types": [
+      5,
+      16
+     ],
+     "book": 361
+    },
+    {
+     "name": "加油蟹(单只海葵的样子)",
+     "asset": "Wat_JiaYouHaiKui3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3743
+     ],
+     "types": [
+      5,
+      16
+     ],
+     "book": 361
+    }
+   ]
+  },
+  {
+   "book": 362,
+   "dir": "362-小丑豆豆",
+   "name": "小丑豆豆",
+   "forms": [
+    {
+     "name": "小丑豆豆",
+     "asset": "Dem_XiaoChou1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3487
+     ],
+     "types": [
+      18
+     ],
+     "book": 362
+    },
+    {
+     "name": "小丑兔",
+     "asset": "Dem_XiaoChou2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3488
+     ],
+     "types": [
+      18
+     ],
+     "book": 363
+    },
+    {
+     "name": "小丑公爵",
+     "asset": "Dem_XiaoChou3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3489
+     ],
+     "types": [
+      18
+     ],
+     "book": 364
+    }
+   ]
+  },
+  {
+   "book": 365,
+   "dir": "365-烟花团",
+   "name": "烟花团",
+   "forms": [
+    {
+     "name": "烟花团",
+     "asset": "Fir_YanHuaTuan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3677
+     ],
+     "types": [
+      4,
+      12
+     ],
+     "book": 365
+    },
+    {
+     "name": "烟花伯爵",
+     "asset": "Fir_YanHuaTuan2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3678
+     ],
+     "types": [
+      4,
+      12
+     ],
+     "book": 366
+    }
+   ]
+  },
+  {
+   "book": 367,
+   "dir": "367-咕咕帽",
+   "name": "咕咕帽",
+   "forms": [
+    {
+     "name": "咕咕帽",
+     "asset": "Gho_GuGuMao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3683
+     ],
+     "types": [
+      17
+     ],
+     "book": 367
+    },
+    {
+     "name": "咕德帽帽",
+     "asset": "Gho_GuGuMao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3684
+     ],
+     "types": [
+      17
+     ],
+     "book": 368
+    }
+   ]
+  },
+  {
+   "book": 369,
+   "dir": "369-炫光迪迪",
+   "name": "炫光迪迪",
+   "forms": [
+    {
+     "name": "炫光迪迪",
+     "asset": "Ele_XuanGuangDD1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3736
+     ],
+     "types": [
+      11,
+      6
+     ],
+     "book": 369
+    },
+    {
+     "name": "​​霹雳迪迪",
+     "asset": "Ele_XuanGuangDD3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3737
+     ],
+     "types": [
+      11,
+      6
+     ],
+     "book": 370
+    }
+   ]
+  },
+  {
+   "book": 371,
+   "dir": "371-小鼓象",
+   "name": "小鼓象",
+   "forms": [
+    {
+     "name": "小鼓象",
+     "asset": "Mac_GuXiang1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3708
+     ],
+     "types": [
+      19
+     ],
+     "book": 371
+    },
+    {
+     "name": "巨鼓象",
+     "asset": "Mac_GuXiang3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3709
+     ],
+     "types": [
+      19
+     ],
+     "book": 372
+    }
+   ]
+  },
+  {
+   "book": 373,
+   "dir": "373-牵线木偶",
+   "name": "牵线木偶",
+   "forms": [
+    {
+     "name": "牵线木偶",
+     "asset": "Ill_MuOu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3234
+     ],
+     "types": [
+      20
+     ],
+     "book": 373
+    },
+    {
+     "name": "帅帅魔偶",
+     "asset": "Ill_MuOu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3235
+     ],
+     "types": [
+      20
+     ],
+     "book": 374
+    }
+   ]
+  },
+  {
+   "book": 375,
+   "dir": "375-学院呱呱",
+   "name": "学院呱呱",
+   "forms": [
+    {
+     "name": "学院呱呱",
+     "asset": "Wus_GuaGua1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3620
+     ],
+     "types": [
+      14
+     ],
+     "book": 375
+    }
+   ]
+  },
+  {
+   "book": 376,
+   "dir": "376-烈钻鸟",
+   "name": "烈钻鸟",
+   "forms": [
+    {
+     "name": "烈钻鸟",
+     "asset": "Fir_HuoYu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3078
+     ],
+     "types": [
+      4,
+      15
+     ],
+     "book": 376
+    },
+    {
+     "name": "长尾火鸟",
+     "asset": "Fir_HuoYu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3079
+     ],
+     "types": [
+      4,
+      15
+     ],
+     "book": 377
+    },
+    {
+     "name": "火羽",
+     "asset": "Fir_HuoYu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3080
+     ],
+     "types": [
+      4,
+      15
+     ],
+     "book": 378
+    }
+   ]
+  },
+  {
+   "book": 379,
+   "dir": "379-叮叮卯",
+   "name": "叮叮卯",
+   "forms": [
+    {
+     "name": "叮叮卯",
+     "asset": "Win_DDMao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3752
+     ],
+     "types": [
+      19,
+      13
+     ],
+     "book": 379
+    },
+    {
+     "name": "飞飞钥",
+     "asset": "Win_DDMao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3753
+     ],
+     "types": [
+      19,
+      13
+     ],
+     "book": 380
+    }
+   ]
+  },
+  {
+   "book": 381,
+   "dir": "381-碎晶蝎",
+   "name": "碎晶蝎",
+   "forms": [
+    {
+     "name": "碎晶蝎",
+     "asset": "Dem_JingXie1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3402
+     ],
+     "types": [
+      18,
+      8
+     ],
+     "book": 381
+    },
+    {
+     "name": "晶尾蝎",
+     "asset": "Dem_JingXie2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3403
+     ],
+     "types": [
+      18,
+      8
+     ],
+     "book": 382
+    },
+    {
+     "name": "蝎子王",
+     "asset": "Dem_JingXie3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3404
+     ],
+     "types": [
+      18,
+      8
+     ],
+     "book": 383
+    }
+   ]
+  },
+  {
+   "book": 384,
+   "dir": "384-森豆丁",
+   "name": "森豆丁",
+   "forms": [
+    {
+     "name": "森豆丁",
+     "asset": "Gra_SenDouDing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3749
+     ],
+     "types": [
+      3
+     ],
+     "book": 384
+    },
+    {
+     "name": "森蛮人",
+     "asset": "Gra_SenDouDing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3750
+     ],
+     "types": [
+      3
+     ],
+     "book": 385
+    },
+    {
+     "name": "森巨人",
+     "asset": "Gra_SenDouDing3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3751
+     ],
+     "types": [
+      3
+     ],
+     "book": 386
+    }
+   ]
+  },
+  {
+   "book": 387,
+   "dir": "387-霹雳宝宝",
+   "name": "霹雳宝宝",
+   "forms": [
+    {
+     "name": "霹雳宝宝",
+     "asset": "Ele_LeiShen1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3351
+     ],
+     "types": [
+      11
+     ],
+     "book": 387
+    },
+    {
+     "name": "雷鸣小子",
+     "asset": "Ele_LeiShen2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3352
+     ],
+     "types": [
+      11
+     ],
+     "book": 388
+    },
+    {
+     "name": "雷神之子",
+     "asset": "Ele_LeiShen3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3353
+     ],
+     "types": [
+      11
+     ],
+     "book": 389
+    }
+   ]
+  },
+  {
+   "book": 390,
+   "dir": "390-雪灵兽",
+   "name": "雪灵兽",
+   "forms": [
+    {
+     "name": "雪灵兽",
+     "asset": "Ice_HuanXue1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3341
+     ],
+     "types": [
+      9
+     ],
+     "book": 390
+    },
+    {
+     "name": "幻雪兽",
+     "asset": "Ice_HuanXue2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3342
+     ],
+     "types": [
+      9
+     ],
+     "book": 391
+    },
+    {
+     "name": "饮雪狂兽",
+     "asset": "Ice_HuanXue3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3343
+     ],
+     "types": [
+      9
+     ],
+     "book": 392
+    }
+   ]
+  },
+  {
+   "book": 393,
+   "dir": "393-火豆丁",
+   "name": "火豆丁",
+   "forms": [
+    {
+     "name": "火豆丁",
+     "asset": "Fir_HuoDouDing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3754
+     ],
+     "types": [
+      4
+     ],
+     "book": 393
+    },
+    {
+     "name": "火蛮人",
+     "asset": "Fir_HuoDouDing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3755
+     ],
+     "types": [
+      4
+     ],
+     "book": 394
+    },
+    {
+     "name": "火巨人",
+     "asset": "Fir_HuoDouDing3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3756
+     ],
+     "types": [
+      4
+     ],
+     "book": 395
+    }
+   ]
+  },
+  {
+   "book": 396,
+   "dir": "396-友爱天天",
+   "name": "友爱天天",
+   "forms": [
+    {
+     "name": "友爱天天",
+     "asset": "Com_TianTian1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3228
+     ],
+     "types": [
+      2
+     ],
+     "book": 396
+    },
+    {
+     "name": "友爱星飞",
+     "asset": "Com_TianTian2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3229
+     ],
+     "types": [
+      2
+     ],
+     "book": 397
+    }
+   ]
+  },
+  {
+   "book": 398,
+   "dir": "398-莫比乌乌",
+   "name": "莫比乌乌",
+   "forms": [
+    {
+     "name": "莫比乌乌",
+     "asset": "Ill_WuWu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3747
+     ],
+     "types": [
+      10,
+      16
+     ],
+     "book": 398
+    },
+    {
+     "name": "克莱因龙",
+     "asset": "Ill_WuWu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3748
+     ],
+     "types": [
+      10,
+      16
+     ],
+     "book": 399
+    }
+   ]
+  },
+  {
+   "book": 400,
+   "dir": "400-瑰眼仔",
+   "name": "瑰眼仔",
+   "forms": [
+    {
+     "name": "瑰眼仔",
+     "asset": "Dem_KuangChong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3183
+     ],
+     "types": [
+      18,
+      13
+     ],
+     "book": 400
+    },
+    {
+     "name": "耳翎瑰魅",
+     "asset": "Dem_KuangChong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3184
+     ],
+     "types": [
+      18,
+      13
+     ],
+     "book": 401
+    },
+    {
+     "name": "邪眼巨魔",
+     "asset": "Dem_KuangChong3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3185
+     ],
+     "types": [
+      18,
+      13
+     ],
+     "book": 402
+    }
+   ]
+  },
+  {
+   "book": 403,
+   "dir": "403-觅觅蝠",
+   "name": "觅觅蝠",
+   "forms": [
+    {
+     "name": "觅觅蝠",
+     "asset": "Win_NiNi1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3321
+     ],
+     "types": [
+      15
+     ],
+     "book": 403
+    },
+    {
+     "name": "翻翻蝠",
+     "asset": "Win_NiNi2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3322
+     ],
+     "types": [
+      15
+     ],
+     "book": 404
+    },
+    {
+     "name": "夜游魔",
+     "asset": "Win_NiNi3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3323
+     ],
+     "types": [
+      15,
+      18
+     ],
+     "book": 405
+    }
+   ]
+  },
+  {
+   "book": 406,
+   "dir": "406-芽眼魔",
+   "name": "芽眼魔",
+   "forms": [
+    {
+     "name": "芽眼魔",
+     "asset": "Dem_DuYan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3347
+     ],
+     "types": [
+      18,
+      5
+     ],
+     "book": 406
+    },
+    {
+     "name": "叶眼魔",
+     "asset": "Dem_DuYan2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3348
+     ],
+     "types": [
+      18,
+      5
+     ],
+     "book": 407
+    },
+    {
+     "name": "障眼魔",
+     "asset": "Dem_DuYan3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3349
+     ],
+     "types": [
+      18,
+      5
+     ],
+     "book": 408
+    }
+   ]
+  },
+  {
+   "book": 409,
+   "dir": "409-星云旅者",
+   "name": "星云旅者",
+   "forms": [
+    {
+     "name": "星云旅者",
+     "asset": "Win_XingYun1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3466
+     ],
+     "types": [
+      15,
+      20
+     ],
+     "book": 409
+    }
+   ]
+  },
+  {
+   "book": 410,
+   "dir": "410-点点",
+   "name": "点点",
+   "forms": [
+    {
+     "name": "点点",
+     "asset": "Men_DianDian1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3757
+     ],
+     "types": [
+      16
+     ],
+     "book": 410
+    },
+    {
+     "name": "珀尔鼬",
+     "asset": "Men_DianDian3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3758
+     ],
+     "types": [
+      16
+     ],
+     "book": 411
+    }
+   ]
+  },
+  {
+   "book": 412,
+   "dir": "412-不咕钟",
+   "name": "不咕钟",
+   "forms": [
+    {
+     "name": "不咕钟",
+     "asset": "Mac_BuGuZhong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3616
+     ],
+     "types": [
+      19,
+      20
+     ],
+     "book": 412
+    },
+    {
+     "name": "溯源钟",
+     "asset": "Mac_BuGuZhong2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3617
+     ],
+     "types": [
+      19,
+      20
+     ],
+     "book": 413
+    }
+   ]
+  },
+  {
+   "book": 414,
+   "dir": "414-加灵",
+   "name": "加灵",
+   "forms": [
+    {
+     "name": "加灵",
+     "asset": "Com_JiaLing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3230
+     ],
+     "types": [
+      2,
+      16
+     ],
+     "book": 414
+    },
+    {
+     "name": "加益",
+     "asset": "Com_JiaLing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3231
+     ],
+     "types": [
+      2,
+      16
+     ],
+     "book": 415
+    },
+    {
+     "name": "加尔",
+     "asset": "Com_JiaLing3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3232
+     ],
+     "types": [
+      2,
+      16
+     ],
+     "book": 416
+    },
+    {
+     "name": "黑化加尔",
+     "asset": "Gho_JiaLing3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3233
+     ],
+     "types": [
+      2,
+      17
+     ],
+     "book": 417
+    }
+   ]
+  },
+  {
+   "book": 418,
+   "dir": "418-咬咬小子",
+   "name": "咬咬小子",
+   "forms": [
+    {
+     "name": "咬咬小子",
+     "asset": "Mac_YaoYao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3710
+     ],
+     "types": [
+      19
+     ],
+     "book": 418
+    },
+    {
+     "name": "胡桃王子",
+     "asset": "Mac_YaoYao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3711
+     ],
+     "types": [
+      19
+     ],
+     "book": 419
+    }
+   ]
+  },
+  {
+   "book": 420,
+   "dir": "420-足尖元件",
+   "name": "足尖元件",
+   "forms": [
+    {
+     "name": "足尖元件",
+     "asset": "Ill_ZuJianYJ1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3718
+     ],
+     "types": [
+      20,
+      19
+     ],
+     "book": 420
+    },
+    {
+     "name": "离心舞者",
+     "asset": "Ill_ZuJianYJ3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3719
+     ],
+     "types": [
+      20,
+      19
+     ],
+     "book": 421
+    }
+   ]
+  },
+  {
+   "book": 422,
+   "dir": "422-蝴蝶陶陶",
+   "name": "蝴蝶陶陶",
+   "forms": [
+    {
+     "name": "蝴蝶陶陶",
+     "asset": "Men_TaoTao1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3360
+     ],
+     "types": [
+      16
+     ],
+     "book": 422
+    },
+    {
+     "name": "铆钉毛毛",
+     "asset": "Men_TaoTao2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3361
+     ],
+     "types": [
+      16,
+      12
+     ],
+     "book": 423
+    },
+    {
+     "name": "徘徊爪爪",
+     "asset": "Men_TaoTao3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3362
+     ],
+     "types": [
+      16,
+      12
+     ],
+     "book": 424
+    }
+   ]
+  },
+  {
+   "book": 425,
+   "dir": "425-苞米仔",
+   "name": "苞米仔",
+   "forms": [
+    {
+     "name": "苞米仔",
+     "asset": "Gra_BaoMiZai1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3759
+     ],
+     "types": [
+      3,
+      4
+     ],
+     "book": 425
+    },
+    {
+     "name": "炮米花",
+     "asset": "Gra_BaoMiZai3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3760
+     ],
+     "types": [
+      3,
+      4
+     ],
+     "book": 426
+    }
+   ]
+  },
+  {
+   "book": 427,
+   "dir": "427-十字蝌蚪",
+   "name": "十字蝌蚪",
+   "forms": [
+    {
+     "name": "十字蝌蚪",
+     "asset": "Wat_ShiZiWa1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3591
+     ],
+     "types": [
+      5
+     ],
+     "book": 427
+    },
+    {
+     "name": "十字蛙",
+     "asset": "Wat_ShiZiWa2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3592
+     ],
+     "types": [
+      5
+     ],
+     "book": 428
+    },
+    {
+     "name": "深渊蛙",
+     "asset": "Wat_ShiZiWa3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3593
+     ],
+     "types": [
+      5,
+      14
+     ],
+     "book": 429
+    }
+   ]
+  },
+  {
+   "book": 430,
+   "dir": "430-卡波",
+   "name": "卡波",
+   "forms": [
+    {
+     "name": "卡波",
+     "asset": "Dem_FangChui1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3264
+     ],
+     "types": [
+      18
+     ],
+     "book": 430
+    },
+    {
+     "name": "卡拉波斯",
+     "asset": "Dem_FangChui2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3265
+     ],
+     "types": [
+      18
+     ],
+     "book": 431
+    }
+   ]
+  },
+  {
+   "book": 432,
+   "dir": "432-守夜烛",
+   "name": "守夜烛",
+   "forms": [
+    {
+     "name": "守夜烛",
+     "asset": "Fir_ShouYeZhu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3675
+     ],
+     "types": [
+      4,
+      6
+     ],
+     "book": 432
+    },
+    {
+     "name": "流明坎德拉",
+     "asset": "Fir_ShouYeZhu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3676
+     ],
+     "types": [
+      4,
+      6
+     ],
+     "book": 433
+    }
+   ]
+  },
+  {
+   "book": 434,
+   "dir": "434-蜜果骸",
+   "name": "蜜果骸",
+   "forms": [
+    {
+     "name": "蜜果骸",
+     "asset": "Gho_MiGuoHai1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3706
+     ],
+     "types": [
+      17,
+      3
+     ],
+     "book": 434
+    },
+    {
+     "name": "半朽蜜果灵",
+     "asset": "Gho_MiGuoHai2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3707
+     ],
+     "types": [
+      17,
+      3
+     ],
+     "book": 435
+    }
+   ]
+  },
+  {
+   "book": 436,
+   "dir": "436-稻草人",
+   "name": "稻草人",
+   "forms": [
+    {
+     "name": "稻草人(本来的样子)",
+     "asset": "Men_DaoCaoRen1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3697
+     ],
+     "types": [
+      16,
+      14
+     ],
+     "book": 436
+    },
+    {
+     "name": "稻草人(暖和的样子)",
+     "asset": "Men_DaoCaoRen1Ar_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3877
+     ],
+     "types": [
+      16,
+      14
+     ],
+     "book": 436
+    },
+    {
+     "name": "稻草守护者(本来的样子)",
+     "asset": "Men_DaoCaoRen3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3698
+     ],
+     "types": [
+      16,
+      14
+     ],
+     "book": 437
+    },
+    {
+     "name": "稻草守护者(暖和的样子)",
+     "asset": "Men_DaoCaoRen3Ar_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3878
+     ],
+     "types": [
+      16,
+      14
+     ],
+     "book": 437
+    }
+   ]
+  },
+  {
+   "book": 438,
+   "dir": "438-栗鼠",
+   "name": "栗鼠",
+   "forms": [
+    {
+     "name": "栗鼠",
+     "asset": "Poi_TianLiShu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3565
+     ],
+     "types": [
+      12,
+      2
+     ],
+     "book": 438
+    },
+    {
+     "name": "壳栗丝鼠",
+     "asset": "Poi_TianLiShu2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3566
+     ],
+     "types": [
+      12,
+      2
+     ],
+     "book": 439
+    }
+   ]
+  },
+  {
+   "book": 440,
+   "dir": "440-睡铃雪影娃娃",
+   "name": "睡铃雪影娃娃",
+   "forms": [
+    {
+     "name": "睡铃雪影娃娃",
+     "asset": "Ice_DouMao3SP_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3746
+     ],
+     "types": [
+      9,
+      3
+     ],
+     "book": 440
+    }
+   ]
+  },
+  {
+   "book": 441,
+   "dir": "441-宝藏小狐",
+   "name": "宝藏小狐",
+   "forms": [
+    {
+     "name": "宝藏小狐",
+     "asset": "Com_FangFangHu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3740
+     ],
+     "types": [
+      2
+     ],
+     "book": 441
+    },
+    {
+     "name": "宝藏沙狐",
+     "asset": "Com_FangFangHu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3741
+     ],
+     "types": [
+      2
+     ],
+     "book": 442
+    }
+   ]
+  },
+  {
+   "book": 443,
+   "dir": "443-诅咒狼灵",
+   "name": "诅咒狼灵",
+   "forms": [
+    {
+     "name": "诅咒狼灵",
+     "asset": "Wus_LangLing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3761
+     ],
+     "types": [
+      17,
+      20
+     ],
+     "book": 443
+    },
+    {
+     "name": "新月狼灵",
+     "asset": "Wus_LangLing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3762
+     ],
+     "types": [
+      17,
+      20
+     ],
+     "book": 444
+    },
+    {
+     "name": "银月狼王",
+     "asset": "Wus_LangLing3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3763
+     ],
+     "types": [
+      17,
+      20
+     ],
+     "book": 445
+    }
+   ]
+  },
+  {
+   "book": 446,
+   "dir": "446-新月鹭",
+   "name": "新月鹭",
+   "forms": [
+    {
+     "name": "新月鹭",
+     "asset": "Win_XinYueLu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3764
+     ],
+     "types": [
+      15,
+      9
+     ],
+     "book": 446
+    },
+    {
+     "name": "月辉鹭",
+     "asset": "Win_XinYueLu3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3765
+     ],
+     "types": [
+      15,
+      9
+     ],
+     "book": 447
+    },
+    {
+     "name": "月使鹭纳",
+     "asset": "Win_XinYueLu3_002",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3766
+     ],
+     "types": [
+      15,
+      9
+     ],
+     "book": 448
+    }
+   ]
+  },
+  {
+   "book": 449,
+   "dir": "449-热团团",
+   "name": "热团团",
+   "forms": [
+    {
+     "name": "热团团",
+     "asset": "Fir_ReTuanTuan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3574
+     ],
+     "types": [
+      4,
+      13
+     ],
+     "book": 449
+    },
+    {
+     "name": "焰米龙",
+     "asset": "Fir_ReTuanTuan2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3575
+     ],
+     "types": [
+      4,
+      13
+     ],
+     "book": 450
+    },
+    {
+     "name": "圣凯布米龙",
+     "asset": "Fir_ReTuanTuan3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3576
+     ],
+     "types": [
+      4,
+      13
+     ],
+     "book": 451
+    }
+   ]
+  },
+  {
+   "book": 452,
+   "dir": "452-章脑丸",
+   "name": "章脑丸",
+   "forms": [
+    {
+     "name": "章脑丸",
+     "asset": "Lig_ZhangNaoWan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3767
+     ],
+     "types": [
+      6,
+      5
+     ],
+     "book": 452
+    },
+    {
+     "name": "智辉章脑",
+     "asset": "Lig_ZhangNaoWan3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3768
+     ],
+     "types": [
+      6,
+      5
+     ],
+     "book": 453
+    }
+   ]
+  },
+  {
+   "book": 454,
+   "dir": "454-未完虫",
+   "name": "未完虫",
+   "forms": [
+    {
+     "name": "未完虫",
+     "asset": "Gho_WeiWanChong1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3542
+     ],
+     "types": [
+      17,
+      13
+     ],
+     "book": 454
+    }
+   ]
+  },
+  {
+   "book": 455,
+   "dir": "455-玳龟",
+   "name": "玳龟",
+   "forms": [
+    {
+     "name": "玳龟",
+     "asset": "Ill_DaiGui1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3589
+     ],
+     "types": [
+      20
+     ],
+     "book": 455
+    },
+    {
+     "name": "玳塔",
+     "asset": "Ill_DaiGui2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3590
+     ],
+     "types": [
+      20
+     ],
+     "book": 456
+    }
+   ]
+  },
+  {
+   "book": 457,
+   "dir": "457-量风碗",
+   "name": "量风碗",
+   "forms": [
+    {
+     "name": "量风碗",
+     "asset": "Win_LiangFengWan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3663
+     ],
+     "types": [
+      15,
+      19
+     ],
+     "book": 457
+    },
+    {
+     "name": "测风蝉",
+     "asset": "Win_LiangFengWan2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3664
+     ],
+     "types": [
+      15,
+      19
+     ],
+     "book": 458
+    }
+   ]
+  },
+  {
+   "book": 459,
+   "dir": "459-小浣蛋",
+   "name": "小浣蛋",
+   "forms": [
+    {
+     "name": "小浣蛋",
+     "asset": "Dem_XiaoHuanDan1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3771
+     ],
+     "types": [
+      18
+     ],
+     "book": 459
+    },
+    {
+     "name": "黑手浣熊",
+     "asset": "Dem_XiaoHuanDan2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3772
+     ],
+     "types": [
+      18
+     ],
+     "book": 460
+    }
+   ]
+  },
+  {
+   "book": 461,
+   "dir": "461-幽铃",
+   "name": "幽铃",
+   "forms": [
+    {
+     "name": "幽铃",
+     "asset": "Gho_YouLing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3773
+     ],
+     "types": [
+      17
+     ],
+     "book": 461
+    },
+    {
+     "name": "摇铃魔偶",
+     "asset": "Gho_YouLing3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3774
+     ],
+     "types": [
+      17
+     ],
+     "book": 462
+    }
+   ]
+  },
+  {
+   "book": 463,
+   "dir": "463-星星眼",
+   "name": "星星眼",
+   "forms": [
+    {
+     "name": "星星眼",
+     "asset": "Ill_QiuQiu1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3236
+     ],
+     "types": [
+      20
+     ],
+     "book": 463
+    }
+   ]
+  },
+  {
+   "book": 464,
+   "dir": "464-布灵",
+   "name": "布灵",
+   "forms": [
+    {
+     "name": "布灵",
+     "asset": "Ill_BuLing1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3775
+     ],
+     "types": [
+      20,
+      6
+     ],
+     "book": 464
+    },
+    {
+     "name": "布灵布灵",
+     "asset": "Ill_BuLing2_001",
+     "stage": 2,
+     "lord": false,
+     "ids": [
+      3776
+     ],
+     "types": [
+      20,
+      6
+     ],
+     "book": 465
+    }
+   ]
+  },
+  {
+   "book": 466,
+   "dir": "466-果实立方人",
+   "name": "果实立方人",
+   "forms": [
+    {
+     "name": "果实立方人",
+     "asset": "Mac_FangFang3SP_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3796
+     ],
+     "types": [
+      19,
+      3
+     ],
+     "book": 466
+    }
+   ]
+  },
+  {
+   "book": 467,
+   "dir": "467-云梦豚",
+   "name": "云梦豚",
+   "forms": [
+    {
+     "name": "云梦豚",
+     "asset": "Wat_ZhuZhuTun1_001",
+     "stage": 1,
+     "lord": false,
+     "ids": [
+      3784
+     ],
+     "types": [
+      5
+     ],
+     "book": 467
+    },
+    {
+     "name": "长江豚",
+     "asset": "Wat_ZhuZhuTun3_001",
+     "stage": 3,
+     "lord": false,
+     "ids": [
+      3785
+     ],
+     "types": [
+      5
+     ],
+     "book": 468
+    }
+   ]
+  }
+ ],
+ "aliases": {
+  "3048": "Lig_DiMo2_001",
+  "3051": "Gra_DiMo2_001",
+  "3158": "Gra_MiaoMiao3_002",
+  "3242": "Com_YaJiJi1_001",
+  "3243": "Com_YaJiJi1_001",
+  "3401": "Lig_YiLiSi3_001",
+  "3514": "Wat_DiMo2_001",
+  "3515": "Fir_DiMo2_001",
+  "3624": "Gho_ShiYingCan1_001",
+  "3632": "Com_YaJiJi1_001",
+  "3633": "Com_YaJiJi1_001",
+  "3635": "Com_YaJiJi1_001",
+  "3636": "Com_YaJiJi1_001",
+  "3639": "Com_YaJiJi1_001",
+  "3648": "Com_YaJiJi1_001",
+  "3649": "Com_YaJiJi1_001",
+  "3650": "Com_YaJiJi1_001",
+  "3651": "Com_YaJiJi1_001",
+  "3652": "Com_YaJiJi1_001",
+  "3653": "Com_YaJiJi1_001",
+  "3654": "Com_YaJiJi1_001",
+  "3665": "Win_DDMao1_001",
+  "3666": "Win_DDMao2_001",
+  "3670": "Com_YaJiJi1_001",
+  "3680": "Com_YaJiJi1_001",
+  "3687": "Com_YaJiJi1_001",
+  "3688": "Com_YaJiJi1_001",
+  "3691": "Com_YaJiJi1_001",
+  "3712": "Com_YaJiJi1_001",
+  "3713": "Com_YaJiJi1_001",
+  "3714": "Com_YaJiJi1_001",
+  "3720": "Com_YaJiJi1_001",
+  "3721": "Com_YaJiJi1_001",
+  "3722": "Com_YaJiJi1_001",
+  "3777": "Gho_YouLingShu1_001",
+  "4005": "Wat_ShuiLanLanBo_001",
+  "4006": "Fir_XiaoHuoMiaoBo_001",
+  "4007": "Gra_MiaoMiaoBo_001",
+  "4011": "Dem_EMoLangBo_001",
+  "4012": "Com_YaJiJiBo_001",
+  "4019": "Gra_BengBengCaoBo_001",
+  "4020": "Wat_HaiKuiChongBo_001",
+  "4021": "Wor_MiFengBo_001",
+  "4022": "Gra_QiLicaoBo_001",
+  "4064": "Gho_YouLingShuBo_001",
+  "4072": "Roc_BuShi3Bo_001",
+  "4073": "Wat_DieShaBo_001",
+  "4074": "Win_LanNiaoBo_001",
+  "4076": "Lig_YiLiSi3_001",
+  "4078": "Fir_YinSuQuanBo_001",
+  "4079": "Lig_KuangChongBo_001",
+  "4083": "Com_HeiMaoBo_001",
+  "4084": "Roc_MaYaBo_001",
+  "4085": "Ice_DouMaoBo_001",
+  "4086": "Wus_QiQiBo_001",
+  "4087": "Com_DouDouMaoBo_001",
+  "4088": "Ele_JueShiLuBo_001",
+  "4089": "Mac_ShengJianBo_001",
+  "4090": "Dra_YiLanBo_001",
+  "4091": "Poi_QiiuKa3_001",
+  "4093": "Com_GongPingGe1_001",
+  "4095": "Ice_HuanXue3_001",
+  "4096": "Com_DouDouMaoBo_001",
+  "4097": "Com_DouDouMaoBo_001",
+  "4098": "Ice_DouMaoBo_001",
+  "4099": "Ice_DouMaoBo_001",
+  "4101": "Com_YeChongBo_001",
+  "4102": "Roc_XiNiOuBo_001",
+  "4104": "Gho_YeMoBo_001",
+  "4105": "Dem_EMoDingBo_001",
+  "4106": "Ele_KuLaBo_001",
+  "4107": "Fir_WaTeBo_001",
+  "4108": "Poi_CiLunTuoBo_001",
+  "4109": "Poi_CiLunTuoBo_001",
+  "6001": "Fir_YinSuQuanBo_001",
+  "6002": "Gra_BengBengCaoBo_001",
+  "6003": "Gra_BengBengCaoBo_001",
+  "6004": "Gra_BengBengCaoBo_001",
+  "6005": "Lig_KuangChongBo_001",
+  "6006": "Lig_KuangChongBo_001",
+  "6007": "Lig_KuangChongBo_001",
+  "6008": "Wat_HaiKuiChongBo_001",
+  "6009": "Wat_HaiKuiChongBo_001",
+  "6010": "Wat_HaiKuiChongBo_001",
+  "6011": "Gra_QiLicaoBo_001",
+  "6012": "Gra_QiLicaoBo_001",
+  "6013": "Gra_QiLicaoBo_001",
+  "6014": "Win_LanNiaoBo_001",
+  "6015": "Win_LanNiaoBo_001",
+  "6016": "Win_LanNiaoBo_001",
+  "6017": "Mac_ShengJianBo_001",
+  "6018": "Mac_ShengJianBo_001",
+  "6019": "Mac_ShengJianBo_001",
+  "6020": "Wor_MiFengBo_001",
+  "6021": "Wor_MiFengBo_001",
+  "6022": "Wor_MiFengBo_001",
+  "6023": "Fir_YinSuQuanBo_001",
+  "6024": "Fir_YinSuQuanBo_001",
+  "6025": "Fir_YinSuQuanBo_001",
+  "6026": "Roc_BuShi3Bo_001",
+  "6027": "Roc_BuShi3Bo_001",
+  "6028": "Roc_BuShi3Bo_001",
+  "7001": "Dem_EMoLangBo_001",
+  "7002": "Dem_EMoLangBo_001",
+  "7003": "Dem_EMoLangBo_001",
+  "7004": "Dem_EMoLangBo_001",
+  "7005": "Mac_ShengJianBo_001",
+  "7006": "Mac_ShengJianBo_001",
+  "7007": "Mac_ShengJianBo_001",
+  "7008": "Mac_ShengJianBo_001",
+  "8001": "Gra_MiaoMiaoBo_001",
+  "8002": "Gra_LvCaoJL1_001",
+  "8003": "Gra_LvcaoJL2_001",
+  "8004": "Gra_DiuDiu1_001",
+  "8005": "Roc_JiYiShi1_001",
+  "8006": "Gho_YouLingShu1_001",
+  "8007": "Lig_DiMo1_001",
+  "8008": "Poi_XiaoLuo2_001",
+  "8009": "Poi_GuoJing3_001",
+  "8010": "Com_GongPingGe1_001",
+  "8011": "Dra_YiLong2_001",
+  "8013": "Gho_MingLong3_001",
+  "8014": "Ill_HuanXing1_001",
+  "8015": "Ill_HuanXing2_001",
+  "8016": "Ill_HuanXing3_001",
+  "8017": "Gho_MingLong3_001",
+  "8018": "Poi_QiiuKa3_001",
+  "8019": "Poi_XiaoLuo2_001",
+  "8020": "Com_GongPingGe1_001",
+  "8021": "Ice_XueDouDing3_001",
+  "8022": "Ice_BingHuBo_001",
+  "8023": "Gra_MengMa2_001",
+  "8024": "Poi_LuLu3_001",
+  "8025": "Wat_AWaSha1Ar_001",
+  "8026": "Mac_BeiSe3_001",
+  "8027": "Win_HuaGuiE3_002",
+  "8028": "Poi_DuJiuShou3_001",
+  "8029": "Wus_LangLing3_001",
+  "8030": "Dem_XiaoHuanDan2_001",
+  "8031": "Ill_DaiGui2_001",
+  "8032": "Ill_QiuQiu1_001",
+  "8033": "Ill_BuLing2_001",
+  "8034": "Lig_ZhangNaoWan3_001",
+  "8035": "Win_LiangFengWan2_001",
+  "8036": "Gho_WeiWanChong1_001",
+  "8037": "Gho_YouLing3_001",
+  "8101": "Wat_ShuiLanLanBo_001",
+  "8102": "Fir_XiaoHuoMiaoBo_001",
+  "8103": "Gra_MiaoMiaoBo_001",
+  "8104": "Dem_EMoLangBo_001",
+  "8105": "Gra_BengBengCaoBo_001",
+  "8106": "Wat_HaiKuiChongBo_001",
+  "8107": "Wor_MiFengBo_001",
+  "8108": "Gra_QiLicaoBo_001",
+  "8109": "Gho_YouLingShuBo_001",
+  "8110": "Roc_BuShi3Bo_001",
+  "8111": "Win_LanNiaoBo_001",
+  "8112": "Fir_YinSuQuanBo_001",
+  "8113": "Lig_KuangChongBo_001",
+  "8114": "Com_HeiMaoBo_001",
+  "8115": "Roc_MaYaBo_001",
+  "8116": "Ice_DouMaoBo_001",
+  "8117": "Wus_QiQiBo_001",
+  "8118": "Com_DouDouMaoBo_001",
+  "8119": "Ele_JueShiLuBo_001",
+  "8120": "Mac_ShengJianBo_001",
+  "8121": "Dra_YiLanBo_001",
+  "8122": "Roc_AMiYaTeBo_001",
+  "8200": "Gra_FeiCaoQiu3_001",
+  "8201": "Gra_MiaoMiao3_002",
+  "8202": "Com_Hua3_002",
+  "8203": "Gra_CaoTouYa2_001",
+  "8204": "Roc_XiNiOu2_001",
+  "8205": "Gra_PuGongYing3_001",
+  "8206": "Gra_Gelanhua3_001",
+  "8207": "Gra_YiBeiEr2_001",
+  "8208": "Gra_QiLiCao3_001",
+  "8701": "Fir_HuoYu3_001",
+  "9801": "Com_YaJiJi1_001",
+  "9802": "Com_YaJiJi1_001",
+  "9803": "Com_YaJiJi1_001",
+  "9804": "Com_YaJiJi1_001",
+  "9805": "Com_YaJiJi1_001",
+  "9806": "Com_YaJiJi1_001",
+  "9807": "Com_YaJiJi1_001",
+  "9808": "Com_YaJiJi1_001",
+  "9809": "Com_YaJiJi1_001",
+  "9810": "Com_YaJiJi1_001",
+  "9811": "Com_YaJiJi1_001",
+  "9812": "Com_YaJiJi1_001",
+  "9813": "Com_YaJiJi1_001",
+  "9814": "Com_YaJiJi1_001",
+  "9815": "Com_YaJiJi1_001",
+  "9816": "Com_YaJiJi1_001",
+  "9817": "Com_YaJiJi1_001",
+  "9818": "Com_YaJiJi1_001",
+  "9907": "Gra_MiaoMiao3_001",
+  "9908": "Fir_XiaoHuoMiao2_001",
+  "9909": "Wat_ShuiLanLan1_001",
+  "9912": "Gra_MiaoMiao1_001",
+  "9913": "Wat_ShuiLanLan1_001",
+  "9914": "Fir_XiaoHuoMiao1_001",
+  "9920": "Com_YaJiJi1_001",
+  "9941": "Com_YaJiJi1_001",
+  "9987": "Fir_XiaoHuoMiao1_001",
+  "9988": "Gra_MiaoMiao3_001",
+  "9989": "Gra_MiaoMiao3_001",
+  "9990": "Gra_MiaoMiao3_001",
+  "9991": "Gra_MiaoMiao3_001",
+  "9992": "Com_YaJiJi1_001",
+  "9993": "Fir_YinSuQuan2_001",
+  "9994": "Com_YaJiJi1_001",
+  "9995": "Com_YaJiJi1_001",
+  "9996": "Com_YaJiJi1_001",
+  "9997": "Com_YaJiJi1_001",
+  "9998": "Com_YaJiJi1_001"
+ }
+}

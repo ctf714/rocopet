@@ -1,0 +1,75 @@
+/* 透明桌宠窗口：全部内容浮在 canvas 之上 */
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; padding: 0; width: 100%; height: 100%;
+  overflow: hidden; background: transparent;
+  -webkit-app-region: no-drag;
+  font-family: "Microsoft YaHei UI", "PingFang SC", system-ui, sans-serif;
+  user-select: none; cursor: default;
+}
+#stage { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+
+/* ── 点击冒出来的粉色爱心 ─────────────────────── */
+#hearts { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: 15; }
+.heart {
+  position: absolute; width: 30px; height: 30px;
+  will-change: transform, opacity;
+  animation: heartUp .72s cubic-bezier(.22,.7,.3,1) forwards;
+}
+.heart svg { width: 100%; height: 100%; display: block;
+  filter: drop-shadow(0 0 5px rgba(255,163,190,.6)); }
+@keyframes heartUp {
+  0%   { transform: translate(-50%, -50%) scale(.3);  opacity: 0; }
+  16%  { transform: translate(-50%, -62%) scale(1.1); opacity: .95; }
+  55%  { transform: translate(-50%, -125%) scale(.8); opacity: .55; }
+  100% { transform: translate(-50%, -185%) scale(.35); opacity: 0; filter: blur(3px); }
+}
+
+/* ── 面板：待办 / 计时 ───────────────────────── */
+#panel {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: calc(100% - 14px); max-width: 300px; max-height: 82%; z-index: 20;
+  display: flex; flex-direction: column;
+  background: linear-gradient(180deg, #fdf3e2, #efdcbe);
+  border: 2px solid #6f4620; border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(0,0,0,.45);
+  color: #40260a; font-size: 12px;
+}
+#panel.hidden { display: none; }
+.panel-head { display: flex; align-items: center; justify-content: space-between;
+  padding: 7px 10px; border-bottom: 1px solid #d7bd94; font-weight: 700; }
+.panel-head .x { background: none; border: none; font-size: 20px; line-height: 1;
+  cursor: pointer; color: #8a5a2b; padding: 0 4px; }
+#panel-body { padding: 8px 10px; overflow-y: auto; }
+.field { display: flex; gap: 6px; margin-bottom: 8px; }
+.field input { flex: 1; min-width: 0; padding: 5px 8px; border: 1px solid #c8ab7e; border-radius: 8px;
+  font-size: 13px; background: #fff; color: #40260a; }
+.field button { padding: 5px 10px; border: 1px solid #8a5a2b; border-radius: 8px;
+  background: linear-gradient(180deg, #e6b978, #c08a45); color: #3d2408;
+  font-weight: 700; cursor: pointer; }
+.todo-item { display: flex; align-items: center; gap: 7px; padding: 5px 2px;
+  border-bottom: 1px dashed #ddc59c; }
+.todo-item span.txt { flex: 1; word-break: break-all; }
+.todo-item.done span.txt { text-decoration: line-through; color: #9a8b74; }
+.todo-item button { border: none; background: none; cursor: pointer; font-size: 15px;
+  color: #8a5a2b; padding: 0 2px; line-height: 1; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+.chip { padding: 4px 10px; border: 1px solid #8a5a2b; border-radius: 20px; cursor: pointer;
+  background: linear-gradient(180deg, #f3e2c4, #ddbd8c); color: #40260a; font-size: 12px; }
+.chip.on { background: linear-gradient(180deg, #ffcf7d, #e79a30); font-weight: 700; }
+.bigtime { text-align: center; font-size: 26px; font-weight: 800; letter-spacing: 2px;
+  margin: 6px 0 10px; color: #7a4613; }
+.hint { font-size: 11px; color: #8a7350; text-align: center; }
+
+/* ── 气泡 / 提示 ─────────────────────────────── */
+#toast {
+  position: absolute; left: 50%; bottom: 66px; transform: translateX(-50%);
+  background: rgba(60,36,10,.92); color: #ffe9c9; font-size: 13px; font-weight: 600;
+  padding: 7px 14px; border-radius: 16px; z-index: 30; white-space: nowrap;
+  box-shadow: 0 4px 10px rgba(0,0,0,.4); animation: pop .18s ease;
+}
+#toast.hidden { display: none; }
+@keyframes pop { from { transform: translateX(-50%) scale(.85); opacity: 0 } to { transform: translateX(-50%) scale(1); opacity: 1 } }
+#tip { position: absolute; inset: 0; display: grid; place-items: center; z-index: 5;
+  color: #7a4613; font-size: 13px; }
+#tip.hidden { display: none; }
