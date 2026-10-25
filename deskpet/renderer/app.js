@@ -33,8 +33,12 @@ const RULES = {
 const DEFAULT_PROFILE = {
   packDir: null, pos: null, passthrough: false,
   form: null, shiny: false, px_per_cm: 2.0, volume: 0.6,
+  glassy: { on: false, color: 1, particle: 1 },   // 炫彩：配色 id + 粒子 id
   nickname: '', level: 1, exp: 0, affection: 0,
-  formIndex: 0, sleeping: false,
+  // formIndex：当前显示第几阶形态，可在设置里手动挑
+  // formMax：历史到达过的最高阶。自动进化只在「越过历史最高阶」时才推一把，
+  //          所以手动挑的形态不会被下一次获得经验就拉回去，也不是死锁定。
+  formIndex: 0, formMax: 0, sleeping: false,
   toon: true, outline: true,
   lastFeed: 0, lastPat: 0, lastSeenDay: null,
   todos: [], history: [],
@@ -89,12 +93,25 @@ function evoTargetIndex(level) {
   return idx;
 }
 
-/** 按当前等级对齐形态：等级够了就换模型（进化） */
+/**
+ * 自动进化判定：只有「等级对应的阶段」超过了历史最高阶才算一次新进化。
+ * 这样手动挑的形态（无论挑高还是挑低）都不会被经验/升级顶掉，
+ * 但也不是加锁——等到真的升到没到过的新阶段，还是会进化。
+ */
+function autoEvolve() {
+  const want = evoTargetIndex(profile.level || 1);
+  const max = profile.formMax || 0;
+  if (want <= max) return -1;               // 没跨过新阶段：不动手动选择
+  profile.formMax = want;
+  profile.formIndex = want;
+  save({});
+  return want;
+}
+
+/** 按当前等级对齐形态：只做「新阶段推进」，不做来回拉扯 */
 function syncForm() {
   const forms = chainForms();
-  const want = evoTargetIndex(profile.level || 1);
-  // 只往上进化：手动在设置里换回低阶形态时不要立刻被拉回去
-  if (want > profile.formIndex) { profile.formIndex = want; save({}); }
+  autoEvolve();
   const cur = forms[clamp(profile.formIndex, 0, forms.length - 1)];
   if (cur && cur.asset && cur.asset !== formAsset) loadForm(cur.asset);
 }
@@ -114,10 +131,9 @@ function addExp(n) {
     profile.level += 1;
     leveled = true;
   }
-  const want = evoTargetIndex(profile.level);
-  let evolved = false;
-  if (want !== profile.formIndex) { profile.formIndex = want; evolved = true; }
   save({});
+  const want = autoEvolve();          // 只有跨过历史最高阶才算进化
+  const evolved = want >= 0;
   if (evolved) {
     const f = chainForms()[want];
     toast(`进化！→ ${f ? f.name : ''}`, 2600);
@@ -463,6 +479,7 @@ async function loadForm(asset) {
       toon: profile.toon !== false,
       outline: profile.outline !== false,
       outline_px: clamp(0.9 + 0.35 * (profile.px_per_cm || 2.0), 1.2, 2.6),
+      glassy: profile.glassy || { on: false, color: 1, particle: 1 },
     });
   } catch (e) {
     $('#tip').textContent = '模型加载失败：' + e.message;
@@ -653,8 +670,7 @@ async function boot() {
   window.addEventListener('focus', () => setTimeout(focusPanelInput, 0));
   requestAnimationFrame(loop);
 
-  const saved = await api.getProfile();
-  profile = Object.assign({}, DEFAULT_PROFILE, saved || {});
+  profile = Object.assign({}, DEFAULT_PROFILE, await api.getProfile() || {});
   pack = await api.getPack();
   if (!pack || !pack.manifest) {
     $('#tip').textContent = '没有找到宠物包，右键托盘 → 设置 → 选择宠物包';
@@ -669,11 +685,12 @@ async function boot() {
   }
   profile.lastSeenDay = day;
 
-  // 形态：按等级取当前该在的阶段
+  // 形态：手动选的优先，只有等级跨过历史最高阶才推进
   const forms = chainForms();
   profile.formIndex = clamp(profile.formIndex || 0, 0, forms.length - 1);
-  const want = evoTargetIndex(profile.level || 1);
-  if (want > profile.formIndex) profile.formIndex = want;
+  profile.formMax = clamp(profile.formMax || 0, 0, forms.length - 1);
+  if (profile.formIndex > profile.formMax) profile.formMax = profile.formIndex;
+  autoEvolve();
   if (profile.shiny === undefined) profile.shiny = !!(pack.manifest.traits && pack.manifest.traits.shiny);
   if (!profile.px_per_cm) profile.px_per_cm = (pack.manifest.traits && pack.manifest.traits.px_per_cm) || 2.0;
   save({});
@@ -701,6 +718,10 @@ async function boot() {
       || prev.toon !== profile.toon || prev.outline !== profile.outline) {
       loadForm(formAsset);
       return;
+    }
+    // 炫彩只是改材质参数，不用重载模型
+    if (JSON.stringify(prev.glassy) !== JSON.stringify(profile.glassy)) {
+      pet && pet.applyGlassy(profile.glassy);
     }
     syncForm();
   });

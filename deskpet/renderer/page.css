@@ -13,6 +13,8 @@ h1 { font-size: 16px; margin: 0 0 2px; color: #7a4613; }
   background: #fffaf0; border: 1px solid #dcc39a; border-radius: 12px;
   padding: 12px 14px; box-shadow: 0 2px 6px rgba(120,80,30,.10);
 }
+/* hidden 要能压住 .row 的 display:flex，否则"这只有异色的精灵才显示开关"会失效 */
+[hidden] { display: none !important; }
 .row { display: flex; align-items: center; gap: 10px; margin: 9px 0; }
 .row > label { width: 76px; font-size: 13px; font-weight: 600; }
 .row input[type=range] { flex: 1; accent-color: #c8863c; }
@@ -44,6 +46,7 @@ h1 { font-size: 16px; margin: 0 0 2px; color: #7a4613; }
   background: linear-gradient(180deg, rgba(245,232,208,0), #f0e0c0 45%);
 }
 .path { font-size: 11px; color: #8a7350; word-break: break-all; }
+.hint { font-size: 11px; color: #a3906f; margin: -2px 0 6px 86px; line-height: 1.5; }
 .stats { display: flex; gap: 14px; font-size: 13px; }
 .stats b { color: #b3651a; font-size: 15px; }
 table { width: 100%; border-collapse: collapse; font-size: 12px; }

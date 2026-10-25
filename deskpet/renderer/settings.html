@@ -15,6 +15,23 @@
       <label>形态</label>
       <select id="form"></select>
     </div>
+    <div class="hint" id="hint-form">可手动挑任意形态，之后自动进化不会再改回去；等升到没到过的新阶段才会进化。</div>
+    <div class="row" id="row-shiny" hidden>
+      <label>异色</label>
+      <div class="switch" id="shiny"></div>
+      <span class="val" id="shiny-txt">关</span>
+    </div>
+    <div class="hint" id="hint-shiny" hidden>这只精灵官方没有单独的异色贴图，所以不提供异色开关。</div>
+  </div>
+
+  <div class="card" id="card-glassy" hidden>
+    <div class="row">
+      <label>炫彩</label>
+      <div class="switch" id="glassy"></div>
+      <span class="val" id="glassy-txt">关</span>
+    </div>
+    <div class="row"><label>配色</label><select id="gcolor"></select></div>
+    <div class="row"><label>粒子</label><select id="gparticle"></select></div>
   </div>
 
   <div class="card">

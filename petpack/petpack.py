@@ -251,6 +251,63 @@ def prune(chain_dir: Path, form_asset: str, shiny: bool, sound: str,
     return stat
 
 
+def build_glassy(dest: Path, glassy_src: Path | None) -> dict | None:
+    """
+    把炫彩素材写进包。官方的做法（见 rocom-parse/docs/data.md「炫彩色卡」一节）：
+      一只宠的炫彩 = 配色 + 粒子，glass_value = (粒子id << 20) | 配色id
+      配色 39 种在 COLOR_RANDOM_CONF，是纯数值（mat_color_1 / mat_color_2 / shine_strength）；
+      粒子 4 种在 PARTICLE_RANDOM_CONF，各是一张黑底白图案的贴图。
+    配色是数值所以零成本全带；粒子贴图从导出器产出的 glassy/ 目录里挑。
+    """
+    colors = rows("COLOR_RANDOM_CONF")
+    parts = rows("PARTICLE_RANDOM_CONF")
+    if not colors:
+        return None
+
+    gdir = dest / "assets" / "glassy"
+    gdir.mkdir(parents=True, exist_ok=True)
+    out = {"colors": [], "particles": []}
+
+    for c in sorted(colors.values(), key=lambda x: int(x.get("id", 0) or 0)):
+        out["colors"].append({
+            "id": int(c.get("id", 0) or 0),
+            "name": c.get("name") or f"配色{c.get('id')}",
+            "c1": c.get("mat_color_1") or [1, 1, 1],
+            "c2": c.get("mat_color_2") or [1, 1, 1],
+            "shine": c.get("shine_strength", 10),
+        })
+
+    for p in sorted(parts.values(), key=lambda x: int(x.get("id", 0) or 0)):
+        res = p.get("particle_res") or ""
+        m = re.search(r"/([A-Za-z0-9_]+)\.[A-Za-z0-9_]+'?\s*$", res)
+        if not m:
+            continue
+        stem = m.group(1)
+        src = (glassy_src / f"{stem}.png") if glassy_src else None
+        if not src or not src.exists():
+            print(f"    [warn] 缺粒子贴图 {stem}.png，跳过该粒子")
+            continue
+        shutil.copy2(src, gdir / f"{stem}.png")
+        out["particles"].append({
+            "id": int(p.get("id", 0) or 0),
+            "name": p.get("name") or stem,
+            "tex": f"{stem}.png",
+        })
+
+    (gdir / "glassy.json").write_text(
+        json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    return out
+
+
+def has_shiny_tex(dest: Path) -> bool:
+    """包里是否真有异色贴图。官方只有部分宠物做了异色美术（见 data.md 异色一节，
+    291/261/244 项），多数宠异色复用普通图 —— 没有就别在设置里给出这个开关。"""
+    for p in (dest / "assets" / "forms").rglob("*"):
+        if p.is_file() and ("_101_" in p.name or "yise" in p.stem.lower()):
+            return True
+    return False
+
+
 # ──────────────────────────────────────────────────────────────
 # 组装
 # ──────────────────────────────────────────────────────────────
@@ -269,6 +326,11 @@ def build(out_root: Path, chain: dict, form_asset: str, dump_chain_dir: Path,
     shutil.move(str(dump_chain_dir / "forms"), str(dest / "assets" / "forms"))
     shutil.copy2(dump_chain_dir / "dump.json", dest / "assets" / "dump.json")
     dump = load_json(dest / "assets" / "dump.json")
+
+    # 炫彩：配色 39 种（纯数值）+ 粒子贴图，导出器把它们放在 out/glassy/ 下
+    glassy = build_glassy(dest, dump_chain_dir.parent / "glassy")
+    if glassy:
+        print(f"    炫彩：配色 {len(glassy['colors'])} 种、粒子 {len(glassy['particles'])} 种")
 
     # 头像 → icon.png
     icon_src = pet_icon(str(chain["forms"][0]["ids"][0]))
@@ -298,7 +360,10 @@ def build(out_root: Path, chain: dict, form_asset: str, dump_chain_dir: Path,
         "chain_forms": chain_forms,
         "traits": {
             "shiny": opts["shiny"],
+            "has_shiny": has_shiny_tex(dest),   # 有没有异色美术，决定设置页要不要给开关
             "glassy": opts["glassy"],
+            "glassy_colors": len(glassy["colors"]) if glassy else 0,
+            "glassy_particles": len(glassy["particles"]) if glassy else 0,
             "sound": opts["sound"],
             "emotions": opts["emotions"],
             "nature": opts["nature"],

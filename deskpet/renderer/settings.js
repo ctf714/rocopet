@@ -16,6 +16,14 @@ function bindSwitch(el, txtEl, get, set, onText = '开', offText = '关') {
   paint();
 }
 
+/** 炫彩清单在包里：配色是纯数值，粒子各是一张贴图 */
+async function loadGlassy() {
+  try {
+    const r = await fetch('/pack/assets/glassy/glassy.json');
+    return r.ok ? await r.json() : null;
+  } catch { return null; }
+}
+
 async function main() {
   profile = (await ipc.getProfile()) || {};
   try { pack = await ipc.getPack(); } catch { pack = null; }
@@ -40,6 +48,33 @@ async function main() {
   bindSwitch($('#pass'), $('#pass-txt'),
     () => profile.passthrough, (v) => { profile.passthrough = v; });
 
+  // 异色：官方只有部分宠物做了异色美术（多数异色复用普通图）。
+  // 包里没有异色贴图就别给这个开关，点了也没变化只会让人以为坏了。
+  if (m && m.traits && m.traits.has_shiny) {
+    $('#row-shiny').hidden = false;
+    bindSwitch($('#shiny'), $('#shiny-txt'),
+      () => profile.shiny, (v) => { profile.shiny = v; });
+  } else {
+    $('#hint-shiny').hidden = false;
+  }
+
+  // 炫彩：配色 + 粒子，两者组合出一只宠的炫彩（官方 glass_value = 粒子<<20 | 配色）
+  const g = await loadGlassy();
+  if (g && (g.colors || []).length) {
+    $('#card-glassy').hidden = false;
+    profile.glassy = Object.assign(
+      { on: false, color: g.colors[0].id, particle: (g.particles[0] || {}).id },
+      profile.glassy || {});
+    $('#gcolor').innerHTML = g.colors
+      .map((c) => `<option value="${c.id}">${c.name}</option>`).join('');
+    $('#gparticle').innerHTML = (g.particles || [])
+      .map((p) => `<option value="${p.id}">${p.name}</option>`).join('');
+    $('#gcolor').value = String(profile.glassy.color);
+    $('#gparticle').value = String(profile.glassy.particle);
+    bindSwitch($('#glassy'), $('#glassy-txt'),
+      () => profile.glassy.on, (v) => { profile.glassy.on = v; });
+  }
+
   const need = 40 + (profile.level || 1) * 20;
   $('#lv').textContent = 'Lv.' + (profile.level || 1);
   $('#exp').textContent = `${Math.round(profile.exp || 0)}/${need}`;
@@ -48,7 +83,8 @@ async function main() {
 
   $('#reset').onclick = () => {
     if (!confirm('把等级、经验、好感度、待办与历史全部清零？')) return;
-    Object.assign(profile, { level: 1, exp: 0, affection: 0, formIndex: 0, todos: [], history: [] });
+    Object.assign(profile,
+      { level: 1, exp: 0, affection: 0, formIndex: 0, formMax: 0, todos: [], history: [] });
     ipc.saveProfile(profile);
     location.reload();
   };
@@ -56,8 +92,18 @@ async function main() {
     profile.nickname = $('#nickname').value.trim();
     profile.px_per_cm = +$('#size').value;
     profile.volume = (+$('#vol').value) / 100;
+    // 手动挑形态：随便挑哪一阶都不会被自动进化拉回去
+    // （只有以后升到没到过的新阶段才会再推一次）
     profile.formIndex = +$('#form').value;
-    // 描边与卡通光是固定风格，不在设置里暴露；异色 / 宠物包跟随打包时的选择
+    profile.formMax = Math.max(profile.formMax || 0, profile.formIndex);
+    if (!$('#card-glassy').hidden) {
+      profile.glassy = {
+        on: !!profile.glassy.on,
+        color: +$('#gcolor').value,
+        particle: +$('#gparticle').value,
+      };
+    }
+    // 描边与卡通光是固定风格，不在设置里暴露；宠物包跟随打包时的选择
     profile.outline = true; profile.toon = true;
     await ipc.saveProfile(profile);
     await ipc.setPassthrough(!!profile.passthrough);

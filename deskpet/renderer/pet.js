@@ -68,6 +68,14 @@ export class Pet {
     this.toon = true;
     this.outline = true;
 
+    // 炫彩：官方做法是「配色 + 粒子」两件事的组合（glass_value = 粒子id<<20 | 配色id）。
+    // 配色 39 种是纯数值（两个材质色 + 发光强度），粒子 4 种各是一张黑底白图案的贴图。
+    this.glassy = null;        // 包里的 {colors[], particles[]}
+    this.glassyMats = [];      // 要上炫彩的材质（身体那一档）
+    this.glassyTex = new Map();// 粒子贴图缓存
+    this.glassyTexNow = null;  // 当前在用的那张（update 里要挪 offset）
+    this.glassyOn = false;
+
     this.mixer = null;
     this.clips = new Map();
     this.current = null;
@@ -187,6 +195,7 @@ export class Pet {
     // 清掉上一只
     while (this.root.children.length) this.root.remove(this.root.children[0]);
     this.clips.clear(); this.actions.clear(); this.outlineMats = [];
+    this.glassyMats = [];
     this.mixer = null; this.current = null;
 
     const url = `/pack/assets/${form.model || `forms/${form.asset}/model.glb`}`;
@@ -232,6 +241,16 @@ export class Pet {
       // 只有身体（_By）在游戏里有对应的描边材质 _Ol，眼睛和嘴巴不描边
       const byIdx = old.findIndex((m) => m && /_By$/.test(m.name || ''));
       if (this.outline && byIdx >= 0) outlines.push([o, isArr ? byIdx : -1]);
+      // 炫彩也只上身体那一档
+      if (byIdx >= 0) {
+        const body = isArr ? next[byIdx] : next[0];
+        if (body) {
+          // 记下原来的材质色，关掉炫彩时要原样还回去
+          body.userData = body.userData || {};
+          body.userData.baseColor = body.color ? body.color.clone() : null;
+          this.glassyMats.push(body);
+        }
+      }
     });
     await Promise.all(jobs);
 
@@ -294,8 +313,82 @@ export class Pet {
     this.layout();
     // 所有动作实际能占到的范围（跳跃会把身子抬出绑定姿态不少）
     this.overhang = this.measureMotion(5);
+    await this.loadGlassy();
+    await this.applyGlassy(opts.glassy);
+
     this.play(this.has('Idle') ? 'Idle' : (gltf.animations[0] && gltf.animations[0].name), { loop: true });
     return { clips: [...this.clips.keys()], heightCm: form.height_cm, overhang: this.overhang };
+  }
+
+  /** 读包里的炫彩表：配色是纯数值，粒子各是一张贴图 */
+  async loadGlassy() {
+    if (this.glassy) return this.glassy;
+    try {
+      const r = await fetch('/pack/assets/glassy/glassy.json');
+      this.glassy = r.ok ? await r.json() : null;
+    } catch { this.glassy = null; }
+    return this.glassy;
+  }
+
+  glassyList() { return this.glassy || { colors: [], particles: [] }; }
+
+  /**
+   * 上炫彩。官方是「两个材质色 + 发光强度 + 一张星屑粒子贴图」叠在身体材质上；
+   * 粒子贴图是黑底白图案，正好当发光遮罩 —— 白处发彩色光，黑处不发光。
+   */
+  async applyGlassy(opt) {
+    const g = this.glassy;
+    this.glassyOn = false;
+    this.glassyTexNow = null;
+    console.log('[glassy] enter', '表=' + !!g, '材质=' + this.glassyMats.length,
+      'opts=' + JSON.stringify(opt));
+    if (!g || !this.glassyMats.length) return false;
+    if (!opt || !opt.on) {
+      for (const m of this.glassyMats) {
+        m.emissiveMap = null;
+        m.emissive.setRGB(0, 0, 0);
+        m.emissiveIntensity = 0;
+        if (m.userData && m.userData.baseColor) m.color.copy(m.userData.baseColor);
+        m.needsUpdate = true;
+      }
+      return false;
+    }
+    const c = g.colors.find((x) => x.id === opt.color) || g.colors[0];
+    const p = g.particles.find((x) => x.id === opt.particle) || g.particles[0];
+    if (!c) return false;
+
+    let tex = null;
+    if (p) {
+      tex = this.glassyTex.get(p.tex);
+      if (!tex) {
+        tex = await texLoad(`/pack/assets/glassy/${p.tex}`, false);
+        if (tex) {
+          tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
+          tex.repeat.set(3, 3);        // 星屑铺密一点才像游戏里的闪片
+          this.glassyTex.set(p.tex, tex);
+        }
+      }
+    }
+    // 两色谁主谁次官方用遮罩分，这里取中间调；亮度按 shine_strength 折算
+    const mix = (i) => Math.min(1, ((c.c1[i] || 0) + (c.c2[i] || 0)) * 0.5);
+    // 官方 shine_strength 是 10 档，直接当 intensity 会把本体颜色整片糊掉；
+    // 乘个系数，只留「浮在表面的一层彩光」，原色还能透出来
+    const strength = Math.max(0, Math.min(2, (c.shine || 10) / 10)) * 0.45;
+    const tint = new THREE.Color(mix(0), mix(1), mix(2));
+    for (const m of this.glassyMats) {
+      m.emissiveMap = tex;
+      m.emissive.copy(tint);
+      m.emissiveIntensity = strength;
+      // 再给本体染一层很淡的色：官方炫彩是整只泛色，只靠发光的话原色太实，看不出「上了炫彩」
+      const base = (m.userData && m.userData.baseColor) || m.color.clone();
+      m.color.copy(base).lerp(tint, 0.18);
+      m.needsUpdate = true;
+    }
+    this.glassyOn = true;
+    this.glassyTexNow = tex || null;   // update() 里让它缓缓流动，星屑才会闪
+    console.log('[glassy]', `配色 ${g.colors.length} / 粒子 ${g.particles.length} / `
+      + `生效 开 / 材质 ${this.glassyMats.length} 档 / 贴图 ${tex ? '有' : '无'}`);
+    return true;
   }
 
   has(name) { return !!name && this.clips.has(name); }
@@ -475,6 +568,11 @@ export class Pet {
 
   update(dt) {
     if (this.mixer) this.mixer.update(dt);
+    // 炫彩：粒子贴图缓慢斜向流动，看起来像表面有一层游走的星屑
+    if (this.glassyOn && this.glassyTexNow) {
+      this.glassyTexNow.offset.x = (this.glassyTexNow.offset.x + dt * 0.018) % 1;
+      this.glassyTexNow.offset.y = (this.glassyTexNow.offset.y + dt * 0.011) % 1;
+    }
     this.yaw += (this.yawTarget - this.yaw) * Math.min(1, dt * 6);
     this.root.rotation.y = this.yaw;
     if (this.ready) this.renderer.render(this.scene, this.camera);
